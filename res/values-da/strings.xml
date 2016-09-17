@@ -85,7 +85,7 @@
     <string name="hs__permission_denied_snackbar_action">Indstillinger</string>
     <string name="hs__permission_not_granted">Applikationen har ikke tilladelse til at se dine billeder</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
-    <string name="hs__question_header"></string>
+    <string name="hs__question_header" />
     <string name="hs__question_helpful_message">Du fandt dette nyttigt.</string>
     <string name="hs__question_unhelpful_message">Du fandt ikke dette nyttigt.</string>
     <string name="hs__rate_button">Bedøm</string>
@@ -94,7 +94,7 @@
     <string name="hs__review_accepted_message">Du har accepteret en anmodning om en bedømmelse</string>
     <string name="hs__review_close_button">Luk</string>
     <string name="hs__review_message">Hvis du elsker vores app, bedes du bruge et øjeblik på at bedømme den</string>
-    <string name="hs__review_request_message">Kunne du tænke dig at bedømme app&apos;en i Play Store?</string>
+    <string name="hs__review_request_message">"Kunne du tænke dig at bedømme app'en i Play Store?"</string>
     <string name="hs__review_title">Bedøm Vores App</string>
     <string name="hs__screenshot_add">Tilføj</string>
     <string name="hs__screenshot_cloud_attach_error">Fejl ved vedhæftning af skærmbillede. Vælg et billede til rådighed lokalt på enheden.</string>

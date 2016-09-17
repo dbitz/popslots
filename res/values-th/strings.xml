@@ -85,7 +85,7 @@
     <string name="hs__permission_denied_snackbar_action">การตั้งค่า</string>
     <string name="hs__permission_not_granted">แอพพลิเคชั่นไม่ได้รับอนุญาตให้เข้าถึงภาพถ่ายของคุณ</string>
     <string name="hs__permission_rationale_snackbar_action_label">ตกลง</string>
-    <string name="hs__question_header"></string>
+    <string name="hs__question_header" />
     <string name="hs__question_helpful_message">มีประโยชน์สำหรับคุณ</string>
     <string name="hs__question_unhelpful_message">ไม่มีประโยชน์สำหรับคุณ</string>
     <string name="hs__rate_button">ให้คะแนน</string>

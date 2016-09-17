@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.SearchView xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:maxWidth="9999dp" app:queryHint="@string/hs__search_hint" />
+<android.support.v7.widget.SearchView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="9999.0dip" app:queryHint="@string/hs__search_hint"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

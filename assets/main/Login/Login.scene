@@ -1,0 +1,400 @@
+<scene binAnims="true" id="Login">
+  <defs>
+    <et id="LoginTemplate_960_640">
+      <state id="splashScreen">
+        <bd>
+          <bvr h="639.99" y="0" w="960" x="0"/>
+        </bd>
+        <an id="splashScreen_instance10_TheBG"/>
+        <an id="splashScreen_instance13_airplaneLeft"/>
+        <an id="splashScreen_instance15_BigCasinoSignAnim">
+          <an id="instance16_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance19_POPslots_logo_slots_2_1" onComplete="loop"/>
+          <an id="instance22_POPslots_logo_slots_3_1" onComplete="loop"/>
+          <an id="instance25_POPslots_logo_slots_4_1" onComplete="loop"/>
+          <an id="instance28_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance31_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance34_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance37_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance40_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance43_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance46_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance49_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance52_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance55_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance58_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance61_POPslots_logo_o2_1" onComplete="loop"/>
+          <an id="instance64_POPslots_logo_o_1" onComplete="loop"/>
+          <an id="instance67_POPslots_logo_o_shadow_1" onComplete="loop"/>
+          <an id="instance70_POPslots_logo_o_shadow_1copy" onComplete="loop"/>
+          <an id="instance73_POPslots_logo_p2_1" onComplete="loop"/>
+          <an id="instance76_POPslots_logo__" onComplete="loop"/>
+          <an id="instance79_POPslots_logo__2" onComplete="loop"/>
+          <an id="instance82_POPslots_logo_p1b_1" onComplete="loop"/>
+          <an id="instance85_POPslots_logo_p1_1" onComplete="loop"/>
+        </an>
+        <an id="splashScreen_instance88_airplaneRight"/>
+      </state>
+      <state id="login">
+        <bd>
+          <bvr h="639.99" y="0" w="960" x="0"/>
+        </bd>
+        <an id="login_instance92_TheBG"/>
+        <an id="login_instance95_airplaneLeft"/>
+        <an id="login_instance97_BigCasinoSignAnim">
+          <an id="instance98_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance101_POPslots_logo_slots_2_1" onComplete="loop"/>
+          <an id="instance104_POPslots_logo_slots_3_1" onComplete="loop"/>
+          <an id="instance107_POPslots_logo_slots_4_1" onComplete="loop"/>
+          <an id="instance110_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance113_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance116_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance119_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance122_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance125_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance128_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance131_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance134_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance137_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance140_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance143_POPslots_logo_o2_1" onComplete="loop"/>
+          <an id="instance146_POPslots_logo_o_1" onComplete="loop"/>
+          <an id="instance149_POPslots_logo_o_shadow_1" onComplete="loop"/>
+          <an id="instance152_POPslots_logo_o_shadow_1copy" onComplete="loop"/>
+          <an id="instance155_POPslots_logo_p2_1" onComplete="loop"/>
+          <an id="instance158_POPslots_logo__" onComplete="loop"/>
+          <an id="instance161_POPslots_logo__2" onComplete="loop"/>
+          <an id="instance164_POPslots_logo_p1b_1" onComplete="loop"/>
+          <an id="instance167_POPslots_logo_p1_1" onComplete="loop"/>
+        </an>
+        <an id="login_instance170_airplaneRight"/>
+        <e id="anon" tid="guestButton_2">
+          <x>480</x>
+          <y>541.15</y>
+        </e>
+        <e id="facebook" tid="facebookButton_2">
+          <x>480</x>
+          <y>422.35</y>
+        </e>
+      </state>
+      <state id="loading">
+        <bd>
+          <bvr h="639.99" y="0" w="960" x="0"/>
+        </bd>
+        <an id="loading_instance181_TheBG"/>
+        <an id="loading_instance184_airplaneLeft"/>
+        <an id="loading_instance186_BigCasinoSignAnim">
+          <an id="instance187_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance190_POPslots_logo_slots_2_1" onComplete="loop"/>
+          <an id="instance193_POPslots_logo_slots_3_1" onComplete="loop"/>
+          <an id="instance196_POPslots_logo_slots_4_1" onComplete="loop"/>
+          <an id="instance199_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance202_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance205_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance208_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance211_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance214_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance217_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance220_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance223_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance226_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance229_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance232_POPslots_logo_o2_1" onComplete="loop"/>
+          <an id="instance235_POPslots_logo_o_1" onComplete="loop"/>
+          <an id="instance238_POPslots_logo_o_shadow_1" onComplete="loop"/>
+          <an id="instance241_POPslots_logo_o_shadow_1copy" onComplete="loop"/>
+          <an id="instance244_POPslots_logo_p2_1" onComplete="loop"/>
+          <an id="instance247_POPslots_logo__" onComplete="loop"/>
+          <an id="instance250_POPslots_logo__2" onComplete="loop"/>
+          <an id="instance253_POPslots_logo_p1b_1" onComplete="loop"/>
+          <an id="instance256_POPslots_logo_p1_1" onComplete="loop"/>
+        </an>
+        <an id="loading_instance259_airplaneRight"/>
+        <an id="loading_instance261_loadingAnim">
+          <an id="instance262_loadingTextImage" onComplete="loop"/>
+          <an id="dot1_dotImage" onComplete="loop"/>
+          <an id="dot2_dotImage" onComplete="loop"/>
+          <an id="dot3_dotImage" onComplete="loop"/>
+        </an>
+      </state>
+    </et>
+    <et id="guestButton_2" type="Button">
+      <state id="up" w="270" h="118">
+        <bd>
+          <bvr h="118.02" y="-59" w="270" x="-135"/>
+        </bd>
+        <an id="instance41011_guestButtonImage"/>
+      </state>
+    </et>
+    <et id="facebookButton_2" type="Button">
+      <state id="up" w="448" h="144.05">
+        <bd>
+          <bvr h="144.03" y="-72" w="447.99" x="-224"/>
+        </bd>
+        <an id="instance41052_facebookButtonAnim">
+          <an id="instance4106_FbImage" onComplete="loop"/>
+          <an id="instance4108_Shine5" onComplete="loop"/>
+        </an>
+      </state>
+    </et>
+    <et id="LoginTemplate_1024_768">
+      <state id="splashScreen">
+        <bd>
+          <bvr h="768" y="0" w="1024.01" x="0"/>
+        </bd>
+        <an id="splashScreen_instance270_TheBG"/>
+        <an id="splashScreen_instance273_airplaneLeft"/>
+        <an id="splashScreen_instance275_airplaneRight"/>
+        <an id="splashScreen_instance277_BigCasinoSignAnim">
+          <an id="instance278_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance281_POPslots_logo_slots_2_1" onComplete="loop"/>
+          <an id="instance284_POPslots_logo_slots_3_1" onComplete="loop"/>
+          <an id="instance287_POPslots_logo_slots_4_1" onComplete="loop"/>
+          <an id="instance290_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance293_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance296_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance299_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance302_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance305_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance308_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance311_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance314_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance317_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance320_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance323_POPslots_logo_o2_1" onComplete="loop"/>
+          <an id="instance326_POPslots_logo_o_1" onComplete="loop"/>
+          <an id="instance329_POPslots_logo_o_shadow_1" onComplete="loop"/>
+          <an id="instance332_POPslots_logo_o_shadow_1copy" onComplete="loop"/>
+          <an id="instance335_POPslots_logo_p2_1" onComplete="loop"/>
+          <an id="instance338_POPslots_logo__" onComplete="loop"/>
+          <an id="instance341_POPslots_logo__2" onComplete="loop"/>
+          <an id="instance344_POPslots_logo_p1b_1" onComplete="loop"/>
+          <an id="instance347_POPslots_logo_p1_1" onComplete="loop"/>
+        </an>
+      </state>
+      <state id="login">
+        <bd>
+          <bvr h="768" y="0" w="1024.01" x="0"/>
+        </bd>
+        <an id="login_instance352_TheBG"/>
+        <an id="login_instance355_airplaneLeft"/>
+        <an id="login_instance357_airplaneRight"/>
+        <an id="login_instance359_BigCasinoSignAnim">
+          <an id="instance360_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance363_POPslots_logo_slots_2_1" onComplete="loop"/>
+          <an id="instance366_POPslots_logo_slots_3_1" onComplete="loop"/>
+          <an id="instance369_POPslots_logo_slots_4_1" onComplete="loop"/>
+          <an id="instance372_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance375_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance378_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance381_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance384_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance387_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance390_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance393_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance396_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance399_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance402_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance405_POPslots_logo_o2_1" onComplete="loop"/>
+          <an id="instance408_POPslots_logo_o_1" onComplete="loop"/>
+          <an id="instance411_POPslots_logo_o_shadow_1" onComplete="loop"/>
+          <an id="instance414_POPslots_logo_o_shadow_1copy" onComplete="loop"/>
+          <an id="instance417_POPslots_logo_p2_1" onComplete="loop"/>
+          <an id="instance420_POPslots_logo__" onComplete="loop"/>
+          <an id="instance423_POPslots_logo__2" onComplete="loop"/>
+          <an id="instance426_POPslots_logo_p1b_1" onComplete="loop"/>
+          <an id="instance429_POPslots_logo_p1_1" onComplete="loop"/>
+        </an>
+        <e id="anon" tid="guestButton">
+          <x>522.45</x>
+          <y>553.7</y>
+        </e>
+        <e id="facebook" tid="facebookButton">
+          <x>527</x>
+          <y>443.25</y>
+        </e>
+      </state>
+      <state id="loading">
+        <bd>
+          <bvr h="768" y="0" w="1024.01" x="0"/>
+        </bd>
+        <an id="loading_instance441_TheBG"/>
+        <an id="loading_instance444_airplaneLeft"/>
+        <an id="loading_instance446_airplaneRight"/>
+        <an id="loading_instance448_BigCasinoSignAnim">
+          <an id="instance449_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance452_POPslots_logo_slots_2_1" onComplete="loop"/>
+          <an id="instance455_POPslots_logo_slots_3_1" onComplete="loop"/>
+          <an id="instance458_POPslots_logo_slots_4_1" onComplete="loop"/>
+          <an id="instance461_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance464_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance467_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance470_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance473_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance476_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance479_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance482_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance485_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance488_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance491_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance494_POPslots_logo_o2_1" onComplete="loop"/>
+          <an id="instance497_POPslots_logo_o_1" onComplete="loop"/>
+          <an id="instance500_POPslots_logo_o_shadow_1" onComplete="loop"/>
+          <an id="instance503_POPslots_logo_o_shadow_1copy" onComplete="loop"/>
+          <an id="instance506_POPslots_logo_p2_1" onComplete="loop"/>
+          <an id="instance509_POPslots_logo__" onComplete="loop"/>
+          <an id="instance512_POPslots_logo__2" onComplete="loop"/>
+          <an id="instance515_POPslots_logo_p1b_1" onComplete="loop"/>
+          <an id="instance518_POPslots_logo_p1_1" onComplete="loop"/>
+        </an>
+        <an id="loading_instance521_loadingAnim">
+          <an id="instance522_loadingTextImage" onComplete="loop"/>
+          <an id="dot1_dotImage" onComplete="loop"/>
+          <an id="dot2_dotImage" onComplete="loop"/>
+          <an id="dot3_dotImage" onComplete="loop"/>
+        </an>
+      </state>
+    </et>
+    <et id="guestButton" type="Button">
+      <state id="up" w="224" h="98">
+        <bd>
+          <bvr h="98.02" y="-49" w="224" x="-112"/>
+        </bd>
+        <an id="instance90993_guestButtonImage"/>
+      </state>
+    </et>
+    <et id="facebookButton" type="Button">
+      <state id="up" w="373" h="120">
+        <bd>
+          <bvr h="120.02" y="-60" w="373" x="-186.5"/>
+        </bd>
+        <an id="instance91034_facebookButtonAnim">
+          <an id="instance9104_FbImage" onComplete="loop"/>
+          <an id="instance9106_Shine5" onComplete="loop"/>
+        </an>
+      </state>
+    </et>
+    <et id="LoginTemplate_1136_640">
+      <state id="splashScreen">
+        <bd>
+          <bvr h="640" y="0" w="1136" x="0"/>
+        </bd>
+        <an id="splashScreen_instance530_TheBG"/>
+        <an id="splashScreen_instance533_BigCasinoSignAnim">
+          <an id="instance534_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance537_POPslots_logo_slots_2_1" onComplete="loop"/>
+          <an id="instance540_POPslots_logo_slots_3_1" onComplete="loop"/>
+          <an id="instance543_POPslots_logo_slots_4_1" onComplete="loop"/>
+          <an id="instance546_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance549_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance552_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance555_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance558_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance561_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance564_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance567_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance570_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance573_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance576_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance579_POPslots_logo_o2_1" onComplete="loop"/>
+          <an id="instance582_POPslots_logo_o_1" onComplete="loop"/>
+          <an id="instance585_POPslots_logo_o_shadow_1" onComplete="loop"/>
+          <an id="instance588_POPslots_logo_o_shadow_1copy" onComplete="loop"/>
+          <an id="instance591_POPslots_logo_p2_1" onComplete="loop"/>
+          <an id="instance594_POPslots_logo__" onComplete="loop"/>
+          <an id="instance597_POPslots_logo__2" onComplete="loop"/>
+          <an id="instance600_POPslots_logo_p1b_1" onComplete="loop"/>
+          <an id="instance603_POPslots_logo_p1_1" onComplete="loop"/>
+        </an>
+        <an id="splashScreen_instance606_airplaneLeft"/>
+        <an id="splashScreen_instance608_airplaneRight"/>
+      </state>
+      <state id="login">
+        <bd>
+          <bvr h="640" y="0" w="1136" x="0"/>
+        </bd>
+        <an id="login_instance612_TheBG"/>
+        <an id="login_instance615_BigCasinoSignAnim">
+          <an id="instance616_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance619_POPslots_logo_slots_2_1" onComplete="loop"/>
+          <an id="instance622_POPslots_logo_slots_3_1" onComplete="loop"/>
+          <an id="instance625_POPslots_logo_slots_4_1" onComplete="loop"/>
+          <an id="instance628_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance631_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance634_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance637_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance640_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance643_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance646_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance649_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance652_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance655_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance658_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance661_POPslots_logo_o2_1" onComplete="loop"/>
+          <an id="instance664_POPslots_logo_o_1" onComplete="loop"/>
+          <an id="instance667_POPslots_logo_o_shadow_1" onComplete="loop"/>
+          <an id="instance670_POPslots_logo_o_shadow_1copy" onComplete="loop"/>
+          <an id="instance673_POPslots_logo_p2_1" onComplete="loop"/>
+          <an id="instance676_POPslots_logo__" onComplete="loop"/>
+          <an id="instance679_POPslots_logo__2" onComplete="loop"/>
+          <an id="instance682_POPslots_logo_p1b_1" onComplete="loop"/>
+          <an id="instance685_POPslots_logo_p1_1" onComplete="loop"/>
+        </an>
+        <an id="login_instance688_airplaneLeft"/>
+        <an id="login_instance690_airplaneRight"/>
+        <e id="anon" tid="guestButton_2">
+          <x>582.25</x>
+          <y>543.35</y>
+        </e>
+        <e id="facebook" tid="facebookButton_2">
+          <x>588</x>
+          <y>428.55</y>
+        </e>
+      </state>
+      <state id="loading">
+        <bd>
+          <bvr h="640" y="0" w="1136" x="0"/>
+        </bd>
+        <an id="loading_instance701_TheBG"/>
+        <an id="loading_instance704_BigCasinoSignAnim">
+          <an id="instance705_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance708_POPslots_logo_slots_2_1" onComplete="loop"/>
+          <an id="instance711_POPslots_logo_slots_3_1" onComplete="loop"/>
+          <an id="instance714_POPslots_logo_slots_4_1" onComplete="loop"/>
+          <an id="instance717_POPslots_logo_slots_1_1" onComplete="loop"/>
+          <an id="instance720_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance723_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance726_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance729_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance732_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance735_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance738_POPslots_logo_slots_2b_1" onComplete="loop"/>
+          <an id="instance741_POPslots_logo_slots_3b_1" onComplete="loop"/>
+          <an id="instance744_POPslots_logo_slots_4b_1" onComplete="loop"/>
+          <an id="instance747_POPslots_logo_slots_1b_1" onComplete="loop"/>
+          <an id="instance750_POPslots_logo_o2_1" onComplete="loop"/>
+          <an id="instance753_POPslots_logo_o_1" onComplete="loop"/>
+          <an id="instance756_POPslots_logo_o_shadow_1" onComplete="loop"/>
+          <an id="instance759_POPslots_logo_o_shadow_1copy" onComplete="loop"/>
+          <an id="instance762_POPslots_logo_p2_1" onComplete="loop"/>
+          <an id="instance765_POPslots_logo__" onComplete="loop"/>
+          <an id="instance768_POPslots_logo__2" onComplete="loop"/>
+          <an id="instance771_POPslots_logo_p1b_1" onComplete="loop"/>
+          <an id="instance774_POPslots_logo_p1_1" onComplete="loop"/>
+        </an>
+        <an id="loading_instance777_airplaneLeft"/>
+        <an id="loading_instance779_airplaneRight"/>
+        <an id="loading_instance781_loadingAnim">
+          <an id="instance782_loadingTextImage" onComplete="loop"/>
+          <an id="dot1_dotImage" onComplete="loop"/>
+          <an id="dot2_dotImage" onComplete="loop"/>
+          <an id="dot3_dotImage" onComplete="loop"/>
+        </an>
+      </state>
+    </et>
+  </defs>
+  <entities/>
+  <textures>
+    <tex file="Login1.webp"/>
+  </textures>
+</scene>

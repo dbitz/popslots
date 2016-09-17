@@ -1,0 +1,271 @@
+<scene binAnims="true" id="Floaters">
+  <defs>
+    <et id="FloaterTemplate">
+      <e id="floater" tid="FloaterEntity">
+        <y>-80</y>
+      </e>
+    </et>
+    <et id="FloaterEntity">
+      <state id="sharedBalloons">
+        <an id="sharedBalloons_instance8_sharedBalloons_anim_letters">
+          <an id="instance9_emptyItem"/>
+          <an id="instance210_emptyItem"/>
+          <an id="instance266_emptyItem"/>
+          <an id="instance322_emptyItem"/>
+          <an id="instance378_emptyItem"/>
+          <an id="instance434_emptyItem"/>
+          <an id="instance490_emptyItem"/>
+          <an id="instance546_emptyItem"/>
+          <an id="instance602_emptyItem"/>
+          <an id="instance658_emptyItem"/>
+          <an id="instance714_emptyItem"/>
+          <an id="instance770_emptyItem"/>
+          <an id="instance21_blue_s_big"/>
+          <an id="instance884_emptyItem"/>
+        </an>
+      </state>
+      <state id="justJoined">
+        <an id="justJoined_instance25_justJoined_anim_letters">
+          <an id="instance26_emptyItem"/>
+          <an id="instance965_emptyItem"/>
+          <an id="instance1017_emptyItem"/>
+          <an id="instance1069_emptyItem"/>
+          <an id="instance1121_emptyItem"/>
+          <an id="instance1173_emptyItem"/>
+          <an id="instance1225_emptyItem"/>
+          <an id="instance1277_emptyItem"/>
+          <an id="instance34_big_J_letter"/>
+        </an>
+      </state>
+      <state id="bigWin">
+        <an id="bigWin_instance37_BigWinAnim">
+          <an id="instance38_shineGlowAnim">
+            <an id="instance39_purple_glow"/>
+            <an id="instance42_bigGlow"/>
+          </an>
+          <an id="instance1406_emptyItem"/>
+          <an id="instance1448_emptyItem"/>
+          <an id="instance1490_emptyItem"/>
+          <an id="instance48_B_big_letter"/>
+          <an id="instance1576_emptyItem"/>
+          <an id="instance1618_emptyItem"/>
+          <an id="instance1660_emptyItem"/>
+          <an id="instance1702_emptyItem"/>
+          <an id="instance55_winAmount_anim">
+            <e id="textArea" tid="TextArea">
+              <y>-5.25</y>
+            </e>
+            <e tid="markerItem" id="centerPopUp">
+              <x>165.6</x>
+              <y>1.25</y>
+              <w>2</w>
+              <h>2</h>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="megaWin">
+        <an id="megaWin_instance58_MegaWinAnim">
+          <an id="instance59_shineGlowAnim">
+            <an id="instance60_purple_glow"/>
+            <an id="instance63_bigGlow"/>
+          </an>
+          <an id="instance1830_emptyItem"/>
+          <an id="instance1884_emptyItem"/>
+          <an id="instance1938_emptyItem"/>
+          <an id="instance69_M_big_letter"/>
+          <an id="instance2048_emptyItem"/>
+          <an id="instance2102_emptyItem"/>
+          <an id="instance2156_emptyItem"/>
+          <an id="instance2210_emptyItem"/>
+          <an id="instance2264_emptyItem"/>
+          <an id="instance2318_emptyItem"/>
+          <an id="instance2372_emptyItem"/>
+          <an id="instance79_winAmount_anim">
+            <e id="textArea" tid="TextArea">
+              <y>-5.25</y>
+            </e>
+            <e tid="markerItem" id="centerPopUp">
+              <x>165.6</x>
+              <y>1.25</y>
+              <w>2</w>
+              <h>2</h>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="hugeWin">
+        <an id="hugeWin_instance82_hugeWinAnim">
+          <an id="instance83_shineGlowAnim">
+            <an id="instance84_purple_glow"/>
+            <an id="instance87_bigGlow"/>
+          </an>
+          <an id="instance2499_emptyItem"/>
+          <an id="instance2549_emptyItem"/>
+          <an id="instance2599_emptyItem"/>
+          <an id="instance2649_emptyItem"/>
+          <an id="instance94_H_big_letter"/>
+          <an id="instance2751_emptyItem"/>
+          <an id="instance2801_emptyItem"/>
+          <an id="instance2851_emptyItem"/>
+          <an id="instance2901_emptyItem"/>
+          <an id="instance2951_emptyItem"/>
+          <an id="instance102_winAmount_anim">
+            <e id="textArea" tid="TextArea">
+              <y>-5.25</y>
+            </e>
+            <e tid="markerItem" id="centerPopUp">
+              <x>165.6</x>
+              <y>1.25</y>
+              <w>2</w>
+              <h>2</h>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="epicWin">
+        <an id="epicWin_instance105_epicWinAnim">
+          <an id="instance106_shineGlowAnim">
+            <an id="instance107_purple_glow"/>
+            <an id="instance110_bigGlow"/>
+          </an>
+          <an id="instance3074_emptyItem"/>
+          <an id="instance3131_emptyItem"/>
+          <an id="instance3188_emptyItem"/>
+          <an id="instance116_new_coin"/>
+          <an id="instance119_E_big_letter"/>
+          <an id="instance3363_emptyItem"/>
+          <an id="instance3420_emptyItem"/>
+          <an id="instance3477_emptyItem"/>
+          <an id="instance3534_emptyItem"/>
+          <an id="instance3591_emptyItem"/>
+          <an id="instance3648_emptyItem"/>
+          <an id="instance3705_emptyItem"/>
+          <an id="instance129_winAmount_anim">
+            <e id="textArea" tid="TextArea">
+              <y>-5.25</y>
+            </e>
+            <e tid="markerItem" id="centerPopUp">
+              <x>165.6</x>
+              <y>1.25</y>
+              <w>2</w>
+              <h>2</h>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="brokeRecord">
+        <an id="brokeRecord_instance132_brokeRecord_anim">
+          <an id="instance133_BrokeRecordImage"/>
+        </an>
+        <an id="brokeRecord_instance135_winAmount_anim">
+          <e id="textArea" tid="TextArea">
+            <y>-5.25</y>
+          </e>
+          <e tid="markerItem" id="centerPopUp">
+            <x>165.6</x>
+            <y>1.25</y>
+            <w>2</w>
+            <h>2</h>
+          </e>
+        </an>
+      </state>
+      <state id="raceObstacle">
+        <an id="raceObstacle_instance138_winAmount_anim_race">
+          <e id="textArea" tid="TextArea_race">
+            <y>-5.25</y>
+          </e>
+          <e tid="markerItem" id="centerPopUp">
+            <x>165.6</x>
+            <y>1.25</y>
+            <w>2</w>
+            <h>2</h>
+          </e>
+        </an>
+      </state>
+      <state id="fsmWinner">
+        <an id="fsmWinner_instance150_FSMwinnerANIM">
+          <an id="instance151_FS"/>
+          <an id="instance154_BIggestWin"/>
+          <an id="instance157_FSM_anim">
+            <e id="textArea" tid="TextArea">
+              <y>-5.25</y>
+            </e>
+            <e tid="markerItem" id="centerPopUp">
+              <x>148.6</x>
+              <y>1.25</y>
+              <w>2</w>
+              <h>2</h>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="fsm">
+        <an id="fsm_instance160_FSM_1ANIM">
+          <an id="instance161_FS"/>
+          <an id="instance164_WIN"/>
+          <an id="instance167_FSM_anim">
+            <e id="textArea" tid="TextArea">
+              <y>-5.25</y>
+            </e>
+            <e tid="markerItem" id="centerPopUp">
+              <x>148.6</x>
+              <y>1.25</y>
+              <w>2</w>
+              <h>2</h>
+            </e>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="TextArea">
+      <e tid="WinAmount" id="winAmount">
+        <y>5.25</y>
+        <w>294</w>
+        <h>53.25</h>
+      </e>
+      <e id="rightItem" tid="ChipsEntity">
+        <x>299.2</x>
+        <y>12.35</y>
+      </e>
+      <e tid="markerItem" id="winAmountSpacerMinus">
+        <x>175</x>
+        <y>29.95</y>
+        <w>5</w>
+        <h>5</h>
+        <sx>2.5</sx>
+        <sy>2.5</sy>
+      </e>
+    </et>
+    <et type="TextHolder" color="16746102" align="left" id="WinAmount"/>
+    <et id="ChipsEntity"/>
+    <et type="Marker" id="markerItem"/>
+    <et id="TextArea_race">
+      <e tid="WinAmount_race" id="winAmount">
+        <x>300</x>
+        <y>5.25</y>
+        <w>170</w>
+        <h>76.7</h>
+      </e>
+      <e id="leftItem" tid="x_Entity">
+        <y>13</y>
+      </e>
+      <e tid="markerItem" id="winAmountSpacerMinus">
+        <x>175</x>
+        <y>29.95</y>
+        <w>4</w>
+        <h>4</h>
+        <sx>2</sx>
+        <sy>2</sy>
+      </e>
+    </et>
+    <et type="TextHolder" align="left" id="WinAmount_race"/>
+    <et id="x_Entity" w="40" h="44">
+      <an id="instance144_x_Image"/>
+    </et>
+  </defs>
+  <entities/>
+  <textures>
+    <tex file="Floaters1.webp"/>
+  </textures>
+</scene>

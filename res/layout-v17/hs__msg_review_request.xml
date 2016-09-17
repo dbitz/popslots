@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/activity_horizontal_margin_medium" android:layout_width="match_parent" android:layout_height="wrap_content"
-    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin_medium" android:layout_weight="4.0" android:layout_marginStart="@dimen/activity_horizontal_margin_medium"
-        <LinearLayout android:orientation="vertical" android:id="@+id/admin_message" android:background="?attr/hs__chatBubbleAdminBackground" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <TextView android:textSize="@dimen/hs__textSizeMedium" android:textColor="?attr/hs__chatBubbleAdminText" android:textColorLink="?attr/hs__chatBubbleAdminLink" android:autoLink="web|email|phone|map|all" android:id="0x1020014" android:paddingLeft="@dimen/activity_horizontal_margin_medium" android:paddingTop="@dimen/activity_horizontal_margin_medium" android:paddingRight="@dimen/activity_horizontal_margin_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-            <Button android:id="0x1020019" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-16dp" android:text="@string/hs__app_review_button" android:contentDescription="@string/hs__review_title" style="@style/Helpshift_Style_BorderlessButton" />
-            <View android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="UNKNOWN_DATA_0x1001" />
-            <ProgressBar android:id="0x102000d" android:layout_marginTop="@dimen/activity_horizontal_margin_small" style="@style/Helpshift_Style_QuestionLoadProgress" />
+<LinearLayout android:paddingTop="@dimen/activity_horizontal_margin_medium" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin_medium" android:layout_weight="4.0" android:layout_marginStart="@dimen/activity_horizontal_margin_medium">
+        <LinearLayout android:orientation="vertical" android:id="@id/admin_message" android:background="?hs__chatBubbleAdminBackground" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/hs__textSizeMedium" android:textColor="?hs__chatBubbleAdminText" android:textColorLink="?hs__chatBubbleAdminLink" android:autoLink="all" android:id="@android:id/text1" android:paddingLeft="@dimen/activity_horizontal_margin_medium" android:paddingTop="@dimen/activity_horizontal_margin_medium" android:paddingRight="@dimen/activity_horizontal_margin_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:id="@android:id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-16.0dip" android:text="@string/hs__app_review_button" android:contentDescription="@string/hs__review_title" style="@style/Helpshift.Style.BorderlessButton" />
+            <View android:layout_width="1.0dip" android:layout_height="16.0dip" />
+            <ProgressBar android:id="@android:id/progress" android:layout_marginTop="@dimen/activity_horizontal_margin_small" style="@style/Helpshift.Style.QuestionLoadProgress" />
         </LinearLayout>
-        <TextView android:textSize="@dimen/hs__textSizeSmall" android:textColor="?unknown_attr_ref: 101009a" android:id="0x1020015" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin_medium" android:layout_marginTop="2dp" android:layout_marginStart="@dimen/activity_horizontal_margin_medium" />
+        <TextView android:textSize="@dimen/hs__textSizeSmall" android:textColor="?android:textColorHint" android:id="@android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin_medium" android:layout_marginTop="2.0dip" android:layout_marginStart="@dimen/activity_horizontal_margin_medium" />
     </LinearLayout>
-    <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
 </LinearLayout>

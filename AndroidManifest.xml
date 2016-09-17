@@ -1,97 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="281" android:versionName="2.28.4105" package="com.playstudios.popslots" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="com.android.vending.BILLING" />
-    <permission android:name="com.scene53.gcm.permission.C2D_MESSAGE" android:protectionLevel="signature|signatureOrSystem" />
-    <uses-permission android:name="com.scene53.gcm.permission.C2D_MESSAGE" />
-    <uses-feature android:glEsVersion="20000" />
-    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23" />
-    <application android:label="@string/app_name" android:icon="@drawable/icon_popslots" android:name="com.scene53.Scene53App" android:hasCode="true">
-        <meta-data android:name="SceneId" android:resource="@string/meta_SceneId" />
-        <meta-data android:name="BundledGameName" android:resource="@string/meta_BundledGameName" />
-        <meta-data android:name="BundledGameVersion_1024_768" android:resource="@string/meta_BundledGameVersion_1024_768" />
-        <meta-data android:name="BundledGameVersion_1136_640" android:resource="@string/meta_BundledGameVersion_1136_640" />
-        <meta-data android:name="BundledGameVersion_960_640" android:resource="@string/meta_BundledGameVersion_960_640" />
-        <meta-data android:name="BundledGameScriptVersion" android:resource="@string/meta_BundledGameScriptVersion" />
-        <meta-data android:name="BundledAssetVer" android:resource="@string/meta_BundledAssetVer" />
-        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:label="@string/app_name" android:name="com.scene53.Scene53NativeActivity" android:launchMode="singleTop" android:screenOrientation="sensorLandscape" android:configChanges="keyboardHidden|orientation|screenSize">
-            <meta-data android:name="android.app.lib_name" android:value="BigCasino" />
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.playstudios.popslots" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <permission android:name="com.scene53.gcm.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.scene53.gcm.permission.C2D_MESSAGE"/>
+    <uses-feature android:glEsVersion="0x20000"/>
+    <application android:hasCode="true" android:icon="@drawable/icon_popslots" android:label="@string/app_name" android:name="com.scene53.Scene53App">
+        <meta-data android:name="SceneId" android:resource="@string/meta_SceneId"/>
+        <meta-data android:name="BundledGameName" android:resource="@string/meta_BundledGameName"/>
+        <meta-data android:name="BundledGameVersion_1024_768" android:resource="@string/meta_BundledGameVersion_1024_768"/>
+        <meta-data android:name="BundledGameVersion_1136_640" android:resource="@string/meta_BundledGameVersion_1136_640"/>
+        <meta-data android:name="BundledGameVersion_960_640" android:resource="@string/meta_BundledGameVersion_960_640"/>
+        <meta-data android:name="BundledGameScriptVersion" android:resource="@string/meta_BundledGameScriptVersion"/>
+        <meta-data android:name="BundledAssetVer" android:resource="@string/meta_BundledAssetVer"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.scene53.Scene53NativeActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <meta-data android:name="android.app.lib_name" android:value="BigCasino"/>
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="bigcasino" />
-                <data android:scheme="fb113508235475559" />
-                <data android:scheme="fb184060038360173" />
-                <data android:scheme="fb493494147412135" />
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="bigcasino"/>
+                <data android:scheme="fb113508235475559"/>
+                <data android:scheme="fb184060038360173"/>
+                <data android:scheme="fb493494147412135"/>
             </intent-filter>
         </activity>
-        <receiver android:name="com.scene53.utils.NotificationPublisher" />
+        <receiver android:name="com.scene53.utils.NotificationPublisher"/>
         <receiver android:name="com.scene53.utils.BootReceiver">
             <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
             </intent-filter>
         </receiver>
         <receiver android:name="com.scene53.utils.NetworkMonitor">
             <intent-filter>
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
             </intent-filter>
         </receiver>
-        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.facebook.LoginActivity" />
-        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
-        <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver" android:enabled="true">
+        <activity android:name="com.facebook.LoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <receiver android:enabled="true" android:name="com.google.android.gms.analytics.AnalyticsReceiver">
             <intent-filter>
-                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH"/>
             </intent-filter>
         </receiver>
-        <service android:name="com.google.android.gms.analytics.AnalyticsService" android:enabled="true" android:exported="false" />
-        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" android:enabled="true" android:exported="false" />
-        <receiver android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.CampaignTrackingService"/>
+        <receiver android:exported="true" android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <category android:name="com.scene53.popslots" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.scene53.popslots"/>
             </intent-filter>
         </receiver>
-        <service android:name="com.scene53.gcm.Scene53GcmListenerService" android:exported="false">
+        <service android:exported="false" android:name="com.scene53.gcm.Scene53GcmListenerService">
             <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
             </intent-filter>
         </service>
-        <service android:name="com.scene53.gcm.Scene53GcmInstanceIDListenerService" android:exported="false">
+        <service android:exported="false" android:name="com.scene53.gcm.Scene53GcmInstanceIDListenerService">
             <intent-filter>
-                <action android:name="com.google.android.gms.iid.InstanceID" />
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
             </intent-filter>
         </service>
-        <activity android:theme="@style/Helpshift_Theme_Activity" android:name="com.helpshift.HSConversation" android:configChanges="locale|orientation|screenSize|layoutDirection" />
-        <activity android:theme="@style/Helpshift_Theme_Activity" android:name="com.helpshift.HSQuestionsList" android:configChanges="orientation|screenSize" />
-        <activity android:theme="@style/Helpshift_Theme_Activity" android:name="com.helpshift.HSQuestion" android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" />
-        <activity android:theme="@style/Helpshift_Theme_Activity" android:name="com.helpshift.HSSection" android:configChanges="orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" android:hardwareAccelerated="true" />
-        <activity android:theme="@style/Helpshift_Theme_Activity" android:name="com.helpshift.HSFaqs" android:configChanges="orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" android:hardwareAccelerated="true" />
-        <activity android:theme="@style/Helpshift_Theme_Dialog" android:name="com.helpshift.HSReview" android:configChanges="orientation|screenSize" />
-        <activity android:theme="@style/Helpshift_Theme_Activity" android:name="com.helpshift.ScreenshotPreviewActivity" android:configChanges="orientation|screenSize" />
-        <activity android:theme="@style/Helpshift_Theme_Activity" android:name="com.helpshift.SearchResultActivity" android:configChanges="orientation|screenSize" />
-        <service android:label="Helpshift Service" android:name="com.helpshift.HSService" />
-        <service android:label="Helpshift Service" android:name="com.helpshift.HSRetryService" />
-        <receiver android:name="com.adjust.sdk.AdjustReferrerReceiver" android:exported="true">
+        <activity android:configChanges="locale|layoutDirection|orientation|screenSize" android:name="com.helpshift.HSConversation" android:theme="@style/Helpshift.Theme.Activity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.helpshift.HSQuestionsList" android:theme="@style/Helpshift.Theme.Activity"/>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="com.helpshift.HSQuestion" android:theme="@style/Helpshift.Theme.Activity"/>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="com.helpshift.HSSection" android:theme="@style/Helpshift.Theme.Activity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="com.helpshift.HSFaqs" android:theme="@style/Helpshift.Theme.Activity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.helpshift.HSReview" android:theme="@style/Helpshift.Theme.Dialog"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.helpshift.ScreenshotPreviewActivity" android:theme="@style/Helpshift.Theme.Activity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.helpshift.SearchResultActivity" android:theme="@style/Helpshift.Theme.Activity"/>
+        <service android:label="Helpshift Service" android:name="com.helpshift.HSService"/>
+        <service android:label="Helpshift Service" android:name="com.helpshift.HSRetryService"/>
+        <receiver android:exported="true" android:name="com.adjust.sdk.AdjustReferrerReceiver">
             <intent-filter>
-                <action android:name="com.android.vending.INSTALL_REFERRER" />
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
             </intent-filter>
         </receiver>
-        <meta-data android:name="io.fabric.ApiKey" android:value="a10b0687a661388561e0a9df13e326134130f41c" />
-        <activity android:theme="@style/Helpshift_Theme_Activity" android:name="com.helpshift.support.activities.ParentActivity" />
-        <activity android:theme="@style/Helpshift_Theme_Dialog" android:name="com.helpshift.support.HSReview" android:configChanges="orientation|screenSize" />
-        <service android:label="Helpshift Service" android:name="com.helpshift.support.HSService" />
-        <service android:label="Helpshift Service" android:name="com.helpshift.support.HSRetryService" />
+        <meta-data android:name="io.fabric.ApiKey" android:value="a10b0687a661388561e0a9df13e326134130f41c"/>
+        <activity android:name="com.helpshift.support.activities.ParentActivity" android:theme="@style/Helpshift.Theme.Activity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.helpshift.support.HSReview" android:theme="@style/Helpshift.Theme.Dialog"/>
+        <service android:label="Helpshift Service" android:name="com.helpshift.support.HSService"/>
+        <service android:label="Helpshift Service" android:name="com.helpshift.support.HSRetryService"/>
     </application>
 </manifest>

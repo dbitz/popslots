@@ -83,9 +83,9 @@
     <string name="hs__notification_content_text">RE:</string>
     <string name="hs__permission_denied_message">Opslag toestemming is vereist voor toegang tot screenshots en het downloaden van bijlagen</string>
     <string name="hs__permission_denied_snackbar_action">Instellingen</string>
-    <string name="hs__permission_not_granted">Applicatie heeft geen toestemming voor toegang tot uw foto&apos;s</string>
+    <string name="hs__permission_not_granted">"Applicatie heeft geen toestemming voor toegang tot uw foto's"</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
-    <string name="hs__question_header"></string>
+    <string name="hs__question_header" />
     <string name="hs__question_helpful_message">Je vond dit nuttig.</string>
     <string name="hs__question_unhelpful_message">Je vond dit niet nuttig.</string>
     <string name="hs__rate_button">Beoordelen</string>

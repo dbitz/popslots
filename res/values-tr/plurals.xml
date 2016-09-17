@@ -5,7 +5,7 @@
         <item quantity="one">Hizmeti 1 yıldız ile değerlendirdiniz</item>
     </plurals>
     <plurals name="hs__notification_content_title">
-        <item quantity="other">%d Destek&apos;ten yeni mesajlarınız var</item>
-        <item quantity="one">Destek&apos;ten yeni mesajınız var</item>
+        <item quantity="other">"%d Destek'ten yeni mesajlarınız var"</item>
+        <item quantity="one">"Destek'ten yeni mesajınız var"</item>
     </plurals>
 </resources>

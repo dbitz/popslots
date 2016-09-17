@@ -1,0 +1,18 @@
+<tracks id="MGM_Oz_holderContainer">
+  <track fps="25" id="instance13_button_blue_image_item">
+    <f>
+      <src x="1" y="1" w="5" h="5">WEBP_MGM_Oz_holder1</src>
+      <sx>130</sx>
+      <sy>130</sy>
+      <a>0</a>
+    </f>
+  </track>
+  <track fps="25" id="stam_button_blue_image_item">
+    <f>
+      <src x="1" y="1" w="5" h="5">WEBP_MGM_Oz_holder1</src>
+      <sx>130</sx>
+      <sy>130</sy>
+      <a>0.3</a>
+    </f>
+  </track>
+</tracks>

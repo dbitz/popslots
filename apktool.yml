@@ -1,0 +1,56 @@
+version: 2.0.2
+apkFileName: com.playstudios.popslots_2.28.4105.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '23'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '281'
+  versionName: 2.28.4105
+sharedLibrary: false
+unknownFiles:
+  fabric/com.crashlytics.sdk.android.crashlytics.properties: '8'
+  fabric/com.crashlytics.sdk.android.answers.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics-ndk.properties: '8'
+  fabric/io.fabric.sdk.android.fabric.properties: '8'
+  fabric/com.crashlytics.sdk.android.beta.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics-core.properties: '8'
+  org/jboss/netty/container/spring/beans.xml: '8'
+doNotCompress:
+- resources.arsc
+- assets/main/BasicPreloader1.webp
+- assets/main/MGM_asset.1024_768
+- assets/main/MGM_asset.1136_640
+- assets/main/MGM_script.zip
+- assets/main/CheaterFolder/Cheater1.webp
+- assets/main/Floaters/Floaters1.webp
+- assets/main/GuideFolder/Guide1.webp
+- assets/main/Login/Login1.webp
+- assets/main/OnBoarding/OnBoarding1.webp
+- assets/main/PickASeat/PickASeat1.webp
+- assets/main/TmpUserProfileFolder/userProfile1.webp
+- assets/main/Zeus/serviceConfig.lua
+- assets/main/Zeus/viewConfig.lua
+- assets/main/scene/MGM_ATW_holder1.webp
+- assets/main/scene/MGM_ATW_holder_sign1.webp
+- assets/main/scene/MGM_Balloon_sign_atw1.webp
+- assets/main/scene/MGM_Balloon_sign_emeralds1.webp
+- assets/main/scene/MGM_Balloon_sign_frontier1.webp
+- assets/main/scene/MGM_Balloon_sign_frontier_flip1.webp
+- assets/main/scene/MGM_Balloon_sign_popstars21.webp
+- assets/main/scene/MGM_Emeralds_holder1.webp
+- assets/main/scene/MGM_Emeralds_holder_sign1.webp
+- assets/main/scene/MGM_FF_holder1.webp
+- assets/main/scene/MGM_FF_holder_sign1.webp
+- assets/main/scene/MGM_FF_holder_sign_flip1.webp
+- assets/main/scene/MGM_Oz_holder1.webp
+- assets/main/scene/MGM_popstars_holder1.webp
+- assets/main/scene/MGM_popstars_holder_sign1.webp
+- assets/main/scene/OZ_F_holder_sign1.webp
+- assets/main/scene/iosImage_0.webp
+- assets/main/scene/iosImage_1.webp

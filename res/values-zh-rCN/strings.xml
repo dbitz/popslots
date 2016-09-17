@@ -85,7 +85,7 @@
     <string name="hs__permission_denied_snackbar_action">设置</string>
     <string name="hs__permission_not_granted">此应用没有权限访问你照片</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
-    <string name="hs__question_header"></string>
+    <string name="hs__question_header" />
     <string name="hs__question_helpful_message">你发现这有帮助。</string>
     <string name="hs__question_unhelpful_message">你发现这无帮助。</string>
     <string name="hs__rate_button">评分</string>

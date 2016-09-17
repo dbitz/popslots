@@ -79,13 +79,13 @@
     <string name="hs__new_conversation_btn">ZAPOČNI NOVI RAZGOVOR</string>
     <string name="hs__new_conversation_header">Novi razgovor</string>
     <string name="hs__new_conversation_hint">Kako možemo pomoći?</string>
-    <string name="hs__no_search_results_message">Whoops! We couldn&apos;t find anything for query</string>
+    <string name="hs__no_search_results_message">"Whoops! We couldn't find anything for query"</string>
     <string name="hs__notification_content_text">Odg:</string>
     <string name="hs__permission_denied_message">Storage permission is required to access screenshots and download attachments</string>
     <string name="hs__permission_denied_snackbar_action">Settings</string>
     <string name="hs__permission_not_granted">Application does not have permission to access your photos</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
-    <string name="hs__question_header"></string>
+    <string name="hs__question_header" />
     <string name="hs__question_helpful_message">Ovo smatrate korisnim.</string>
     <string name="hs__question_unhelpful_message">Ovo ne smatrate korisnim.</string>
     <string name="hs__rate_button">Stopa</string>

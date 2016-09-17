@@ -1,0 +1,4356 @@
+<scene id="Guide" binAnims="true">
+  <defs>
+    <et id="BackgroundTemplate_1024_768">
+      <state id="final">
+        <an id="final_instance8_BG"/>
+        <an id="final_instance11_MGMlogo"/>
+        <an id="final_instance14_MGMlogo"/>
+        <an id="final_instance17_MGMlogo"/>
+        <an id="final_instance20_MGMlogo"/>
+        <an id="final_instance23_MGMlogo"/>
+        <an id="final_instance26_MGMlogo"/>
+        <an id="final_instance29_MGMlogo"/>
+        <an id="final_instance32_MGMlogo"/>
+        <an id="final_instance35_MGMlogo"/>
+        <an id="final_instance38_MGMlogo"/>
+        <an id="final_instance41_MGMlogo"/>
+        <an id="final_instance44_MGMlogo"/>
+        <an id="final_instance47_MGMlogo"/>
+        <an id="final_instance50_MGMlogo"/>
+        <an id="final_instance53_MGMlogo"/>
+        <an id="final_instance56_MGMlogo"/>
+        <an id="final_instance59_MGMlogo"/>
+        <an id="final_instance62_MGMlogo"/>
+        <an id="final_instance65_MGMlogo"/>
+        <an id="final_instance68_MGMlogo"/>
+        <an id="final_instance71_MGMlogo"/>
+        <an id="final_instance74_MGMlogo"/>
+        <an id="final_instance77_MGMlogo"/>
+        <an id="final_instance80_MGMlogo"/>
+        <an id="final_instance83_Stage"/>
+        <an id="final_instance86_glownsAnim">
+          <an id="instance87_glowns"/>
+        </an>
+      </state>
+      <state id="standart">
+        <an id="standart_instance90_BG"/>
+        <an id="standart_instance93_MGMlogo"/>
+        <an id="standart_instance96_MGMlogo"/>
+        <an id="standart_instance99_MGMlogo"/>
+        <an id="standart_instance102_MGMlogo"/>
+        <an id="standart_instance105_MGMlogo"/>
+        <an id="standart_instance108_MGMlogo"/>
+        <an id="standart_instance111_MGMlogo"/>
+        <an id="standart_instance114_MGMlogo"/>
+        <an id="standart_instance117_MGMlogo"/>
+        <an id="standart_instance120_MGMlogo"/>
+        <an id="standart_instance123_MGMlogo"/>
+        <an id="standart_instance126_MGMlogo"/>
+        <an id="standart_instance129_MGMlogo"/>
+        <an id="standart_instance132_MGMlogo"/>
+        <an id="standart_instance135_MGMlogo"/>
+        <an id="standart_instance138_MGMlogo"/>
+        <an id="standart_instance141_MGMlogo"/>
+        <an id="standart_instance144_MGMlogo"/>
+        <an id="standart_instance147_MGMlogo"/>
+        <an id="standart_instance150_MGMlogo"/>
+        <an id="standart_instance153_MGMlogo"/>
+        <an id="standart_instance156_MGMlogo"/>
+        <an id="standart_instance159_MGMlogo"/>
+        <an id="standart_instance162_MGMlogo"/>
+        <an id="standart_instance165_Stage"/>
+        <an id="standart_instance168_glownsAnim">
+          <an id="instance169_glowns"/>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_emp0_emptyItem"/>
+      </state>
+    </et>
+    <et id="BackgroundTemplate_1136_640">
+      <state id="final">
+        <an id="final_instance173_BG"/>
+        <an id="final_instance176_Stage"/>
+        <an id="final_instance179_MGMlogo"/>
+        <an id="final_instance182_MGMlogo"/>
+        <an id="final_instance185_MGMlogo"/>
+        <an id="final_instance188_MGMlogo"/>
+        <an id="final_instance191_MGMlogo"/>
+        <an id="final_instance194_MGMlogo"/>
+        <an id="final_instance197_MGMlogo"/>
+        <an id="final_instance200_MGMlogo"/>
+        <an id="final_instance203_MGMlogo"/>
+        <an id="final_instance206_MGMlogo"/>
+        <an id="final_instance209_MGMlogo"/>
+        <an id="final_instance212_MGMlogo"/>
+        <an id="final_instance215_MGMlogo"/>
+        <an id="final_instance218_MGMlogo"/>
+        <an id="final_instance221_MGMlogo"/>
+        <an id="final_instance224_MGMlogo"/>
+        <an id="final_instance227_MGMlogo"/>
+        <an id="final_instance230_MGMlogo"/>
+        <an id="final_instance233_MGMlogo"/>
+        <an id="final_instance236_MGMlogo"/>
+        <an id="final_instance239_MGMlogo"/>
+        <an id="final_instance242_MGMlogo"/>
+        <an id="final_instance245_MGMlogo"/>
+        <an id="final_instance11383_MGMlogo"/>
+        <an id="final_instance251_MGMlogo"/>
+        <an id="final_instance254_MGMlogo"/>
+        <an id="final_instance257_MGMlogo"/>
+        <an id="final_instance260_MGMlogo"/>
+        <an id="final_instance263_glownsAnim">
+          <an id="instance264_glowns"/>
+        </an>
+      </state>
+      <state id="standart">
+        <an id="standart_instance267_BG"/>
+        <an id="standart_instance270_Stage"/>
+        <an id="standart_instance273_MGMlogo"/>
+        <an id="standart_instance276_MGMlogo"/>
+        <an id="standart_instance279_MGMlogo"/>
+        <an id="standart_instance282_MGMlogo"/>
+        <an id="standart_instance285_MGMlogo"/>
+        <an id="standart_instance288_MGMlogo"/>
+        <an id="standart_instance291_MGMlogo"/>
+        <an id="standart_instance294_MGMlogo"/>
+        <an id="standart_instance297_MGMlogo"/>
+        <an id="standart_instance300_MGMlogo"/>
+        <an id="standart_instance303_MGMlogo"/>
+        <an id="standart_instance306_MGMlogo"/>
+        <an id="standart_instance309_MGMlogo"/>
+        <an id="standart_instance312_MGMlogo"/>
+        <an id="standart_instance315_MGMlogo"/>
+        <an id="standart_instance318_MGMlogo"/>
+        <an id="standart_instance321_MGMlogo"/>
+        <an id="standart_instance324_MGMlogo"/>
+        <an id="standart_instance327_MGMlogo"/>
+        <an id="standart_instance330_MGMlogo"/>
+        <an id="standart_instance333_MGMlogo"/>
+        <an id="standart_instance336_MGMlogo"/>
+        <an id="standart_instance339_MGMlogo"/>
+        <an id="standart_instance342_MGMlogo"/>
+        <an id="standart_instance345_MGMlogo"/>
+        <an id="standart_instance348_MGMlogo"/>
+        <an id="standart_instance351_MGMlogo"/>
+        <an id="standart_instance354_MGMlogo"/>
+        <an id="standart_instance357_glownsAnim">
+          <an id="instance358_glowns"/>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_emp0_emptyItem"/>
+      </state>
+    </et>
+    <et id="BackgroundTemplate_960_640">
+      <state id="final">
+        <an id="final_instance362_BG"/>
+        <an id="final_instance365_MGMlogo"/>
+        <an id="final_instance368_MGMlogo"/>
+        <an id="final_instance371_MGMlogo"/>
+        <an id="final_instance374_MGMlogo"/>
+        <an id="final_instance377_MGMlogo"/>
+        <an id="final_instance380_MGMlogo"/>
+        <an id="final_instance383_MGMlogo"/>
+        <an id="final_instance386_MGMlogo"/>
+        <an id="final_instance389_MGMlogo"/>
+        <an id="final_instance392_MGMlogo"/>
+        <an id="final_instance395_MGMlogo"/>
+        <an id="final_instance398_MGMlogo"/>
+        <an id="final_instance401_MGMlogo"/>
+        <an id="final_instance404_MGMlogo"/>
+        <an id="final_instance407_MGMlogo"/>
+        <an id="final_instance410_MGMlogo"/>
+        <an id="final_instance413_MGMlogo"/>
+        <an id="final_instance416_MGMlogo"/>
+        <an id="final_instance419_MGMlogo"/>
+        <an id="final_instance422_MGMlogo"/>
+        <an id="final_instance425_MGMlogo"/>
+        <an id="final_instance428_MGMlogo"/>
+        <an id="final_instance431_MGMlogo"/>
+        <an id="final_instance434_MGMlogo"/>
+        <an id="final_instance437_Stage"/>
+        <an id="final_instance440_glownsAnim">
+          <an id="instance441_glowns"/>
+        </an>
+      </state>
+      <state id="standart">
+        <an id="standart_instance444_BG"/>
+        <an id="standart_instance447_MGMlogo"/>
+        <an id="standart_instance450_MGMlogo"/>
+        <an id="standart_instance453_MGMlogo"/>
+        <an id="standart_instance456_MGMlogo"/>
+        <an id="standart_instance459_MGMlogo"/>
+        <an id="standart_instance462_MGMlogo"/>
+        <an id="standart_instance465_MGMlogo"/>
+        <an id="standart_instance468_MGMlogo"/>
+        <an id="standart_instance471_MGMlogo"/>
+        <an id="standart_instance474_MGMlogo"/>
+        <an id="standart_instance477_MGMlogo"/>
+        <an id="standart_instance480_MGMlogo"/>
+        <an id="standart_instance483_MGMlogo"/>
+        <an id="standart_instance486_MGMlogo"/>
+        <an id="standart_instance489_MGMlogo"/>
+        <an id="standart_instance492_MGMlogo"/>
+        <an id="standart_instance495_MGMlogo"/>
+        <an id="standart_instance498_MGMlogo"/>
+        <an id="standart_instance501_MGMlogo"/>
+        <an id="standart_instance504_MGMlogo"/>
+        <an id="standart_instance507_MGMlogo"/>
+        <an id="standart_instance510_MGMlogo"/>
+        <an id="standart_instance513_MGMlogo"/>
+        <an id="standart_instance516_MGMlogo"/>
+        <an id="standart_instance519_Stage"/>
+        <an id="standart_instance522_glownsAnim">
+          <an id="instance523_glowns"/>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_emp0_emptyItem"/>
+      </state>
+    </et>
+    <et id="FadeToBlackTemplate">
+      <an id="instance5271_fadeToBlackAnim">
+        <an id="kiki0_blackCover"/>
+      </an>
+    </et>
+    <et id="GenderSelectorTemplate_1024_768">
+      <e id="male" tid="EntMaleGenderSel">
+        <x>622.25</x>
+        <y>175.35</y>
+        <sx>1.1</sx>
+        <sy>1.1</sy>
+      </e>
+      <e id="female" tid="EntFemaleGenderSelector">
+        <x>255.35</x>
+        <y>175.25</y>
+        <sx>1.1</sx>
+        <sy>1.1</sy>
+      </e>
+    </et>
+    <et id="EntMaleGenderSel">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance531_GenderSelMaleIdleAnim">
+          <e id="maleBtn" tid="GenderSelMaleBtn"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance581_GenderSelMaleSelectedAnim">
+          <an id="hghjjjjjjjjj0_floorLight">
+            <an id="instance582_floorLight_image"/>
+          </an>
+          <an id="cvbnl2_MaleShadow"/>
+          <an id="cvbnl1_maleText"/>
+          <an id="cvbnl0_maleWhite"/>
+        </an>
+      </state>
+    </et>
+    <et id="GenderSelMaleBtn" type="Button">
+      <state id="up" w="126" h="359.05">
+        <bd>
+          <bvr h="359.03" y="0" w="125.99" x="0"/>
+        </bd>
+        <an id="instance140262_GenderSelMaleUpAnim">
+          <an id="nyk3_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance14820_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance15080_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance15340_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance15600_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance15860_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance16120_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="vbvbvbvb0_floorLight">
+            <an id="instance14053_floorLight_image"/>
+          </an>
+          <an id="nyk2_MaleShadow"/>
+          <an id="nyk1_maleText"/>
+          <an id="nyk0_StarsCycleUpper">
+            <an id="instance14060_emptyItem" onComplete="loop"/>
+            <an id="instance17760_emptyItem" onComplete="loop"/>
+            <an id="instance17953_emptyItem" onComplete="loop"/>
+            <an id="instance18146_emptyItem" onComplete="loop"/>
+            <an id="instance18339_emptyItem" onComplete="loop"/>
+            <an id="instance18532_emptyItem" onComplete="loop"/>
+            <an id="instance18725_emptyItem" onComplete="loop"/>
+            <an id="instance18918_emptyItem" onComplete="loop"/>
+            <an id="instance19111_emptyItem" onComplete="loop"/>
+            <an id="instance19304_emptyItem" onComplete="loop"/>
+            <an id="instance19497_emptyItem" onComplete="loop"/>
+            <an id="instance19690_emptyItem" onComplete="loop"/>
+            <an id="instance19883_emptyItem" onComplete="loop"/>
+            <an id="instance20076_emptyItem" onComplete="loop"/>
+            <an id="instance20269_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="126" h="359.05">
+        <bd>
+          <bvr h="359.03" y="0" w="125.99" x="0"/>
+        </bd>
+        <an id="instance204473_GenderSelMaleDownAnim">
+          <an id="juju0_floorLight">
+            <an id="instance20448_floorLight_image"/>
+          </an>
+          <an id="mkln1_MaleShadow"/>
+          <an id="mkln0_maleText"/>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemaleGenderSelector">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance591_GenderSelFemaleIdleAnim">
+          <e id="femaleBtn" tid="GenderSelFemaleBtn"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance641_GenderSelFemaleSelectedAnim">
+          <an id="zxcvfd2_FemaleText"/>
+          <an id="vvcxsl0_floorLight">
+            <an id="instance644_floorLight_image"/>
+          </an>
+          <an id="jujkkkllllllll_FemaleOrange"/>
+          <an id="zxcvfd0_FemaleShadow"/>
+        </an>
+      </state>
+    </et>
+    <et id="GenderSelFemaleBtn" type="Button">
+      <state id="up" w="179" h="359.05">
+        <bd>
+          <bvr h="359.04" y="0" w="178.99" x="0"/>
+        </bd>
+        <an id="instance205664_GenderSelFemaleUpAnim">
+          <an id="ksaaks3_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance21360_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance21620_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance21880_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance22140_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance22400_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance22660_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="ttyyuui0_floorLight">
+            <an id="instance20593_floorLight_image"/>
+          </an>
+          <an id="ksaaks2_FemaleText"/>
+          <an id="ksaaks1_FemaleShadow"/>
+          <an id="ksaaks0_StarsCycleUpper">
+            <an id="instance20600_emptyItem" onComplete="loop"/>
+            <an id="instance24300_emptyItem" onComplete="loop"/>
+            <an id="instance24493_emptyItem" onComplete="loop"/>
+            <an id="instance24686_emptyItem" onComplete="loop"/>
+            <an id="instance24879_emptyItem" onComplete="loop"/>
+            <an id="instance25072_emptyItem" onComplete="loop"/>
+            <an id="instance25265_emptyItem" onComplete="loop"/>
+            <an id="instance25458_emptyItem" onComplete="loop"/>
+            <an id="instance25651_emptyItem" onComplete="loop"/>
+            <an id="instance25844_emptyItem" onComplete="loop"/>
+            <an id="instance26037_emptyItem" onComplete="loop"/>
+            <an id="instance26230_emptyItem" onComplete="loop"/>
+            <an id="instance26423_emptyItem" onComplete="loop"/>
+            <an id="instance26616_emptyItem" onComplete="loop"/>
+            <an id="instance26809_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="179" h="359.05">
+        <bd>
+          <bvr h="359.04" y="0" w="178.99" x="0"/>
+        </bd>
+        <an id="instance269875_GenderSelFemaleDownAnim">
+          <an id="qswdrf0_floorLight">
+            <an id="instance26988_floorLight_image"/>
+          </an>
+          <an id="dow1_FemaleShadow"/>
+          <an id="dow0_FemaleText"/>
+        </an>
+      </state>
+    </et>
+    <et id="GenderSelectorTemplate_1136_640">
+      <e id="male" tid="EntMaleGenderSel">
+        <x>681</x>
+        <y>122</y>
+      </e>
+      <e id="female" tid="EntFemaleGenderSelector">
+        <x>314</x>
+        <y>122</y>
+      </e>
+    </et>
+    <et id="GenderSelectorTemplate_960_640">
+      <e id="male" tid="EntMaleGenderSel">
+        <x>575.95</x>
+        <y>131</y>
+      </e>
+      <e id="female" tid="EntFemaleGenderSelector">
+        <x>242.95</x>
+        <y>131</y>
+      </e>
+    </et>
+    <et id="LadyTemplate_1024_768">
+      <state id="exit">
+        <an id="exit_instance894_ExitAnim1024">
+          <an id="instance895_Prisentor"/>
+          <an id="instance898_bigBubble"/>
+          <an id="instance53101_emptyItem"/>
+          <an id="instance902_textChoose2Image"/>
+        </an>
+      </state>
+      <state id="raceSelection">
+        <an id="raceSelection_instance906_raceSelectionAnim1024">
+          <an id="instance907_Prisentor"/>
+          <an id="instance910_bigBubble"/>
+          <an id="instance913_textChoose2Image"/>
+        </an>
+      </state>
+      <state id="genderSelection">
+        <an id="genderSelection_instance917_genderSelectionAnim1024">
+          <an id="instance918_Prisentor"/>
+          <an id="instance921_bigBubble"/>
+          <an id="instance924_textChoose1Image"/>
+        </an>
+      </state>
+      <state id="exitLobby">
+        <an id="exitLobby_instance928_ExitLobbyAnim_1024_768">
+          <an id="instance929_vignette"/>
+          <an id="instance932_Prisentor"/>
+          <an id="instance935_bigBubble"/>
+          <an id="instance938_LobbyBubble"/>
+        </an>
+      </state>
+      <state id="lobby">
+        <an id="lobby_instance942_LobbyAnim_1024_768">
+          <an id="instance943_vignette"/>
+          <an id="instance946_Prisentor"/>
+          <an id="instance949_bigBubble"/>
+          <an id="instance952_LobbyBubble"/>
+        </an>
+      </state>
+      <state id="welcome">
+        <an id="welcome_instance956_Prisentor"/>
+        <an id="welcome_instance959_bigBubble"/>
+        <an id="welcome_instance962_WelcomeSignImage"/>
+        <e id="nextButton" tid="NextButton">
+          <x>524</x>
+          <y>710</y>
+        </e>
+      </state>
+      <state id="ready">
+        <an id="ready_instance968_Prisentor"/>
+        <e id="instance971" tid="ReadySignEntity">
+          <x>331.25</x>
+          <y>385</y>
+        </e>
+        <e id="readyArrowMarker" tid="markerItem">
+          <x>676.05</x>
+          <y>170</y>
+          <w>2</w>
+          <h>2</h>
+        </e>
+      </state>
+      <state id="selectMachine"/>
+      <state id="pickASeat">
+        <an id="pickASeat_instance984_Prisentor"/>
+        <e id="pickASeatSign" tid="PickASeatSignEntity_2">
+          <x>218.6</x>
+          <y>623.35</y>
+        </e>
+      </state>
+      <state id="spin">
+        <an id="spin_instance999_SpinAnim_1024_768">
+          <an id="instance1000_Prisentor"/>
+          <an id="instance1003_bigBubble"/>
+          <an id="instance1006_textSpin1Image"/>
+        </an>
+      </state>
+      <state id="exitSpin">
+        <an id="exitSpin_instance1010_ExitSpinAnim1024">
+          <an id="instance1011_Prisentor"/>
+          <an id="instance1014_bigBubble"/>
+          <an id="instance1017_textSpin1Image"/>
+        </an>
+      </state>
+    </et>
+    <et id="NextButton" type="Button">
+      <state id="up" w="332.7" h="129.95">
+        <bd>
+          <bvr h="129.97" y="-65" w="332.71" x="-166.35"/>
+        </bd>
+        <an id="instance5324514_NextButtonUpImage"/>
+      </state>
+    </et>
+    <et id="ReadySignEntity">
+      <an id="instance972_ReadySignImage"/>
+      <an id="instance975_textChooseReady"/>
+      <an id="instance979_textChooseGames"/>
+    </et>
+    <et id="markerItem" type="Marker"/>
+    <et id="PickASeatSignEntity_2">
+      <state id="normal">
+        <an id="normal_instance987_bigBubble"/>
+        <an id="normal_instance990_PickASeatSignImage"/>
+      </state>
+      <state id="pickVacant">
+        <an id="pickVacant_bbbnnmmmmm_bigBubble"/>
+        <an id="pickVacant_instance996_ChooseVacantSeatSignImage"/>
+      </state>
+    </et>
+    <et id="LadyTemplate_1136_640">
+      <state id="exit">
+        <an id="exit_instance1022_ExitAnim_1136">
+          <an id="instance1023_Prisentor"/>
+          <an id="instance1026_bigBubble"/>
+          <an id="instance1029_textChoose3"/>
+          <an id="instance1033_textChoose2Image"/>
+        </an>
+      </state>
+      <state id="raceSelection">
+        <an id="raceSelection_instance1037_raceSelectionAnim_1136">
+          <an id="instance1038_Prisentor"/>
+          <an id="instance1041_bigBubble"/>
+          <an id="instance1044_textChoose2Image"/>
+        </an>
+      </state>
+      <state id="genderSelection">
+        <an id="genderSelection_instance1048_genderSelectionAnim_1136">
+          <an id="instance1049_Prisentor"/>
+          <an id="instance1052_bigBubble"/>
+          <an id="instance53371_textChoose1Image"/>
+        </an>
+      </state>
+      <state id="lobby">
+        <an id="lobby_instance1059_LobbyAnim_1136_640copy">
+          <an id="addgffhhfhfhf233_vignette"/>
+          <an id="benbbbb_Prisentor"/>
+          <an id="instance1064_bigBubble"/>
+          <an id="instance1067_LobbyBubble"/>
+        </an>
+      </state>
+      <state id="exitLobby">
+        <an id="exitLobby_instance1071_ExitLobbyAnim_1136_640copy">
+          <an id="mmnnhjjjjjjjjj_vignette"/>
+          <an id="kkkjjhuuiol_Prisentor"/>
+          <an id="instance1076_bigBubble"/>
+          <an id="instance1079_LobbyBubble"/>
+        </an>
+      </state>
+      <state id="welcome">
+        <an id="welcome_instance1083_Prisentor"/>
+        <an id="welcome_instance1086_WelcomeSignAnim">
+          <an id="instance1087_bigBubble"/>
+          <an id="instance1090_WelcomeSignImage"/>
+        </an>
+        <e id="nextButton" tid="NextButton">
+          <x>482.45</x>
+          <y>587.35</y>
+        </e>
+      </state>
+      <state id="ready">
+        <an id="ready_instance1096_Prisentor"/>
+        <e id="instance1099" tid="ReadySignEntity">
+          <x>347.2</x>
+          <y>250</y>
+        </e>
+        <e id="readyArrowMarker" tid="markerItem">
+          <x>818</x>
+          <y>170</y>
+          <w>2</w>
+          <h>2</h>
+        </e>
+      </state>
+      <state id="selectMachine"/>
+      <state id="pickASeat">
+        <an id="pickASeat_instance1112_Prisentor"/>
+        <e id="pickASeatSign" tid="PickASeatSignEntity_2">
+          <x>162.55</x>
+          <y>517.2</y>
+        </e>
+      </state>
+      <state id="exitSpin">
+        <an id="exitSpin_instance1127_ExitSpinAnim_1136_640">
+          <an id="instance1128_Prisentor"/>
+          <an id="instance1131_bigBubble"/>
+          <an id="instance1134_textSpin1Image"/>
+        </an>
+      </state>
+      <state id="spin">
+        <an id="spin_instance1138_SpinAnim__1136_640">
+          <an id="instance1139_Prisentor"/>
+          <an id="instance1142_bigBubble"/>
+          <an id="instance1145_textSpin1Image"/>
+        </an>
+      </state>
+    </et>
+    <et id="LadyTemplate_960_640">
+      <state id="exit">
+        <an id="exit_instance1150_ExitAnim_960">
+          <an id="instance1151_Prisentor"/>
+          <an id="instance1154_bigBubble"/>
+          <an id="instance53545_emptyItem"/>
+          <an id="instance1158_textChoose2Image"/>
+        </an>
+      </state>
+      <state id="raceSelection">
+        <an id="raceSelection_instance1162_raceSelectionAnim_960">
+          <an id="instance1163_Prisentor"/>
+          <an id="instance1166_bigBubble"/>
+          <an id="instance1169_textChoose2Image"/>
+        </an>
+      </state>
+      <state id="genderSelection">
+        <an id="genderSelection_instance1173_genderSelectionAnim_960">
+          <an id="instance1174_Prisentor"/>
+          <an id="instance1177_bigBubble"/>
+          <an id="instance1180_textChoose1Image"/>
+        </an>
+      </state>
+      <state id="lobby">
+        <an id="lobby_instance1184_LobbyAnim_960_640">
+          <an id="instance1185_vignette"/>
+          <an id="instance1188_Prisentor"/>
+          <an id="instance1191_bigBubble"/>
+          <an id="instance1194_LobbyBubble"/>
+        </an>
+      </state>
+      <state id="exitLobby">
+        <an id="exitLobby_instance1198_ExitLobbyAnim_960_640">
+          <an id="xncfjm2_vignette"/>
+          <an id="instance1201_Prisentor"/>
+          <an id="instance1204_bigBubble"/>
+          <an id="instance1207_LobbyBubble"/>
+        </an>
+      </state>
+      <state id="welcome">
+        <an id="welcome_instance1211_Prisentor"/>
+        <an id="welcome_instance1214_WelcomeSignAnim">
+          <an id="instance1215_bigBubble"/>
+          <an id="instance1218_WelcomeSignImage"/>
+        </an>
+        <e id="nextButton" tid="NextButton">
+          <x>482.45</x>
+          <y>587.35</y>
+        </e>
+      </state>
+      <state id="ready">
+        <an id="ready_instance1224_Prisentor"/>
+        <e id="instance1227" tid="ReadySignEntity">
+          <x>273.2</x>
+          <y>250</y>
+        </e>
+        <e id="readyArrowMarker" tid="markerItem">
+          <x>640</x>
+          <y>170</y>
+          <w>2</w>
+          <h>2</h>
+        </e>
+      </state>
+      <state id="selectMachine"/>
+      <state id="pickASeat">
+        <an id="pickASeat_instance1240_Prisentor"/>
+        <e id="pickASeatSign" tid="PickASeatSignEntity_2">
+          <x>162.55</x>
+          <y>517.2</y>
+        </e>
+      </state>
+      <state id="spin">
+        <an id="spin_instance1255_SpinAnim_960_640">
+          <an id="instance1256_Prisentor"/>
+          <an id="instance1259_bigBubble"/>
+          <an id="instance1262_textSpin1Image"/>
+        </an>
+      </state>
+      <state id="exitSpin">
+        <an id="exitSpin_instance1266_ExitSpinAnim_960_640">
+          <an id="instance1267_Prisentor"/>
+          <an id="instance1270_bigBubble"/>
+          <an id="instance1273_textSpin1Image"/>
+        </an>
+      </state>
+    </et>
+    <et id="AvatarSelectorTemplate_1024_768">
+      <state id="female">
+        <an id="female_instance1278_avatarSelectorFemaleAnim1024">
+          <e id="item_1" tid="EntFemale11024">
+            <x>212.45</x>
+            <y>268.65</y>
+            <sx>1.07</sx>
+            <sy>1.07</sy>
+          </e>
+          <e id="item_4" tid="EntFemale21024">
+            <x>345.4</x>
+            <y>268.65</y>
+            <sx>1.07</sx>
+            <sy>1.07</sy>
+          </e>
+          <e id="item_5" tid="EntFemale31024">
+            <x>472.85</x>
+            <y>268.65</y>
+            <sx>1.07</sx>
+            <sy>1.07</sy>
+          </e>
+          <e id="item_3" tid="EntFemale41024">
+            <x>609.3</x>
+            <y>268.65</y>
+            <sx>1.07</sx>
+            <sy>1.07</sy>
+          </e>
+          <e id="item_2" tid="EntFemale51024">
+            <x>742.25</x>
+            <y>268.65</y>
+            <sx>1.07</sx>
+            <sy>1.07</sy>
+          </e>
+          <e id="item_6" tid="EntFemale61024">
+            <x>875.2</x>
+            <y>268.65</y>
+            <sx>1.07</sx>
+            <sy>1.07</sy>
+          </e>
+        </an>
+      </state>
+      <state id="male">
+        <an id="male_instance2090_AvatarSelectorMaleAnim_1024_7681024">
+          <e id="item_1" tid="EntMale1_1024_7681024">
+            <x>270.3</x>
+            <y>248.1</y>
+            <sx>1.1</sx>
+            <sy>1.1</sy>
+          </e>
+          <e id="item_2" tid="EntMale2_1024_7681024">
+            <x>445</x>
+            <y>251.1</y>
+            <sx>1.1</sx>
+            <sy>1.1</sy>
+          </e>
+          <e id="item_3" tid="EntMale3_1024_7681024">
+            <x>623</x>
+            <y>250.1</y>
+            <sx>1.1</sx>
+            <sy>1.1</sy>
+          </e>
+          <e id="item_4" tid="EntMale4_1024_7681024">
+            <x>802</x>
+            <y>251.1</y>
+            <sx>1.1</sx>
+            <sy>1.1</sy>
+          </e>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale11024">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance1279_avatarIdleAnimFemale11024">
+          <e id="itemBtn" tid="AvatarSelBtnFemale11024"/>
+        </an>
+      </state>
+      <state id="notSelected">
+        <an id="notSelected_instance1353_notSelectedAnimFemale11024">
+          <an id="mjmjmjmjmjjjjjkkkk2_floorLight">
+            <an id="instance60420_floorLight_image"/>
+          </an>
+          <an id="mjmjmjmjmjjjjjkkkk0_lightBack">
+            <an id="instance60459_lightBack_image"/>
+          </an>
+          <an id="instance1360_F_asian_anim2">
+            <an id="instance1361_R_F_hand"/>
+            <an id="instance1364_Female_body_legs"/>
+            <an id="instance1367_backHair_asian"/>
+            <an id="instance1369_F_caucasian_body"/>
+            <an id="instance1372_L_F_hand"/>
+            <an id="instance1375_F_underwear"/>
+            <an id="instance1378_L_F_palm"/>
+            <an id="instance1381_F_asian_head"/>
+          </an>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance1384_avatarSelectedAnimFemale11024">
+          <an id="instance1385_floorLight">
+            <an id="instance1386_floorLight_image"/>
+          </an>
+          <an id="instance1389_lightBack">
+            <an id="instance1390_lightBack_image"/>
+          </an>
+          <an id="instance1393_F_asian_anim2">
+            <an id="instance1394_R_F_hand"/>
+            <an id="instance1397_Female_body_legs"/>
+            <an id="instance1400_backHair_asian"/>
+            <an id="instance1402_F_caucasian_body"/>
+            <an id="instance1405_L_F_hand"/>
+            <an id="instance1408_F_underwear"/>
+            <an id="instance1411_L_F_palm"/>
+            <an id="instance1414_F_asian_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="AvatarSelBtnFemale11024" type="Button">
+      <state id="up" w="143" h="285">
+        <bd>
+          <bvr h="285" y="0" w="143" x="0"/>
+        </bd>
+        <an id="instance5377017_AvatarSelUpAnimFemale11024">
+          <an id="yytjyhnyjyt4_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance54591_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance54851_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance55111_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance55371_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance55631_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance55891_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="yytjyhnyjyt3_floorLight">
+            <an id="instance57233_floorLight_image"/>
+          </an>
+          <an id="instance53800_lightBack">
+            <an id="instance53801_lightBack_image"/>
+          </an>
+          <an id="instance53804_F_asian_anim2">
+            <an id="instance53805_R_F_hand"/>
+            <an id="instance53808_Female_body_legs"/>
+            <an id="instance53811_backHair_asian"/>
+            <an id="instance53813_F_caucasian_body"/>
+            <an id="instance53816_L_F_hand"/>
+            <an id="instance53819_F_underwear"/>
+            <an id="instance53822_L_F_palm"/>
+            <an id="instance53825_F_asian_head"/>
+          </an>
+          <an id="yytjyhnyjyt0_StarsCycleUpper">
+            <an id="instance53828_emptyItem" onComplete="loop"/>
+            <an id="instance57639_emptyItem" onComplete="loop"/>
+            <an id="instance57832_emptyItem" onComplete="loop"/>
+            <an id="instance58025_emptyItem" onComplete="loop"/>
+            <an id="instance58218_emptyItem" onComplete="loop"/>
+            <an id="instance58411_emptyItem" onComplete="loop"/>
+            <an id="instance58604_emptyItem" onComplete="loop"/>
+            <an id="instance58797_emptyItem" onComplete="loop"/>
+            <an id="instance58990_emptyItem" onComplete="loop"/>
+            <an id="instance59183_emptyItem" onComplete="loop"/>
+            <an id="instance59376_emptyItem" onComplete="loop"/>
+            <an id="instance59569_emptyItem" onComplete="loop"/>
+            <an id="instance59762_emptyItem" onComplete="loop"/>
+            <an id="instance59955_emptyItem" onComplete="loop"/>
+            <an id="instance60148_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="143" h="285">
+        <bd>
+          <bvr h="285" y="0" w="143" x="0"/>
+        </bd>
+        <an id="instance6032618_AvatarSelDownAnimFemale11024">
+          <an id="ererffvbbbbbb2_floorLight">
+            <an id="instance60327_floorLight_image"/>
+          </an>
+          <an id="instance60330_lightBack">
+            <an id="instance60331_lightBack_image"/>
+          </an>
+          <an id="instance60334_F_asian_anim2">
+            <an id="instance60335_R_F_hand"/>
+            <an id="instance60338_Female_body_legs"/>
+            <an id="instance60341_backHair_asian"/>
+            <an id="instance60343_F_caucasian_body"/>
+            <an id="instance60346_L_F_hand"/>
+            <an id="instance60349_F_underwear"/>
+            <an id="instance60352_L_F_palm"/>
+            <an id="instance60355_F_asian_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale21024">
+      <state id="notSelected">
+        <an id="notSelected_instance1417_avatarNotSelectedAnimFemale21024">
+          <an id="hnhgdddeety2_floorLight">
+            <an id="instance60562_floorLight_image"/>
+          </an>
+          <an id="instance1421_lightBack">
+            <an id="instance1422_lightBack_image"/>
+          </an>
+          <an id="lilikkkkkkkkjjj0_F_caucasian_anim">
+            <an id="instance60669_R_F_hand"/>
+            <an id="instance60672_Female_body_legs"/>
+            <an id="instance60675_F_caucasian_body"/>
+            <an id="instance60678_L_F_hand"/>
+            <an id="instance60681_F_caucasian_head"/>
+            <an id="instance60684_F_underwear"/>
+            <an id="instance60687_L_F_palm"/>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance1446_avatarIdleAnimFemale21024">
+          <e id="itemBtn" tid="AvatarSelBtnFemale21024"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance1517_avatarSelectedAnimFemale21024">
+          <an id="instance1518_floorLight">
+            <an id="instance1519_floorLight_image"/>
+          </an>
+          <an id="instance1522_lightBack">
+            <an id="instance1523_lightBack_image"/>
+          </an>
+          <an id="instance1526_F_caucasian_anim">
+            <an id="instance1527_R_F_hand"/>
+            <an id="instance1530_Female_body_legs"/>
+            <an id="instance1533_F_caucasian_body"/>
+            <an id="instance1536_L_F_hand"/>
+            <an id="instance1539_F_caucasian_head"/>
+            <an id="instance1542_F_underwear"/>
+            <an id="instance1545_L_F_palm"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="AvatarSelBtnFemale21024" type="Button">
+      <state id="up" w="143" h="285.05">
+        <bd>
+          <bvr h="285.03" y="0" w="142.99" x="0"/>
+        </bd>
+        <an id="instance6072119_AvatarSelUpAnimFemale21024">
+          <an id="sasxxxcd4_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance61560_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance61820_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance62080_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance62340_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance62600_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance62860_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="sasxxxcd3_floorLight">
+            <an id="instance64220_floorLight_image"/>
+          </an>
+          <an id="instance60751_lightBack">
+            <an id="instance60752_lightBack_image"/>
+          </an>
+          <an id="gtrtiyop0_F_caucasian_anim">
+            <an id="instance64385_R_F_hand"/>
+            <an id="instance64388_Female_body_legs"/>
+            <an id="instance64391_F_caucasian_body"/>
+            <an id="instance64394_L_F_hand"/>
+            <an id="instance64397_F_caucasian_head"/>
+            <an id="instance64400_F_underwear"/>
+            <an id="instance64403_L_F_palm"/>
+          </an>
+          <an id="sasxxxcd0_StarsCycleUpper">
+            <an id="instance60776_emptyItem" onComplete="loop"/>
+            <an id="instance64680_emptyItem" onComplete="loop"/>
+            <an id="instance64873_emptyItem" onComplete="loop"/>
+            <an id="instance65066_emptyItem" onComplete="loop"/>
+            <an id="instance65259_emptyItem" onComplete="loop"/>
+            <an id="instance65452_emptyItem" onComplete="loop"/>
+            <an id="instance65645_emptyItem" onComplete="loop"/>
+            <an id="instance65838_emptyItem" onComplete="loop"/>
+            <an id="instance66031_emptyItem" onComplete="loop"/>
+            <an id="instance66224_emptyItem" onComplete="loop"/>
+            <an id="instance66417_emptyItem" onComplete="loop"/>
+            <an id="instance66610_emptyItem" onComplete="loop"/>
+            <an id="instance66803_emptyItem" onComplete="loop"/>
+            <an id="instance66996_emptyItem" onComplete="loop"/>
+            <an id="instance67189_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="143" h="285.05">
+        <bd>
+          <bvr h="285.03" y="0" w="142.99" x="0"/>
+        </bd>
+        <an id="instance6736720_AvatarSelDownAnimFemale21024">
+          <an id="ererffvbbbbbb2_floorLight">
+            <an id="instance67368_floorLight_image"/>
+          </an>
+          <an id="instance67371_lightBack">
+            <an id="instance67372_lightBack_image"/>
+          </an>
+          <an id="wewwwwww0_F_caucasian_anim">
+            <an id="instance67494_R_F_hand"/>
+            <an id="instance67497_Female_body_legs"/>
+            <an id="instance67500_F_caucasian_body"/>
+            <an id="instance67503_L_F_hand"/>
+            <an id="instance67506_F_caucasian_head"/>
+            <an id="instance67509_F_underwear"/>
+            <an id="instance67512_L_F_palm"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale31024">
+      <state id="notSelected">
+        <an id="notSelected_instance1548_avatarNotSelectedAnimFemale31024">
+          <an id="jgfjtfttttttttuu2_floorLight">
+            <an id="instance1549_floorLight_image"/>
+          </an>
+          <an id="instance1552_lightBack">
+            <an id="instance1553_lightBack_image"/>
+          </an>
+          <an id="dckcxcdkdk1_midEast_F_anim">
+            <an id="instance1556_backHair_latino"/>
+            <an id="instance1558_R_F_hand"/>
+            <an id="instance1561_Female_body_legs"/>
+            <an id="instance1564_F_caucasian_body"/>
+            <an id="instance1567_L_F_hand"/>
+            <an id="instance1570_F_underwear"/>
+            <an id="instance1573_L_F_palm"/>
+            <an id="instance1576_F_midEast_head"/>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance1579_avatarIdleAnimFemale31024">
+          <e id="itemBtn" tid="AvatarSelBtnFemale31024"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance1653_avatarSelectedAnimFemale31024">
+          <an id="instance1654_floorLight">
+            <an id="instance1655_floorLight_image"/>
+          </an>
+          <an id="instance1658_lightBack">
+            <an id="instance1659_lightBack_image"/>
+          </an>
+          <an id="instance1662_midEast_F_anim">
+            <an id="instance1663_backHair_latino"/>
+            <an id="instance1665_R_F_hand"/>
+            <an id="instance1668_Female_body_legs"/>
+            <an id="instance1671_F_caucasian_body"/>
+            <an id="instance1674_L_F_hand"/>
+            <an id="instance1677_F_underwear"/>
+            <an id="instance1680_L_F_palm"/>
+            <an id="instance1683_F_midEast_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="AvatarSelBtnFemale31024" type="Button">
+      <state id="up" w="143" h="285.05">
+        <bd>
+          <bvr h="285.03" y="0" w="142.99" x="7"/>
+        </bd>
+        <an id="instance6766921_AvatarSelUpAnimFemale31024">
+          <an id="jkjk4_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance68490_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance68750_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance69010_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance69270_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance69530_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance69790_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="nvcvnvcnnc0_floorLight">
+            <an id="instance71132_floorLight_image"/>
+          </an>
+          <an id="instance67699_lightBack">
+            <an id="instance67700_lightBack_image"/>
+          </an>
+          <an id="instance67703_midEast_F_anim">
+            <an id="instance67704_backHair_latino"/>
+            <an id="instance67706_R_F_hand"/>
+            <an id="instance67709_Female_body_legs"/>
+            <an id="instance67712_F_caucasian_body"/>
+            <an id="instance67715_L_F_hand"/>
+            <an id="instance67718_F_underwear"/>
+            <an id="instance67721_L_F_palm"/>
+            <an id="instance67724_F_midEast_head"/>
+          </an>
+          <an id="jkjk0_StarsCycleUpper">
+            <an id="instance67727_emptyItem" onComplete="loop"/>
+            <an id="instance71538_emptyItem" onComplete="loop"/>
+            <an id="instance71731_emptyItem" onComplete="loop"/>
+            <an id="instance71924_emptyItem" onComplete="loop"/>
+            <an id="instance72117_emptyItem" onComplete="loop"/>
+            <an id="instance72310_emptyItem" onComplete="loop"/>
+            <an id="instance72503_emptyItem" onComplete="loop"/>
+            <an id="instance72696_emptyItem" onComplete="loop"/>
+            <an id="instance72889_emptyItem" onComplete="loop"/>
+            <an id="instance73082_emptyItem" onComplete="loop"/>
+            <an id="instance73275_emptyItem" onComplete="loop"/>
+            <an id="instance73468_emptyItem" onComplete="loop"/>
+            <an id="instance73661_emptyItem" onComplete="loop"/>
+            <an id="instance73854_emptyItem" onComplete="loop"/>
+            <an id="instance74047_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="143" h="285.05">
+        <bd>
+          <bvr h="285.03" y="0" w="142.99" x="7"/>
+        </bd>
+        <an id="instance7422522_AvatarSelDownAnimFemale31024">
+          <an id="ererffvbbbbbb2_floorLight">
+            <an id="instance74226_floorLight_image"/>
+          </an>
+          <an id="instance74229_lightBack">
+            <an id="instance74230_lightBack_image"/>
+          </an>
+          <an id="instance74233_midEast_F_anim">
+            <an id="instance74234_backHair_latino"/>
+            <an id="instance74236_R_F_hand"/>
+            <an id="instance74239_Female_body_legs"/>
+            <an id="instance74242_F_caucasian_body"/>
+            <an id="instance74245_L_F_hand"/>
+            <an id="instance74248_F_underwear"/>
+            <an id="instance74251_L_F_palm"/>
+            <an id="instance74254_F_midEast_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale41024">
+      <state id="notSelected">
+        <an id="notSelected_instance1686_avatarNotSelectedAnimFemale41024">
+          <an id="mbmbmbmbm2_floorLight">
+            <an id="instance74383_floorLight_image"/>
+          </an>
+          <an id="instance1690_lightBack">
+            <an id="instance1691_lightBack_image"/>
+          </an>
+          <an id="instance1694_F_latino_anim">
+            <an id="instance1695_backHair_latino"/>
+            <an id="instance1697_R_F_hand"/>
+            <an id="instance1700_Female_body_legs"/>
+            <an id="instance1703_F_caucasian_body"/>
+            <an id="instance1706_L_F_hand"/>
+            <an id="instance1709_F_underwear"/>
+            <an id="instance1712_L_F_palm"/>
+            <an id="instance1715_F_latino_head"/>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance1718_avatarIdleAnimFemale41024">
+          <e id="itemBtn" tid="AvatarSelBtnFemale41024"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance1792_avatarSelectedAnimFemale41024">
+          <an id="instance1793_floorLight">
+            <an id="instance1794_floorLight_image"/>
+          </an>
+          <an id="instance1797_lightBack">
+            <an id="instance1798_lightBack_image"/>
+          </an>
+          <an id="instance1801_F_latino_anim">
+            <an id="instance1802_backHair_latino"/>
+            <an id="instance1804_R_F_hand"/>
+            <an id="instance1807_Female_body_legs"/>
+            <an id="instance1810_F_caucasian_body"/>
+            <an id="instance1813_L_F_hand"/>
+            <an id="instance1816_F_underwear"/>
+            <an id="instance1819_L_F_palm"/>
+            <an id="instance1822_F_latino_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="AvatarSelBtnFemale41024" type="Button">
+      <state id="up" w="143" h="285.05">
+        <bd>
+          <bvr h="285.03" y="0" w="142.99" x="0"/>
+        </bd>
+        <an id="instance7448823_AvatarSelUpAnimFemale41024">
+          <an id="dfgdh4_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance75309_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance75569_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance75829_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance76089_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance76349_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance76609_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="gfdffdgfgfgfgfgfg0_floorLight">
+            <an id="instance77951_floorLight_image"/>
+          </an>
+          <an id="instance74518_lightBack">
+            <an id="instance74519_lightBack_image"/>
+          </an>
+          <an id="instance74522_F_latino_anim">
+            <an id="instance74523_backHair_latino"/>
+            <an id="instance74525_R_F_hand"/>
+            <an id="instance74528_Female_body_legs"/>
+            <an id="instance74531_F_caucasian_body"/>
+            <an id="instance74534_L_F_hand"/>
+            <an id="instance74537_F_underwear"/>
+            <an id="instance74540_L_F_palm"/>
+            <an id="instance74543_F_latino_head"/>
+          </an>
+          <an id="dfgdh0_StarsCycleUpper">
+            <an id="instance74546_emptyItem" onComplete="loop"/>
+            <an id="instance78357_emptyItem" onComplete="loop"/>
+            <an id="instance78550_emptyItem" onComplete="loop"/>
+            <an id="instance78743_emptyItem" onComplete="loop"/>
+            <an id="instance78936_emptyItem" onComplete="loop"/>
+            <an id="instance79129_emptyItem" onComplete="loop"/>
+            <an id="instance79322_emptyItem" onComplete="loop"/>
+            <an id="instance79515_emptyItem" onComplete="loop"/>
+            <an id="instance79708_emptyItem" onComplete="loop"/>
+            <an id="instance79901_emptyItem" onComplete="loop"/>
+            <an id="instance80094_emptyItem" onComplete="loop"/>
+            <an id="instance80287_emptyItem" onComplete="loop"/>
+            <an id="instance80480_emptyItem" onComplete="loop"/>
+            <an id="instance80673_emptyItem" onComplete="loop"/>
+            <an id="instance80866_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="143" h="285.05">
+        <bd>
+          <bvr h="285.03" y="0" w="142.99" x="0"/>
+        </bd>
+        <an id="instance8104424_AvatarSelDownAnimFemale41024">
+          <an id="ererffvbbbbbb2_floorLight">
+            <an id="instance81045_floorLight_image"/>
+          </an>
+          <an id="instance81048_lightBack">
+            <an id="instance81049_lightBack_image"/>
+          </an>
+          <an id="instance81052_F_latino_anim">
+            <an id="instance81053_backHair_latino"/>
+            <an id="instance81055_R_F_hand"/>
+            <an id="instance81058_Female_body_legs"/>
+            <an id="instance81061_F_caucasian_body"/>
+            <an id="instance81064_L_F_hand"/>
+            <an id="instance81067_F_underwear"/>
+            <an id="instance81070_L_F_palm"/>
+            <an id="instance81073_F_latino_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale51024">
+      <state id="notSelected">
+        <an id="notSelected_tugjggjjg2_floorLight">
+          <an id="instance81202_floorLight_image"/>
+        </an>
+        <an id="notSelected_instance1828_lightBack">
+          <an id="instance1829_lightBack_image"/>
+        </an>
+        <an id="notSelected_instance1832_F_african_anim">
+          <an id="instance1833_R_F_hand"/>
+          <an id="instance1836_Female_body_legs"/>
+          <an id="instance1839_F_caucasian_body"/>
+          <an id="instance1842_L_F_hand"/>
+          <an id="instance1845_F_underwear"/>
+          <an id="instance1848_L_F_palm"/>
+          <an id="instance1851_F_african_head"/>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance1854_avatarIdleAnimFemale51024">
+          <e id="itemBtn" tid="AvatarSelBtnFemale51024"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance1926_avatarSelectedAnimFemale51024">
+          <an id="instance1927_floorLight">
+            <an id="instance1928_floorLight_image"/>
+          </an>
+          <an id="instance1931_lightBack">
+            <an id="instance1932_lightBack_image"/>
+          </an>
+          <an id="instance1935_F_african_anim">
+            <an id="instance1936_R_F_hand"/>
+            <an id="instance1939_Female_body_legs"/>
+            <an id="instance1942_F_caucasian_body"/>
+            <an id="instance1945_L_F_hand"/>
+            <an id="instance1948_F_underwear"/>
+            <an id="instance1951_L_F_palm"/>
+            <an id="instance1954_F_african_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="AvatarSelBtnFemale51024" type="Button">
+      <state id="up" w="143" h="285.05">
+        <bd>
+          <bvr h="285.03" y="0" w="142.99" x="0"/>
+        </bd>
+        <an id="instance8130125_AvatarSelUpAnimFemale51024">
+          <an id="zxzxzx4_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance82120_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance82380_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance82640_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance82900_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance83160_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance83420_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="nggdgd0_floorLight">
+            <an id="instance84760_floorLight_image"/>
+          </an>
+          <an id="instance81331_lightBack">
+            <an id="instance81332_lightBack_image"/>
+          </an>
+          <an id="instance81335_F_african_anim">
+            <an id="instance81336_R_F_hand"/>
+            <an id="instance81339_Female_body_legs"/>
+            <an id="instance81342_F_caucasian_body"/>
+            <an id="instance81345_L_F_hand"/>
+            <an id="instance81348_F_underwear"/>
+            <an id="instance81351_L_F_palm"/>
+            <an id="instance81354_F_african_head"/>
+          </an>
+          <an id="zxzxzx0_StarsCycleUpper">
+            <an id="instance81357_emptyItem" onComplete="loop"/>
+            <an id="instance85160_emptyItem" onComplete="loop"/>
+            <an id="instance85353_emptyItem" onComplete="loop"/>
+            <an id="instance85546_emptyItem" onComplete="loop"/>
+            <an id="instance85739_emptyItem" onComplete="loop"/>
+            <an id="instance85932_emptyItem" onComplete="loop"/>
+            <an id="instance86125_emptyItem" onComplete="loop"/>
+            <an id="instance86318_emptyItem" onComplete="loop"/>
+            <an id="instance86511_emptyItem" onComplete="loop"/>
+            <an id="instance86704_emptyItem" onComplete="loop"/>
+            <an id="instance86897_emptyItem" onComplete="loop"/>
+            <an id="instance87090_emptyItem" onComplete="loop"/>
+            <an id="instance87283_emptyItem" onComplete="loop"/>
+            <an id="instance87476_emptyItem" onComplete="loop"/>
+            <an id="instance87669_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="143" h="285.05">
+        <bd>
+          <bvr h="285.03" y="0" w="142.99" x="0"/>
+        </bd>
+        <an id="instance8784726_AvatarSelDownAnimFemale51024">
+          <an id="ererffvbbbbbb2_floorLight">
+            <an id="instance87848_floorLight_image"/>
+          </an>
+          <an id="instance87851_lightBack">
+            <an id="instance87852_lightBack_image"/>
+          </an>
+          <an id="instance87855_F_african_anim">
+            <an id="instance87856_R_F_hand"/>
+            <an id="instance87859_Female_body_legs"/>
+            <an id="instance87862_F_caucasian_body"/>
+            <an id="instance87865_L_F_hand"/>
+            <an id="instance87868_F_underwear"/>
+            <an id="instance87871_L_F_palm"/>
+            <an id="instance87874_F_african_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale61024">
+      <state id="notSelected">
+        <an id="notSelected_instance1957_avatarNotSelectedAnimFemale61024">
+          <an id="bkbkkbkbkkbkbkk2_floorLight">
+            <an id="instance87995_floorLight_image"/>
+          </an>
+          <an id="instance1961_lightBack">
+            <an id="instance1962_lightBack_image"/>
+          </an>
+          <an id="instance1965_F_mixed_anim">
+            <an id="instance1966_R_F_hand"/>
+            <an id="instance1969_Female_body_legs"/>
+            <an id="instance1972_F_caucasian_body"/>
+            <an id="instance1975_L_F_hand"/>
+            <an id="instance1978_F_underwear"/>
+            <an id="instance1981_L_F_palm"/>
+            <an id="instance1984_F_mixed_head"/>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance1987_avatarIdleAnimFemale61024">
+          <e id="itemBtn" tid="AvatarSelBtnFemale61024"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance2059_avatarSelectedAnimFemale61024">
+          <an id="instance2060_floorLight">
+            <an id="instance2061_floorLight_image"/>
+          </an>
+          <an id="instance2064_lightBack">
+            <an id="instance2065_lightBack_image"/>
+          </an>
+          <an id="instance2068_F_mixed_anim">
+            <an id="instance2069_R_F_hand"/>
+            <an id="instance2072_Female_body_legs"/>
+            <an id="instance2075_F_caucasian_body"/>
+            <an id="instance2078_L_F_hand"/>
+            <an id="instance2081_F_underwear"/>
+            <an id="instance2084_L_F_palm"/>
+            <an id="instance2087_F_mixed_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="AvatarSelBtnFemale61024" type="Button">
+      <state id="up" w="143" h="285">
+        <bd>
+          <bvr h="285" y="0" w="143" x="0"/>
+        </bd>
+        <an id="instance8809427_AvatarSelUpAnimFemale61024">
+          <an id="qwert4_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance88913_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance89173_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance89433_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance89693_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance89953_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance90213_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="vffdddaa0_floorLight">
+            <an id="instance91553_floorLight_image"/>
+          </an>
+          <an id="instance88124_lightBack">
+            <an id="instance88125_lightBack_image"/>
+          </an>
+          <an id="instance88128_F_mixed_anim">
+            <an id="instance88129_R_F_hand"/>
+            <an id="instance88132_Female_body_legs"/>
+            <an id="instance88135_F_caucasian_body"/>
+            <an id="instance88138_L_F_hand"/>
+            <an id="instance88141_F_underwear"/>
+            <an id="instance88144_L_F_palm"/>
+            <an id="instance88147_F_mixed_head"/>
+          </an>
+          <an id="qwert0_StarsCycleUpper">
+            <an id="instance88150_emptyItem" onComplete="loop"/>
+            <an id="instance91953_emptyItem" onComplete="loop"/>
+            <an id="instance92146_emptyItem" onComplete="loop"/>
+            <an id="instance92339_emptyItem" onComplete="loop"/>
+            <an id="instance92532_emptyItem" onComplete="loop"/>
+            <an id="instance92725_emptyItem" onComplete="loop"/>
+            <an id="instance92918_emptyItem" onComplete="loop"/>
+            <an id="instance93111_emptyItem" onComplete="loop"/>
+            <an id="instance93304_emptyItem" onComplete="loop"/>
+            <an id="instance93497_emptyItem" onComplete="loop"/>
+            <an id="instance93690_emptyItem" onComplete="loop"/>
+            <an id="instance93883_emptyItem" onComplete="loop"/>
+            <an id="instance94076_emptyItem" onComplete="loop"/>
+            <an id="instance94269_emptyItem" onComplete="loop"/>
+            <an id="instance94462_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="143" h="285">
+        <bd>
+          <bvr h="285" y="0" w="143" x="0"/>
+        </bd>
+        <an id="instance9464028_AvatarSelDownAnimFemale61024">
+          <an id="ererffvbbbbbb2_floorLight">
+            <an id="instance94641_floorLight_image"/>
+          </an>
+          <an id="instance94644_lightBack">
+            <an id="instance94645_lightBack_image"/>
+          </an>
+          <an id="instance94648_F_mixed_anim">
+            <an id="instance94649_R_F_hand"/>
+            <an id="instance94652_Female_body_legs"/>
+            <an id="instance94655_F_caucasian_body"/>
+            <an id="instance94658_L_F_hand"/>
+            <an id="instance94661_F_underwear"/>
+            <an id="instance94664_L_F_palm"/>
+            <an id="instance94667_F_mixed_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntMale1_1024_7681024">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance2091_AvatarSelectorIdleAnimMale1_1024_7681024">
+          <e id="itemBtn" tid="BtnMale1_1024_7681024"/>
+        </an>
+      </state>
+      <state id="notSelected">
+        <an id="notSelected_instance2160_AvatarSelNotSelectedAnimMale11024">
+          <an id="instance2161_floorLight">
+            <an id="instance2162_floorLight_image"/>
+          </an>
+          <an id="uuiiyy0_lightBack">
+            <an id="instance2165_lightBack_image"/>
+          </an>
+          <an id="instance2168_asian_male_anim">
+            <an id="instance2169_MaleBody"/>
+            <an id="instance2172_BathingSuit"/>
+            <an id="instance2175_MaleL_hand"/>
+            <an id="instance2178_MaleR_hand"/>
+            <an id="instance2181_M_AsianHead"/>
+          </an>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance2184_AvatarSelSelectedAnimMale1_1024_7681024">
+          <an id="instance2185_floorLight">
+            <an id="instance2186_floorLight_image"/>
+          </an>
+          <an id="instance2189_lightBack">
+            <an id="instance2190_lightBack_image"/>
+          </an>
+          <an id="instance2193_asian_male_anim">
+            <an id="instance2194_MaleBody"/>
+            <an id="instance2197_BathingSuit"/>
+            <an id="instance2200_MaleL_hand"/>
+            <an id="instance2203_MaleR_hand"/>
+            <an id="instance2206_M_AsianHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="BtnMale1_1024_7681024" type="Button">
+      <state id="up" w="125" h="283.05">
+        <bd>
+          <bvr h="283.03" y="0" w="124.99" x="0"/>
+        </bd>
+        <an id="instance9481529_AvatarSelUpAnimMale_1024_7681024">
+          <an id="instance94816_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance95631_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance95891_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance96151_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance96411_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance96671_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance96931_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="instance98228_floorLight">
+            <an id="instance98268_floorLight_image"/>
+          </an>
+          <an id="instance94847_lightBack">
+            <an id="instance94848_lightBack_image"/>
+          </an>
+          <an id="instance94851_asian_male_anim">
+            <an id="instance94852_MaleBody"/>
+            <an id="instance94855_BathingSuit"/>
+            <an id="instance94858_MaleL_hand"/>
+            <an id="instance94861_MaleR_hand"/>
+            <an id="instance94864_M_AsianHead"/>
+          </an>
+          <an id="instance94867_StarsCycleUpper">
+            <an id="instance94868_emptyItem" onComplete="loop"/>
+            <an id="instance98659_emptyItem" onComplete="loop"/>
+            <an id="instance98852_emptyItem" onComplete="loop"/>
+            <an id="instance99045_emptyItem" onComplete="loop"/>
+            <an id="instance99238_emptyItem" onComplete="loop"/>
+            <an id="instance99431_emptyItem" onComplete="loop"/>
+            <an id="instance99624_emptyItem" onComplete="loop"/>
+            <an id="instance99817_emptyItem" onComplete="loop"/>
+            <an id="instance100010_emptyItem" onComplete="loop"/>
+            <an id="instance100203_emptyItem" onComplete="loop"/>
+            <an id="instance100396_emptyItem" onComplete="loop"/>
+            <an id="instance100589_emptyItem" onComplete="loop"/>
+            <an id="instance100782_emptyItem" onComplete="loop"/>
+            <an id="instance100975_emptyItem" onComplete="loop"/>
+            <an id="instance101168_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="125" h="283.05">
+        <bd>
+          <bvr h="283.03" y="0" w="124.99" x="0"/>
+        </bd>
+        <an id="instance10134630_AvatarSelDownAnimMale_1024_7681024">
+          <an id="instance101347_floorLight">
+            <an id="instance101348_floorLight_image"/>
+          </an>
+          <an id="instance101351_lightBack">
+            <an id="instance101352_lightBack_image"/>
+          </an>
+          <an id="instance101355_asian_male_anim">
+            <an id="instance101356_MaleBody"/>
+            <an id="instance101359_BathingSuit"/>
+            <an id="instance101362_MaleL_hand"/>
+            <an id="instance101365_MaleR_hand"/>
+            <an id="instance101368_M_AsianHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntMale2_1024_7681024">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance2209_AvatarSelectorIdleAnimMale21024">
+          <e id="itemBtn" tid="BtnMale21024"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance2278_AvatarSelSelectedAnimMale21024">
+          <an id="instance2279_floorLight">
+            <an id="instance2280_floorLight_image"/>
+          </an>
+          <an id="instance2283_lightBack">
+            <an id="instance2284_lightBack_image"/>
+          </an>
+          <an id="instance2287_african_male_anim">
+            <an id="instance2288_MaleBody"/>
+            <an id="instance2291_BathingSuit"/>
+            <an id="instance2294_MaleL_hand"/>
+            <an id="instance2297_MaleR_hand"/>
+            <an id="instance2300_M_AfricanHead"/>
+          </an>
+        </an>
+      </state>
+      <state id="notSelected">
+        <an id="notSelected_instance2303_AvatarSelNotSelectedAnimMale21024">
+          <an id="instance2304_floorLight">
+            <an id="instance2305_floorLight_image"/>
+          </an>
+          <an id="uuiiyy0_lightBack">
+            <an id="instance2308_lightBack_image"/>
+          </an>
+          <an id="instance2311_african_male_anim">
+            <an id="instance2312_MaleBody"/>
+            <an id="instance2315_BathingSuit"/>
+            <an id="instance2318_MaleL_hand"/>
+            <an id="instance2321_MaleR_hand"/>
+            <an id="instance2324_M_AfricanHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="BtnMale21024" type="Button">
+      <state id="up" w="125" h="283.05">
+        <bd>
+          <bvr h="283.03" y="0" w="124.99" x="0"/>
+        </bd>
+        <an id="instance10154031_AvatarSelUpAnimMale21024">
+          <an id="instance101541_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance102356_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance102616_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance102876_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance103136_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance103396_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance103656_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="instance104953_floorLight">
+            <an id="instance104993_floorLight_image"/>
+          </an>
+          <an id="instance101572_lightBack">
+            <an id="instance101573_lightBack_image"/>
+          </an>
+          <an id="instance101576_african_male_anim">
+            <an id="instance101577_MaleBody"/>
+            <an id="instance101580_BathingSuit"/>
+            <an id="instance101583_MaleL_hand"/>
+            <an id="instance101586_MaleR_hand"/>
+            <an id="instance101589_M_AfricanHead"/>
+          </an>
+          <an id="instance101592_StarsCycleUpper">
+            <an id="instance101593_emptyItem" onComplete="loop"/>
+            <an id="instance105384_emptyItem" onComplete="loop"/>
+            <an id="instance105577_emptyItem" onComplete="loop"/>
+            <an id="instance105770_emptyItem" onComplete="loop"/>
+            <an id="instance105963_emptyItem" onComplete="loop"/>
+            <an id="instance106156_emptyItem" onComplete="loop"/>
+            <an id="instance106349_emptyItem" onComplete="loop"/>
+            <an id="instance106542_emptyItem" onComplete="loop"/>
+            <an id="instance106735_emptyItem" onComplete="loop"/>
+            <an id="instance106928_emptyItem" onComplete="loop"/>
+            <an id="instance107121_emptyItem" onComplete="loop"/>
+            <an id="instance107314_emptyItem" onComplete="loop"/>
+            <an id="instance107507_emptyItem" onComplete="loop"/>
+            <an id="instance107700_emptyItem" onComplete="loop"/>
+            <an id="instance107893_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="125" h="283.05">
+        <bd>
+          <bvr h="283.03" y="0" w="124.99" x="0"/>
+        </bd>
+        <an id="instance10807132_AvatarSelDownAnimMale21024">
+          <an id="instance108072_floorLight">
+            <an id="instance108073_floorLight_image"/>
+          </an>
+          <an id="instance108076_lightBack">
+            <an id="instance108077_lightBack_image"/>
+          </an>
+          <an id="instance108080_african_male_anim">
+            <an id="instance108081_MaleBody"/>
+            <an id="instance108084_BathingSuit"/>
+            <an id="instance108087_MaleL_hand"/>
+            <an id="instance108090_MaleR_hand"/>
+            <an id="instance108093_M_AfricanHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntMale3_1024_7681024">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance2327_AvatarSelectorIdleAnimMale31024">
+          <e id="itemBtn" tid="BtnMale31024"/>
+        </an>
+      </state>
+      <state id="notSelected">
+        <an id="notSelected_instance2396_AvatarSelNotSelectedAnimMale31024">
+          <an id="instance2397_floorLight">
+            <an id="instance2398_floorLight_image"/>
+          </an>
+          <an id="uuiiyy0_lightBack">
+            <an id="instance2401_lightBack_image"/>
+          </an>
+          <an id="instance2404_latino_male_anim">
+            <an id="instance2405_MaleBody"/>
+            <an id="instance2408_BathingSuit"/>
+            <an id="instance2411_MaleL_hand"/>
+            <an id="instance2414_MaleR_hand"/>
+            <an id="instance2417_M_LatinHead"/>
+          </an>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance2420_AvatarSelSelectedAnimMale31024">
+          <an id="instance2421_floorLight">
+            <an id="instance2422_floorLight_image"/>
+          </an>
+          <an id="instance2425_lightBack">
+            <an id="instance2426_lightBack_image"/>
+          </an>
+          <an id="instance2429_latino_male_anim">
+            <an id="instance2430_MaleBody"/>
+            <an id="instance2433_BathingSuit"/>
+            <an id="instance2436_MaleL_hand"/>
+            <an id="instance2439_MaleR_hand"/>
+            <an id="instance2442_M_LatinHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="BtnMale31024" type="Button">
+      <state id="up" w="125" h="283.05">
+        <bd>
+          <bvr h="283.03" y="0" w="124.99" x="0"/>
+        </bd>
+        <an id="instance10826533_AvatarSelUpAnimMale31024">
+          <an id="instance108266_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance109081_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance109341_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance109601_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance109861_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance110121_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance110381_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="instance111678_floorLight">
+            <an id="instance111718_floorLight_image"/>
+          </an>
+          <an id="instance108297_lightBack">
+            <an id="instance108298_lightBack_image"/>
+          </an>
+          <an id="instance108301_latino_male_anim">
+            <an id="instance108302_MaleBody"/>
+            <an id="instance108305_BathingSuit"/>
+            <an id="instance108308_MaleL_hand"/>
+            <an id="instance108311_MaleR_hand"/>
+            <an id="instance108314_M_LatinHead"/>
+          </an>
+          <an id="instance108317_StarsCycleUpper">
+            <an id="instance108318_emptyItem" onComplete="loop"/>
+            <an id="instance112109_emptyItem" onComplete="loop"/>
+            <an id="instance112302_emptyItem" onComplete="loop"/>
+            <an id="instance112495_emptyItem" onComplete="loop"/>
+            <an id="instance112688_emptyItem" onComplete="loop"/>
+            <an id="instance112881_emptyItem" onComplete="loop"/>
+            <an id="instance113074_emptyItem" onComplete="loop"/>
+            <an id="instance113267_emptyItem" onComplete="loop"/>
+            <an id="instance113460_emptyItem" onComplete="loop"/>
+            <an id="instance113653_emptyItem" onComplete="loop"/>
+            <an id="instance113846_emptyItem" onComplete="loop"/>
+            <an id="instance114039_emptyItem" onComplete="loop"/>
+            <an id="instance114232_emptyItem" onComplete="loop"/>
+            <an id="instance114425_emptyItem" onComplete="loop"/>
+            <an id="instance114618_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="125" h="283.05">
+        <bd>
+          <bvr h="283.03" y="0" w="124.99" x="0"/>
+        </bd>
+        <an id="instance11479634_AvatarSelDownAnimMale31024">
+          <an id="instance114797_floorLight">
+            <an id="instance114798_floorLight_image"/>
+          </an>
+          <an id="instance114801_lightBack">
+            <an id="instance114802_lightBack_image"/>
+          </an>
+          <an id="instance114805_latino_male_anim">
+            <an id="instance114806_MaleBody"/>
+            <an id="instance114809_BathingSuit"/>
+            <an id="instance114812_MaleL_hand"/>
+            <an id="instance114815_MaleR_hand"/>
+            <an id="instance114818_M_LatinHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntMale4_1024_7681024">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance2445_AvatarSelectorIdleAnimMale4_1024">
+          <e id="itemBtn" tid="BtnMale4_1024"/>
+        </an>
+      </state>
+      <state id="notSelected">
+        <an id="notSelected_instance2514_AvatarSelNotSelectedAnimMale4_1024">
+          <an id="instance2515_floorLight">
+            <an id="instance2516_floorLight_image"/>
+          </an>
+          <an id="uuiiyy0_lightBack">
+            <an id="instance2519_lightBack_image"/>
+          </an>
+          <an id="instance2522_Caucasian_male_anim">
+            <an id="instance2523_MaleBody"/>
+            <an id="instance2526_BathingSuit"/>
+            <an id="instance2529_MaleL_hand"/>
+            <an id="instance2532_MaleR_hand"/>
+            <an id="instance2535_M_CaucasianHead"/>
+          </an>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance2538_AvatarSelSelectedAnimMale4_1024">
+          <an id="instance2539_floorLight">
+            <an id="instance2540_floorLight_image"/>
+          </an>
+          <an id="instance2543_lightBack">
+            <an id="instance2544_lightBack_image"/>
+          </an>
+          <an id="instance2547_Caucasian_male_anim">
+            <an id="instance2548_MaleBody"/>
+            <an id="instance2551_BathingSuit"/>
+            <an id="instance2554_MaleL_hand"/>
+            <an id="instance2557_MaleR_hand"/>
+            <an id="instance2560_M_CaucasianHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="BtnMale4_1024" type="Button">
+      <state id="up" w="125" h="283.05">
+        <bd>
+          <bvr h="283.03" y="0" w="124.99" x="0"/>
+        </bd>
+        <an id="instance11499035_AvatarSelUpAnimMale4_1024">
+          <an id="instance114991_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance115806_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance116066_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance116326_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance116586_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance116846_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance117106_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="instance118403_floorLight">
+            <an id="instance118443_floorLight_image"/>
+          </an>
+          <an id="instance115022_lightBack">
+            <an id="instance115023_lightBack_image"/>
+          </an>
+          <an id="instance115026_Caucasian_male_anim">
+            <an id="instance115027_MaleBody"/>
+            <an id="instance115030_BathingSuit"/>
+            <an id="instance115033_MaleL_hand"/>
+            <an id="instance115036_MaleR_hand"/>
+            <an id="instance115039_M_CaucasianHead"/>
+          </an>
+          <an id="instance115042_StarsCycleUpper">
+            <an id="instance115043_emptyItem" onComplete="loop"/>
+            <an id="instance118834_emptyItem" onComplete="loop"/>
+            <an id="instance119027_emptyItem" onComplete="loop"/>
+            <an id="instance119220_emptyItem" onComplete="loop"/>
+            <an id="instance119413_emptyItem" onComplete="loop"/>
+            <an id="instance119606_emptyItem" onComplete="loop"/>
+            <an id="instance119799_emptyItem" onComplete="loop"/>
+            <an id="instance119992_emptyItem" onComplete="loop"/>
+            <an id="instance120185_emptyItem" onComplete="loop"/>
+            <an id="instance120378_emptyItem" onComplete="loop"/>
+            <an id="instance120571_emptyItem" onComplete="loop"/>
+            <an id="instance120764_emptyItem" onComplete="loop"/>
+            <an id="instance120957_emptyItem" onComplete="loop"/>
+            <an id="instance121150_emptyItem" onComplete="loop"/>
+            <an id="instance121343_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="125" h="283.05">
+        <bd>
+          <bvr h="283.03" y="0" w="124.99" x="0"/>
+        </bd>
+        <an id="instance12152136_AvatarSelDownAnimMale4_1024">
+          <an id="instance121522_floorLight">
+            <an id="instance121523_floorLight_image"/>
+          </an>
+          <an id="instance121526_lightBack">
+            <an id="instance121527_lightBack_image"/>
+          </an>
+          <an id="instance121530_Caucasian_male_anim">
+            <an id="instance121531_MaleBody"/>
+            <an id="instance121534_BathingSuit"/>
+            <an id="instance121537_MaleL_hand"/>
+            <an id="instance121540_MaleR_hand"/>
+            <an id="instance121543_M_CaucasianHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="AvatarSelectorTemplate_1136_640">
+      <state id="female">
+        <an id="female_instance2564_avatarSelectorFemaleAnim_1136_640">
+          <e id="item_1" tid="EntFemale1">
+            <x>241.4</x>
+            <y>208.15</y>
+          </e>
+          <e id="item_4" tid="EntFemale2">
+            <x>383</x>
+            <y>208.15</y>
+          </e>
+          <e id="item_5" tid="EntFemale3">
+            <x>526.55</x>
+            <y>208.15</y>
+          </e>
+          <e id="item_3" tid="EntFemale4">
+            <x>668.15</x>
+            <y>208.15</y>
+          </e>
+          <e id="item_2" tid="EntFemale5">
+            <x>811.7</x>
+            <y>208.15</y>
+          </e>
+          <e id="item_6" tid="EntFemale6">
+            <x>953.3</x>
+            <y>208.15</y>
+          </e>
+        </an>
+      </state>
+      <state id="male">
+        <an id="male_instance3381_AvatarSelectorMaleAnim_1136_640">
+          <e id="item_1" tid="EntMale1">
+            <x>312.8</x>
+            <y>195.35</y>
+          </e>
+          <e id="item_2" tid="EntMale2">
+            <x>477.8</x>
+            <y>198.1</y>
+          </e>
+          <e id="item_3" tid="EntMale3">
+            <x>642.8</x>
+            <y>197.2</y>
+          </e>
+          <e id="item_4" tid="EntMale4">
+            <x>807.8</x>
+            <y>198.1</y>
+          </e>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale1">
+      <state id="notSelected">
+        <an id="notSelected_instance2565_notSelectedAnimFemale1">
+          <an id="mmmjjjjjj0_floorLight">
+            <an id="instance121688_floorLight_image"/>
+          </an>
+          <an id="instance121697_lightBack">
+            <an id="instance121728_lightBack_image"/>
+          </an>
+          <an id="instance2573_F_asian_anim2">
+            <an id="instance2574_R_F_hand"/>
+            <an id="instance2577_Female_body_legs"/>
+            <an id="instance2580_backHair_asian"/>
+            <an id="instance2582_F_caucasian_body"/>
+            <an id="instance2585_L_F_hand"/>
+            <an id="instance2588_F_underwear"/>
+            <an id="instance2591_L_F_palm"/>
+            <an id="instance2594_F_asian_head"/>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance2597_avatarIdleAnimFemale1">
+          <e id="itemBtn" tid="AvatarSelBtnFemale1"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance2671_avatarSelectedAnimFemale1">
+          <an id="instance2672_floorLight">
+            <an id="instance128452_floorLight_image"/>
+          </an>
+          <an id="instance2676_lightBack">
+            <an id="instance2677_lightBack_image"/>
+          </an>
+          <an id="instance2680_F_asian_anim2">
+            <an id="instance2681_R_F_hand"/>
+            <an id="instance2684_Female_body_legs"/>
+            <an id="instance2687_backHair_asian"/>
+            <an id="instance2689_F_caucasian_body"/>
+            <an id="instance2692_L_F_hand"/>
+            <an id="instance2695_F_underwear"/>
+            <an id="instance2698_L_F_palm"/>
+            <an id="instance2701_F_asian_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="AvatarSelBtnFemale1" type="Button">
+      <state id="up" w="143" h="285">
+        <bd>
+          <bvr h="285" y="0" w="143" x="0"/>
+        </bd>
+        <an id="instance12180237_AvatarSelUpAnimFemale1">
+          <an id="gmgm4_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance122623_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance122883_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance123143_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance123403_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance123663_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance123923_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="mmmmn0_floorLight">
+            <an id="instance125265_floorLight_image"/>
+          </an>
+          <an id="instance121832_lightBack">
+            <an id="instance121833_lightBack_image"/>
+          </an>
+          <an id="instance121836_F_asian_anim2">
+            <an id="instance121837_R_F_hand"/>
+            <an id="instance121840_Female_body_legs"/>
+            <an id="instance121843_backHair_asian"/>
+            <an id="instance121845_F_caucasian_body"/>
+            <an id="instance121848_L_F_hand"/>
+            <an id="instance121851_F_underwear"/>
+            <an id="instance121854_L_F_palm"/>
+            <an id="instance121857_F_asian_head"/>
+          </an>
+          <an id="gmgm0_StarsCycleUpper">
+            <an id="instance121860_emptyItem" onComplete="loop"/>
+            <an id="instance125671_emptyItem" onComplete="loop"/>
+            <an id="instance125864_emptyItem" onComplete="loop"/>
+            <an id="instance126057_emptyItem" onComplete="loop"/>
+            <an id="instance126250_emptyItem" onComplete="loop"/>
+            <an id="instance126443_emptyItem" onComplete="loop"/>
+            <an id="instance126636_emptyItem" onComplete="loop"/>
+            <an id="instance126829_emptyItem" onComplete="loop"/>
+            <an id="instance127022_emptyItem" onComplete="loop"/>
+            <an id="instance127215_emptyItem" onComplete="loop"/>
+            <an id="instance127408_emptyItem" onComplete="loop"/>
+            <an id="instance127601_emptyItem" onComplete="loop"/>
+            <an id="instance127794_emptyItem" onComplete="loop"/>
+            <an id="instance127987_emptyItem" onComplete="loop"/>
+            <an id="instance128180_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="143" h="285">
+        <bd>
+          <bvr h="285" y="0" w="143" x="0"/>
+        </bd>
+        <an id="instance12835838_AvatarSelDownAnimFemale1">
+          <an id="erergvb0_floorLight">
+            <an id="instance128359_floorLight_image"/>
+          </an>
+          <an id="instance128362_lightBack">
+            <an id="instance128363_lightBack_image"/>
+          </an>
+          <an id="instance128366_F_asian_anim2">
+            <an id="instance128367_R_F_hand"/>
+            <an id="instance128370_Female_body_legs"/>
+            <an id="instance128373_backHair_asian"/>
+            <an id="instance128375_F_caucasian_body"/>
+            <an id="instance128378_L_F_hand"/>
+            <an id="instance128381_F_underwear"/>
+            <an id="instance128384_L_F_palm"/>
+            <an id="instance128387_F_asian_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale2">
+      <state id="notSelected">
+        <an id="notSelected_instance2704_avatarNotSelectedAnimFemale2">
+          <an id="instance2705_floorLight">
+            <an id="instance2706_floorLight_image"/>
+          </an>
+          <an id="instance2709_lightBack">
+            <an id="instance2710_lightBack_image"/>
+          </an>
+          <an id="instance2713_F_caucasian_anim">
+            <an id="instance2714_R_F_hand"/>
+            <an id="instance2717_Female_body_legs"/>
+            <an id="instance2720_F_caucasian_body"/>
+            <an id="instance2723_L_F_hand"/>
+            <an id="instance2726_F_caucasian_head"/>
+            <an id="instance2729_F_underwear"/>
+            <an id="instance2732_L_F_palm"/>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance2735_avatarIdleAnimFemale2">
+          <e id="itemBtn" tid="AvatarSelBtnFemale2"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance2807_avatarSelectedAnimFemale2">
+          <an id="instance2808_floorLight">
+            <an id="instance135356_floorLight_image"/>
+          </an>
+          <an id="instance2812_lightBack">
+            <an id="instance2813_lightBack_image"/>
+          </an>
+          <an id="instance2816_F_caucasian_anim">
+            <an id="instance2817_R_F_hand"/>
+            <an id="instance2820_Female_body_legs"/>
+            <an id="instance2823_F_caucasian_body"/>
+            <an id="instance2826_L_F_hand"/>
+            <an id="instance2829_F_caucasian_head"/>
+            <an id="instance2832_F_underwear"/>
+            <an id="instance2835_L_F_palm"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="AvatarSelBtnFemale2" type="Button">
+      <state id="up" w="143" h="285.05">
+        <bd>
+          <bvr h="285.03" y="0" w="142.99" x="0"/>
+        </bd>
+        <an id="instance12861739_AvatarSelUpAnimFemale2">
+          <an id="gggggggggggggfffffffdddrdf_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance129457_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance129717_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance129977_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance130237_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance130497_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance130757_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="yuyutgg0_floorLight">
+            <an id="instance132118_floorLight_image"/>
+          </an>
+          <an id="instance128647_lightBack">
+            <an id="instance128648_lightBack_image"/>
+          </an>
+          <an id="instance132248_F_caucasian_anim">
+            <an id="instance132285_R_F_hand"/>
+            <an id="instance132288_Female_body_legs"/>
+            <an id="instance132291_F_caucasian_body"/>
+            <an id="instance132294_L_F_hand"/>
+            <an id="instance132297_F_caucasian_head"/>
+            <an id="instance132300_F_underwear"/>
+            <an id="instance132303_L_F_palm"/>
+          </an>
+          <an id="uuuuuuuuyyyyyyyyyyyyyt_StarsCycleUpper">
+            <an id="instance128673_emptyItem" onComplete="loop"/>
+            <an id="instance132581_emptyItem" onComplete="loop"/>
+            <an id="instance132774_emptyItem" onComplete="loop"/>
+            <an id="instance132967_emptyItem" onComplete="loop"/>
+            <an id="instance133160_emptyItem" onComplete="loop"/>
+            <an id="instance133353_emptyItem" onComplete="loop"/>
+            <an id="instance133546_emptyItem" onComplete="loop"/>
+            <an id="instance133739_emptyItem" onComplete="loop"/>
+            <an id="instance133932_emptyItem" onComplete="loop"/>
+            <an id="instance134125_emptyItem" onComplete="loop"/>
+            <an id="instance134318_emptyItem" onComplete="loop"/>
+            <an id="instance134511_emptyItem" onComplete="loop"/>
+            <an id="instance134704_emptyItem" onComplete="loop"/>
+            <an id="instance134897_emptyItem" onComplete="loop"/>
+            <an id="instance135090_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="143" h="285.05">
+        <bd>
+          <bvr h="285.03" y="0" w="142.99" x="0"/>
+        </bd>
+        <an id="instance13526840_AvatarSelDownAnimFemale2">
+          <an id="dshvnhhhh0_floorLight">
+            <an id="instance135269_floorLight_image"/>
+          </an>
+          <an id="instance135272_lightBack">
+            <an id="instance135273_lightBack_image"/>
+          </an>
+          <an id="instance135276_F_caucasian_anim">
+            <an id="instance135277_R_F_hand"/>
+            <an id="instance135280_Female_body_legs"/>
+            <an id="instance135283_F_caucasian_body"/>
+            <an id="instance135286_L_F_hand"/>
+            <an id="instance135289_F_caucasian_head"/>
+            <an id="instance135292_F_underwear"/>
+            <an id="instance135295_L_F_palm"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale3">
+      <state id="notSelected">
+        <an id="notSelected_instance2838_avatarNotSelectedAnimFemale3">
+          <an id="vvbbbbbg0_floorLight">
+            <an id="instance135425_floorLight_image"/>
+          </an>
+          <an id="instance2842_lightBack">
+            <an id="instance2843_lightBack_image"/>
+          </an>
+          <an id="instance2846_midEast_F_anim">
+            <an id="instance2847_backHair_latino"/>
+            <an id="instance2849_R_F_hand"/>
+            <an id="instance2852_Female_body_legs"/>
+            <an id="instance2855_F_caucasian_body"/>
+            <an id="instance2858_L_F_hand"/>
+            <an id="instance2861_F_underwear"/>
+            <an id="instance2864_L_F_palm"/>
+            <an id="instance2867_F_midEast_head"/>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance2870_avatarIdleAnimFemale3">
+          <e id="itemBtn" tid="AvatarSelBtnFemale3"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance2944_avatarSelectedAnimFemale3">
+          <an id="instance2945_floorLight">
+            <an id="instance142180_floorLight_image"/>
+          </an>
+          <an id="instance2949_lightBack">
+            <an id="instance2950_lightBack_image"/>
+          </an>
+          <an id="instance2953_midEast_F_anim">
+            <an id="instance2954_backHair_latino"/>
+            <an id="instance2956_R_F_hand"/>
+            <an id="instance2959_Female_body_legs"/>
+            <an id="instance2962_F_caucasian_body"/>
+            <an id="instance2965_L_F_hand"/>
+            <an id="instance2968_F_underwear"/>
+            <an id="instance2971_L_F_palm"/>
+            <an id="instance2974_F_midEast_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="AvatarSelBtnFemale3" type="Button">
+      <state id="up" w="143" h="285.05">
+        <bd>
+          <bvr h="285.03" y="0" w="142.99" x="0"/>
+        </bd>
+        <an id="instance13553041_AvatarSelUpAnimFemale3">
+          <an id="jkjk4_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance136351_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance136611_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance136871_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance137131_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance137391_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance137651_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="nvcvnvcnnc0_floorLight">
+            <an id="instance138993_floorLight_image"/>
+          </an>
+          <an id="instance135560_lightBack">
+            <an id="instance135561_lightBack_image"/>
+          </an>
+          <an id="instance135564_midEast_F_anim">
+            <an id="instance135565_backHair_latino"/>
+            <an id="instance135567_R_F_hand"/>
+            <an id="instance135570_Female_body_legs"/>
+            <an id="instance135573_F_caucasian_body"/>
+            <an id="instance135576_L_F_hand"/>
+            <an id="instance135579_F_underwear"/>
+            <an id="instance135582_L_F_palm"/>
+            <an id="instance135585_F_midEast_head"/>
+          </an>
+          <an id="jkjk0_StarsCycleUpper">
+            <an id="instance135588_emptyItem" onComplete="loop"/>
+            <an id="instance139399_emptyItem" onComplete="loop"/>
+            <an id="instance139592_emptyItem" onComplete="loop"/>
+            <an id="instance139785_emptyItem" onComplete="loop"/>
+            <an id="instance139978_emptyItem" onComplete="loop"/>
+            <an id="instance140171_emptyItem" onComplete="loop"/>
+            <an id="instance140364_emptyItem" onComplete="loop"/>
+            <an id="instance140557_emptyItem" onComplete="loop"/>
+            <an id="instance140750_emptyItem" onComplete="loop"/>
+            <an id="instance140943_emptyItem" onComplete="loop"/>
+            <an id="instance141136_emptyItem" onComplete="loop"/>
+            <an id="instance141329_emptyItem" onComplete="loop"/>
+            <an id="instance141522_emptyItem" onComplete="loop"/>
+            <an id="instance141715_emptyItem" onComplete="loop"/>
+            <an id="instance141908_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="143" h="285.05">
+        <bd>
+          <bvr h="285.03" y="0" w="142.99" x="0"/>
+        </bd>
+        <an id="instance14208642_AvatarSelDownAnimFemale3">
+          <an id="bcvcccccc0_floorLight">
+            <an id="instance142087_floorLight_image"/>
+          </an>
+          <an id="instance142090_lightBack">
+            <an id="instance142091_lightBack_image"/>
+          </an>
+          <an id="instance142094_midEast_F_anim">
+            <an id="instance142095_backHair_latino"/>
+            <an id="instance142097_R_F_hand"/>
+            <an id="instance142100_Female_body_legs"/>
+            <an id="instance142103_F_caucasian_body"/>
+            <an id="instance142106_L_F_hand"/>
+            <an id="instance142109_F_underwear"/>
+            <an id="instance142112_L_F_palm"/>
+            <an id="instance142115_F_midEast_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale4">
+      <state id="notSelected">
+        <an id="notSelected_instance2977_avatarNotSelectedAnimFemale4">
+          <an id="mmmmmffdw0_floorLight">
+            <an id="instance142253_floorLight_image"/>
+          </an>
+          <an id="instance2981_lightBack">
+            <an id="instance2982_lightBack_image"/>
+          </an>
+          <an id="instance2985_F_latino_anim">
+            <an id="instance2986_backHair_latino"/>
+            <an id="instance2988_R_F_hand"/>
+            <an id="instance2991_Female_body_legs"/>
+            <an id="instance2994_F_caucasian_body"/>
+            <an id="instance2997_L_F_hand"/>
+            <an id="instance3000_F_underwear"/>
+            <an id="instance3003_L_F_palm"/>
+            <an id="instance3006_F_latino_head"/>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance3009_avatarIdleAnimFemale4">
+          <e id="itemBtn" tid="AvatarSelBtnFemale4"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance3083_avatarSelectedAnimFemale4">
+          <an id="instance3084_floorLight">
+            <an id="instance149008_floorLight_image"/>
+          </an>
+          <an id="instance3088_lightBack">
+            <an id="instance3089_lightBack_image"/>
+          </an>
+          <an id="instance3092_F_latino_anim">
+            <an id="instance3093_backHair_latino"/>
+            <an id="instance3095_R_F_hand"/>
+            <an id="instance3098_Female_body_legs"/>
+            <an id="instance3101_F_caucasian_body"/>
+            <an id="instance3104_L_F_hand"/>
+            <an id="instance3107_F_underwear"/>
+            <an id="instance3110_L_F_palm"/>
+            <an id="instance3113_F_latino_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="AvatarSelBtnFemale4" type="Button">
+      <state id="up" w="143" h="285.05">
+        <bd>
+          <bvr h="285.03" y="0" w="142.99" x="0"/>
+        </bd>
+        <an id="instance14235843_AvatarSelUpAnimFemale4">
+          <an id="dfgdh4_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance143179_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance143439_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance143699_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance143959_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance144219_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance144479_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="gfdffdgfgfgfgfgfg0_floorLight">
+            <an id="instance145821_floorLight_image"/>
+          </an>
+          <an id="instance142388_lightBack">
+            <an id="instance142389_lightBack_image"/>
+          </an>
+          <an id="instance142392_F_latino_anim">
+            <an id="instance142393_backHair_latino"/>
+            <an id="instance142395_R_F_hand"/>
+            <an id="instance142398_Female_body_legs"/>
+            <an id="instance142401_F_caucasian_body"/>
+            <an id="instance142404_L_F_hand"/>
+            <an id="instance142407_F_underwear"/>
+            <an id="instance142410_L_F_palm"/>
+            <an id="instance142413_F_latino_head"/>
+          </an>
+          <an id="dfgdh0_StarsCycleUpper">
+            <an id="instance142416_emptyItem" onComplete="loop"/>
+            <an id="instance146227_emptyItem" onComplete="loop"/>
+            <an id="instance146420_emptyItem" onComplete="loop"/>
+            <an id="instance146613_emptyItem" onComplete="loop"/>
+            <an id="instance146806_emptyItem" onComplete="loop"/>
+            <an id="instance146999_emptyItem" onComplete="loop"/>
+            <an id="instance147192_emptyItem" onComplete="loop"/>
+            <an id="instance147385_emptyItem" onComplete="loop"/>
+            <an id="instance147578_emptyItem" onComplete="loop"/>
+            <an id="instance147771_emptyItem" onComplete="loop"/>
+            <an id="instance147964_emptyItem" onComplete="loop"/>
+            <an id="instance148157_emptyItem" onComplete="loop"/>
+            <an id="instance148350_emptyItem" onComplete="loop"/>
+            <an id="instance148543_emptyItem" onComplete="loop"/>
+            <an id="instance148736_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="143" h="285.05">
+        <bd>
+          <bvr h="285.03" y="0" w="142.99" x="0"/>
+        </bd>
+        <an id="instance14891444_AvatarSelDownAnimFemale4">
+          <an id="ssdsdddsdsd0_floorLight">
+            <an id="instance148915_floorLight_image"/>
+          </an>
+          <an id="instance148918_lightBack">
+            <an id="instance148919_lightBack_image"/>
+          </an>
+          <an id="instance148922_F_latino_anim">
+            <an id="instance148923_backHair_latino"/>
+            <an id="instance148925_R_F_hand"/>
+            <an id="instance148928_Female_body_legs"/>
+            <an id="instance148931_F_caucasian_body"/>
+            <an id="instance148934_L_F_hand"/>
+            <an id="instance148937_F_underwear"/>
+            <an id="instance148940_L_F_palm"/>
+            <an id="instance148943_F_latino_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale5">
+      <state id="notSelected">
+        <an id="notSelected_mhmgffgfdh0_floorLight">
+          <an id="instance149081_floorLight_image"/>
+        </an>
+        <an id="notSelected_instance3119_lightBack">
+          <an id="instance3120_lightBack_image"/>
+        </an>
+        <an id="notSelected_instance3123_F_african_anim">
+          <an id="instance3124_R_F_hand"/>
+          <an id="instance3127_Female_body_legs"/>
+          <an id="instance3130_F_caucasian_body"/>
+          <an id="instance3133_L_F_hand"/>
+          <an id="instance3136_F_underwear"/>
+          <an id="instance3139_L_F_palm"/>
+          <an id="instance3142_F_african_head"/>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance3145_avatarIdleAnimFemale5">
+          <e id="itemBtn" tid="AvatarSelBtnFemale5"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance3217_avatarSelectedAnimFemale5">
+          <an id="instance3218_floorLight">
+            <an id="instance155814_floorLight_image"/>
+          </an>
+          <an id="instance3222_lightBack">
+            <an id="instance3223_lightBack_image"/>
+          </an>
+          <an id="instance3226_F_african_anim">
+            <an id="instance3227_R_F_hand"/>
+            <an id="instance3230_Female_body_legs"/>
+            <an id="instance3233_F_caucasian_body"/>
+            <an id="instance3236_L_F_hand"/>
+            <an id="instance3239_F_underwear"/>
+            <an id="instance3242_L_F_palm"/>
+            <an id="instance3245_F_african_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="AvatarSelBtnFemale5" type="Button">
+      <state id="up" w="143" h="285.05">
+        <bd>
+          <bvr h="285.03" y="0" w="142.99" x="0"/>
+        </bd>
+        <an id="instance14918045_AvatarSelUpAnimFemale5">
+          <an id="zxzxzx4_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance149999_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance150259_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance150519_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance150779_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance151039_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance151299_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="nggdgd0_floorLight">
+            <an id="instance152639_floorLight_image"/>
+          </an>
+          <an id="instance149210_lightBack">
+            <an id="instance149211_lightBack_image"/>
+          </an>
+          <an id="instance149214_F_african_anim">
+            <an id="instance149215_R_F_hand"/>
+            <an id="instance149218_Female_body_legs"/>
+            <an id="instance149221_F_caucasian_body"/>
+            <an id="instance149224_L_F_hand"/>
+            <an id="instance149227_F_underwear"/>
+            <an id="instance149230_L_F_palm"/>
+            <an id="instance149233_F_african_head"/>
+          </an>
+          <an id="zxzxzx0_StarsCycleUpper">
+            <an id="instance149236_emptyItem" onComplete="loop"/>
+            <an id="instance153039_emptyItem" onComplete="loop"/>
+            <an id="instance153232_emptyItem" onComplete="loop"/>
+            <an id="instance153425_emptyItem" onComplete="loop"/>
+            <an id="instance153618_emptyItem" onComplete="loop"/>
+            <an id="instance153811_emptyItem" onComplete="loop"/>
+            <an id="instance154004_emptyItem" onComplete="loop"/>
+            <an id="instance154197_emptyItem" onComplete="loop"/>
+            <an id="instance154390_emptyItem" onComplete="loop"/>
+            <an id="instance154583_emptyItem" onComplete="loop"/>
+            <an id="instance154776_emptyItem" onComplete="loop"/>
+            <an id="instance154969_emptyItem" onComplete="loop"/>
+            <an id="instance155162_emptyItem" onComplete="loop"/>
+            <an id="instance155355_emptyItem" onComplete="loop"/>
+            <an id="instance155548_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="143" h="285.05">
+        <bd>
+          <bvr h="285.03" y="0" w="142.99" x="0"/>
+        </bd>
+        <an id="instance15572646_AvatarSelDownAnimFemale5">
+          <an id="nnnfffhhhhjj0_floorLight">
+            <an id="instance155727_floorLight_image"/>
+          </an>
+          <an id="instance155730_lightBack">
+            <an id="instance155731_lightBack_image"/>
+          </an>
+          <an id="instance155734_F_african_anim">
+            <an id="instance155735_R_F_hand"/>
+            <an id="instance155738_Female_body_legs"/>
+            <an id="instance155741_F_caucasian_body"/>
+            <an id="instance155744_L_F_hand"/>
+            <an id="instance155747_F_underwear"/>
+            <an id="instance155750_L_F_palm"/>
+            <an id="instance155753_F_african_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale6">
+      <state id="notSelected">
+        <an id="notSelected_instance3248_avatarNotSelectedAnimFemale6">
+          <an id="mmmhmhmhmhmh0_floorLight">
+            <an id="instance155883_floorLight_image"/>
+          </an>
+          <an id="instance3252_lightBack">
+            <an id="instance3253_lightBack_image"/>
+          </an>
+          <an id="instance155967_F_mixed_anim">
+            <an id="instance155992_R_F_hand"/>
+            <an id="instance155995_Female_body_legs"/>
+            <an id="instance155998_F_caucasian_body"/>
+            <an id="instance156001_L_F_hand"/>
+            <an id="instance156004_F_underwear"/>
+            <an id="instance156007_L_F_palm"/>
+            <an id="instance156010_F_mixed_head"/>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance3278_avatarIdleAnimFemale6">
+          <e id="itemBtn" tid="AvatarSelBtnFemale6"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance3350_avatarSelectedAnimFemale6">
+          <an id="instance3351_floorLight">
+            <an id="instance162847_floorLight_image"/>
+          </an>
+          <an id="instance3355_lightBack">
+            <an id="instance3356_lightBack_image"/>
+          </an>
+          <an id="instance162933_F_mixed_anim">
+            <an id="instance162958_R_F_hand"/>
+            <an id="instance162961_Female_body_legs"/>
+            <an id="instance162964_F_caucasian_body"/>
+            <an id="instance162967_L_F_hand"/>
+            <an id="instance162970_F_underwear"/>
+            <an id="instance162973_L_F_palm"/>
+            <an id="instance162976_F_mixed_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="AvatarSelBtnFemale6" type="Button">
+      <state id="up" w="143" h="285">
+        <bd>
+          <bvr h="285" y="0" w="143" x="0"/>
+        </bd>
+        <an id="instance15604547_AvatarSelUpAnimFemale6">
+          <an id="qwert4_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance156885_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance157145_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance157405_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance157665_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance157925_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance158185_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="vffdddaa0_floorLight">
+            <an id="instance159546_floorLight_image"/>
+          </an>
+          <an id="instance156075_lightBack">
+            <an id="instance156076_lightBack_image"/>
+          </an>
+          <an id="instance159676_F_mixed_anim">
+            <an id="instance159713_R_F_hand"/>
+            <an id="instance159716_Female_body_legs"/>
+            <an id="instance159719_F_caucasian_body"/>
+            <an id="instance159722_L_F_hand"/>
+            <an id="instance159725_F_underwear"/>
+            <an id="instance159728_L_F_palm"/>
+            <an id="instance159731_F_mixed_head"/>
+          </an>
+          <an id="qwert0_StarsCycleUpper">
+            <an id="instance156101_emptyItem" onComplete="loop"/>
+            <an id="instance160009_emptyItem" onComplete="loop"/>
+            <an id="instance160202_emptyItem" onComplete="loop"/>
+            <an id="instance160395_emptyItem" onComplete="loop"/>
+            <an id="instance160588_emptyItem" onComplete="loop"/>
+            <an id="instance160781_emptyItem" onComplete="loop"/>
+            <an id="instance160974_emptyItem" onComplete="loop"/>
+            <an id="instance161167_emptyItem" onComplete="loop"/>
+            <an id="instance161360_emptyItem" onComplete="loop"/>
+            <an id="instance161553_emptyItem" onComplete="loop"/>
+            <an id="instance161746_emptyItem" onComplete="loop"/>
+            <an id="instance161939_emptyItem" onComplete="loop"/>
+            <an id="instance162132_emptyItem" onComplete="loop"/>
+            <an id="instance162325_emptyItem" onComplete="loop"/>
+            <an id="instance162518_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="143" h="285">
+        <bd>
+          <bvr h="285" y="0" w="143" x="0"/>
+        </bd>
+        <an id="instance16269648_AvatarSelDownAnimFemale6">
+          <an id="dfdffffffffgh0_floorLight">
+            <an id="instance162697_floorLight_image"/>
+          </an>
+          <an id="instance162700_lightBack">
+            <an id="instance162701_lightBack_image"/>
+          </an>
+          <an id="instance162804_F_mixed_anim">
+            <an id="instance162826_R_F_hand"/>
+            <an id="instance162829_Female_body_legs"/>
+            <an id="instance162832_F_caucasian_body"/>
+            <an id="instance162835_L_F_hand"/>
+            <an id="instance162838_F_underwear"/>
+            <an id="instance162841_L_F_palm"/>
+            <an id="instance162844_F_mixed_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntMale1">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance3382_AvatarSelectorIdleAnimMale1">
+          <e id="itemBtn" tid="BtnMale1"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance3451_AvatarSelSelectedAnimMale1">
+          <an id="instance3452_floorLight">
+            <an id="instance3453_floorLight_image"/>
+          </an>
+          <an id="instance3456_lightBack">
+            <an id="instance3457_lightBack_image"/>
+          </an>
+          <an id="instance3460_asian_male_anim">
+            <an id="instance3461_MaleBody"/>
+            <an id="instance3464_BathingSuit"/>
+            <an id="instance3467_MaleL_hand"/>
+            <an id="instance3470_MaleR_hand"/>
+            <an id="instance3473_M_AsianHead"/>
+          </an>
+        </an>
+      </state>
+      <state id="notSelected">
+        <an id="notSelected_instance3476_AvatarSelNotSelectedAnimMale1">
+          <an id="instance3477_floorLight">
+            <an id="instance3478_floorLight_image"/>
+          </an>
+          <an id="instance3481_lightBack">
+            <an id="instance3482_lightBack_image"/>
+          </an>
+          <an id="instance3485_asian_male_anim">
+            <an id="instance3486_MaleBody"/>
+            <an id="instance3489_BathingSuit"/>
+            <an id="instance3492_MaleL_hand"/>
+            <an id="instance3495_MaleR_hand"/>
+            <an id="instance3498_M_AsianHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="BtnMale1" type="Button">
+      <state id="up" w="125" h="283.05">
+        <bd>
+          <bvr h="283.03" y="0" w="124.99" x="0"/>
+        </bd>
+        <an id="instance16300649_AvatarSelUpAnimMale">
+          <an id="instance163007_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance163819_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance164079_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance164339_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance164599_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance164859_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance165119_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="instance163034_floorLight">
+            <an id="instance163035_floorLight_image"/>
+          </an>
+          <an id="instance163038_lightBack">
+            <an id="instance163039_lightBack_image"/>
+          </an>
+          <an id="instance163042_asian_male_anim">
+            <an id="instance163043_MaleBody"/>
+            <an id="instance163046_BathingSuit"/>
+            <an id="instance163049_MaleL_hand"/>
+            <an id="instance163052_MaleR_hand"/>
+            <an id="instance163055_M_AsianHead"/>
+          </an>
+          <an id="instance163058_StarsCycleUpper">
+            <an id="instance163059_emptyItem" onComplete="loop"/>
+            <an id="instance166835_emptyItem" onComplete="loop"/>
+            <an id="instance167028_emptyItem" onComplete="loop"/>
+            <an id="instance167221_emptyItem" onComplete="loop"/>
+            <an id="instance167414_emptyItem" onComplete="loop"/>
+            <an id="instance167607_emptyItem" onComplete="loop"/>
+            <an id="instance167800_emptyItem" onComplete="loop"/>
+            <an id="instance167993_emptyItem" onComplete="loop"/>
+            <an id="instance168186_emptyItem" onComplete="loop"/>
+            <an id="instance168379_emptyItem" onComplete="loop"/>
+            <an id="instance168572_emptyItem" onComplete="loop"/>
+            <an id="instance168765_emptyItem" onComplete="loop"/>
+            <an id="instance168958_emptyItem" onComplete="loop"/>
+            <an id="instance169151_emptyItem" onComplete="loop"/>
+            <an id="instance169344_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="125" h="283.05">
+        <bd>
+          <bvr h="283.03" y="0" w="124.99" x="0"/>
+        </bd>
+        <an id="instance16952250_AvatarSelDownAnimMale">
+          <an id="instance169523_floorLight">
+            <an id="instance169524_floorLight_image"/>
+          </an>
+          <an id="instance169527_lightBack">
+            <an id="instance169528_lightBack_image"/>
+          </an>
+          <an id="instance169531_asian_male_anim">
+            <an id="instance169532_MaleBody"/>
+            <an id="instance169535_BathingSuit"/>
+            <an id="instance169538_MaleL_hand"/>
+            <an id="instance169541_MaleR_hand"/>
+            <an id="instance169544_M_AsianHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntMale2">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance3501_AvatarSelectorIdleAnimMale2">
+          <e id="itemBtn" tid="BtnMale2"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance3568_AvatarSelSelectedAnimMale2">
+          <an id="instance3569_floorLight">
+            <an id="instance3570_floorLight_image"/>
+          </an>
+          <an id="instance3573_lightBack">
+            <an id="instance3574_lightBack_image"/>
+          </an>
+          <an id="instance3577_african_male_anim">
+            <an id="instance3578_MaleBody"/>
+            <an id="instance3581_BathingSuit"/>
+            <an id="instance3584_MaleL_hand"/>
+            <an id="instance3587_MaleR_hand"/>
+            <an id="instance3590_M_AfricanHead"/>
+          </an>
+        </an>
+      </state>
+      <state id="notSelected">
+        <an id="notSelected_instance3593_AvatarSelNotSelectedAnimMale2">
+          <an id="instance3594_floorLight">
+            <an id="instance3595_floorLight_image"/>
+          </an>
+          <an id="instance3598_lightBack">
+            <an id="instance3599_lightBack_image"/>
+          </an>
+          <an id="instance3602_african_male_anim">
+            <an id="instance3603_MaleBody"/>
+            <an id="instance3606_BathingSuit"/>
+            <an id="instance3609_MaleL_hand"/>
+            <an id="instance3612_MaleR_hand"/>
+            <an id="instance3615_M_AfricanHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="BtnMale2" type="Button">
+      <state id="up" w="125" h="283.05">
+        <bd>
+          <bvr h="283.03" y="10" w="124.99" x="0"/>
+        </bd>
+        <an id="instance16971851_AvatarSelUpAnimMale2">
+          <an id="mmvvvc4_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance170532_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance170792_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance171052_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance171312_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance171572_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance171832_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="hffdhhddhgjjj0_floorLight">
+            <an id="instance173167_floorLight_image"/>
+          </an>
+          <an id="instance169748_lightBack">
+            <an id="instance169749_lightBack_image"/>
+          </an>
+          <an id="instance169752_african_male_anim">
+            <an id="instance169753_MaleBody"/>
+            <an id="instance169756_BathingSuit"/>
+            <an id="instance169759_MaleL_hand"/>
+            <an id="instance169762_MaleR_hand"/>
+            <an id="instance169765_M_AfricanHead"/>
+          </an>
+          <an id="instance169768_StarsCycleUpper">
+            <an id="instance169769_emptyItem" onComplete="loop"/>
+            <an id="instance173552_emptyItem" onComplete="loop"/>
+            <an id="instance173745_emptyItem" onComplete="loop"/>
+            <an id="instance173938_emptyItem" onComplete="loop"/>
+            <an id="instance174131_emptyItem" onComplete="loop"/>
+            <an id="instance174324_emptyItem" onComplete="loop"/>
+            <an id="instance174517_emptyItem" onComplete="loop"/>
+            <an id="instance174710_emptyItem" onComplete="loop"/>
+            <an id="instance174903_emptyItem" onComplete="loop"/>
+            <an id="instance175096_emptyItem" onComplete="loop"/>
+            <an id="instance175289_emptyItem" onComplete="loop"/>
+            <an id="instance175482_emptyItem" onComplete="loop"/>
+            <an id="instance175675_emptyItem" onComplete="loop"/>
+            <an id="instance175868_emptyItem" onComplete="loop"/>
+            <an id="instance176061_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="125" h="283.05">
+        <bd>
+          <bvr h="283.03" y="10" w="124.99" x="0"/>
+        </bd>
+        <an id="instance17623952_AvatarSelDownAnimMale2">
+          <an id="instance176240_floorLight">
+            <an id="instance176241_floorLight_image"/>
+          </an>
+          <an id="instance176244_lightBack">
+            <an id="instance176245_lightBack_image"/>
+          </an>
+          <an id="instance176248_african_male_anim">
+            <an id="instance176249_MaleBody"/>
+            <an id="instance176252_BathingSuit"/>
+            <an id="instance176255_MaleL_hand"/>
+            <an id="instance176258_MaleR_hand"/>
+            <an id="instance176261_M_AfricanHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntMale3">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance3618_AvatarSelectorIdleAnimMale3">
+          <e id="itemBtn" tid="BtnMale3"/>
+        </an>
+      </state>
+      <state id="notSelected">
+        <an id="notSelected_instance3687_AvatarSelNotSelectedAnimMale3">
+          <an id="instance3688_floorLight">
+            <an id="instance3689_floorLight_image"/>
+          </an>
+          <an id="uuiiyy0_lightBack">
+            <an id="instance3692_lightBack_image"/>
+          </an>
+          <an id="instance3695_latino_male_anim">
+            <an id="instance3696_MaleBody"/>
+            <an id="instance3699_BathingSuit"/>
+            <an id="instance3702_MaleL_hand"/>
+            <an id="instance3705_MaleR_hand"/>
+            <an id="instance3708_M_LatinHead"/>
+          </an>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance3711_AvatarSelSelectedAnimMale3">
+          <an id="instance3712_floorLight">
+            <an id="instance3713_floorLight_image"/>
+          </an>
+          <an id="instance3716_lightBack">
+            <an id="instance3717_lightBack_image"/>
+          </an>
+          <an id="instance3720_latino_male_anim">
+            <an id="instance3721_MaleBody"/>
+            <an id="instance3724_BathingSuit"/>
+            <an id="instance3727_MaleL_hand"/>
+            <an id="instance3730_MaleR_hand"/>
+            <an id="instance3733_M_LatinHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="BtnMale3" type="Button">
+      <state id="up" w="125" h="283.05">
+        <bd>
+          <bvr h="283.03" y="0" w="124.99" x="0"/>
+        </bd>
+        <an id="instance17643553_AvatarSelUpAnimMale3">
+          <an id="instance176436_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance177251_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance177511_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance177771_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance178031_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance178291_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance178551_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="instance179848_floorLight">
+            <an id="instance179888_floorLight_image"/>
+          </an>
+          <an id="instance176467_lightBack">
+            <an id="instance176468_lightBack_image"/>
+          </an>
+          <an id="instance176471_latino_male_anim">
+            <an id="instance176472_MaleBody"/>
+            <an id="instance176475_BathingSuit"/>
+            <an id="instance176478_MaleL_hand"/>
+            <an id="instance176481_MaleR_hand"/>
+            <an id="instance176484_M_LatinHead"/>
+          </an>
+          <an id="instance176487_StarsCycleUpper">
+            <an id="instance176488_emptyItem" onComplete="loop"/>
+            <an id="instance180279_emptyItem" onComplete="loop"/>
+            <an id="instance180472_emptyItem" onComplete="loop"/>
+            <an id="instance180665_emptyItem" onComplete="loop"/>
+            <an id="instance180858_emptyItem" onComplete="loop"/>
+            <an id="instance181051_emptyItem" onComplete="loop"/>
+            <an id="instance181244_emptyItem" onComplete="loop"/>
+            <an id="instance181437_emptyItem" onComplete="loop"/>
+            <an id="instance181630_emptyItem" onComplete="loop"/>
+            <an id="instance181823_emptyItem" onComplete="loop"/>
+            <an id="instance182016_emptyItem" onComplete="loop"/>
+            <an id="instance182209_emptyItem" onComplete="loop"/>
+            <an id="instance182402_emptyItem" onComplete="loop"/>
+            <an id="instance182595_emptyItem" onComplete="loop"/>
+            <an id="instance182788_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="125" h="283.05">
+        <bd>
+          <bvr h="283.03" y="0" w="124.99" x="0"/>
+        </bd>
+        <an id="instance18296654_AvatarSelDownAnimMale3">
+          <an id="instance182967_floorLight">
+            <an id="instance182968_floorLight_image"/>
+          </an>
+          <an id="instance182971_lightBack">
+            <an id="instance182972_lightBack_image"/>
+          </an>
+          <an id="instance182975_latino_male_anim">
+            <an id="instance182976_MaleBody"/>
+            <an id="instance182979_BathingSuit"/>
+            <an id="instance182982_MaleL_hand"/>
+            <an id="instance182985_MaleR_hand"/>
+            <an id="instance182988_M_LatinHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntMale4">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance3736_AvatarSelectorIdleAnimMale4">
+          <e id="itemBtn" tid="BtnMale4"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance3805_AvatarSelSelectedAnimMale4">
+          <an id="instance3806_floorLight">
+            <an id="instance3807_floorLight_image"/>
+          </an>
+          <an id="instance3810_lightBack">
+            <an id="instance3811_lightBack_image"/>
+          </an>
+          <an id="instance3814_Caucasian_male_anim">
+            <an id="instance3815_MaleBody"/>
+            <an id="instance3818_BathingSuit"/>
+            <an id="instance3821_MaleL_hand"/>
+            <an id="instance3824_MaleR_hand"/>
+            <an id="instance3827_M_CaucasianHead"/>
+          </an>
+        </an>
+      </state>
+      <state id="notSelected">
+        <an id="notSelected_instance3830_AvatarSelNotSelectedAnimMale4">
+          <an id="jfdjjjgjgjgj0_floorLight">
+            <an id="instance3831_floorLight_image"/>
+          </an>
+          <an id="instance3834_lightBack">
+            <an id="instance3835_lightBack_image"/>
+          </an>
+          <an id="instance3838_Caucasian_male_anim">
+            <an id="instance3839_MaleBody"/>
+            <an id="instance3842_BathingSuit"/>
+            <an id="instance3845_MaleL_hand"/>
+            <an id="instance3848_MaleR_hand"/>
+            <an id="instance3851_M_CaucasianHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="BtnMale4" type="Button">
+      <state id="up" w="125" h="283.05">
+        <bd>
+          <bvr h="283.03" y="0" w="124.99" x="0"/>
+        </bd>
+        <an id="instance18316055_AvatarSelUpAnimMale4">
+          <an id="instance183161_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance183976_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance184236_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance184496_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance184756_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance185016_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance185276_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="instance186573_floorLight">
+            <an id="instance186613_floorLight_image"/>
+          </an>
+          <an id="instance183192_lightBack">
+            <an id="instance183193_lightBack_image"/>
+          </an>
+          <an id="instance183196_Caucasian_male_anim">
+            <an id="instance183197_MaleBody"/>
+            <an id="instance183200_BathingSuit"/>
+            <an id="instance183203_MaleL_hand"/>
+            <an id="instance183206_MaleR_hand"/>
+            <an id="instance183209_M_CaucasianHead"/>
+          </an>
+          <an id="instance183212_StarsCycleUpper">
+            <an id="instance183213_emptyItem" onComplete="loop"/>
+            <an id="instance187004_emptyItem" onComplete="loop"/>
+            <an id="instance187197_emptyItem" onComplete="loop"/>
+            <an id="instance187390_emptyItem" onComplete="loop"/>
+            <an id="instance187583_emptyItem" onComplete="loop"/>
+            <an id="instance187776_emptyItem" onComplete="loop"/>
+            <an id="instance187969_emptyItem" onComplete="loop"/>
+            <an id="instance188162_emptyItem" onComplete="loop"/>
+            <an id="instance188355_emptyItem" onComplete="loop"/>
+            <an id="instance188548_emptyItem" onComplete="loop"/>
+            <an id="instance188741_emptyItem" onComplete="loop"/>
+            <an id="instance188934_emptyItem" onComplete="loop"/>
+            <an id="instance189127_emptyItem" onComplete="loop"/>
+            <an id="instance189320_emptyItem" onComplete="loop"/>
+            <an id="instance189513_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="down" w="125" h="283.05">
+        <bd>
+          <bvr h="283.03" y="0" w="124.99" x="0"/>
+        </bd>
+        <an id="instance18969156_AvatarSelDownAnimMale4">
+          <an id="instance189692_floorLight">
+            <an id="instance189693_floorLight_image"/>
+          </an>
+          <an id="instance189696_lightBack">
+            <an id="instance189697_lightBack_image"/>
+          </an>
+          <an id="instance189700_Caucasian_male_anim">
+            <an id="instance189701_MaleBody"/>
+            <an id="instance189704_BathingSuit"/>
+            <an id="instance189707_MaleL_hand"/>
+            <an id="instance189710_MaleR_hand"/>
+            <an id="instance189713_M_CaucasianHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="AvatarSelectorTemplate_960_640">
+      <state id="female">
+        <an id="female_instance3855_avatarSelectorFemaleAnim">
+          <e id="item_1" tid="EntFemale1_960">
+            <x>115.5</x>
+            <y>210.15</y>
+          </e>
+          <e id="item_4" tid="EntFemale2_960">
+            <x>254.15</x>
+            <y>210.15</y>
+          </e>
+          <e id="item_5" tid="EntFemale3_960">
+            <x>392.8</x>
+            <y>210.15</y>
+          </e>
+          <e id="item_3" tid="EntFemale4_960">
+            <x>531.45</x>
+            <y>210.15</y>
+          </e>
+          <e id="item_2" tid="EntFemale5_960">
+            <x>670.1</x>
+            <y>210.15</y>
+          </e>
+          <e id="item_6" tid="EntFemale6_960">
+            <x>813.35</x>
+            <y>210.15</y>
+          </e>
+        </an>
+      </state>
+      <state id="male">
+        <an id="male_instance4671_AvatarSelectorMaleAnim">
+          <e id="item_1" tid="EntMale1_960">
+            <x>156.3</x>
+            <y>196.6</y>
+          </e>
+          <e id="item_2" tid="EntMale2_960">
+            <x>346.65</x>
+            <y>199.35</y>
+          </e>
+          <e id="item_3" tid="EntMale3_960">
+            <x>537</x>
+            <y>198.45</y>
+          </e>
+          <e id="item_4" tid="EntMale4_960">
+            <x>727.35</x>
+            <y>199.35</y>
+          </e>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale1_960">
+      <state id="notSelected">
+        <an id="notSelected_instance3856_notSelectedAnimFemale1">
+          <an id="mmmjjjjjj0_floorLight">
+            <an id="instance189858_floorLight_image"/>
+          </an>
+          <an id="instance189867_lightBack">
+            <an id="instance189898_lightBack_image"/>
+          </an>
+          <an id="instance3864_F_asian_anim2">
+            <an id="instance3865_R_F_hand"/>
+            <an id="instance3868_Female_body_legs"/>
+            <an id="instance3871_backHair_asian"/>
+            <an id="instance3873_F_caucasian_body"/>
+            <an id="instance3876_L_F_hand"/>
+            <an id="instance3879_F_underwear"/>
+            <an id="instance3882_L_F_palm"/>
+            <an id="instance3885_F_asian_head"/>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance3888_avatarIdleAnimFemale1">
+          <e id="itemBtn" tid="AvatarSelBtnFemale1"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance3962_avatarSelectedAnimFemale1_960">
+          <an id="instance3963_floorLight">
+            <an id="instance196622_floorLight_image"/>
+          </an>
+          <an id="instance3967_lightBack">
+            <an id="instance3968_lightBack_image"/>
+          </an>
+          <an id="instance3971_F_asian_anim2">
+            <an id="instance3972_R_F_hand"/>
+            <an id="instance3975_Female_body_legs"/>
+            <an id="instance3978_backHair_asian"/>
+            <an id="instance3980_F_caucasian_body"/>
+            <an id="instance3983_L_F_hand"/>
+            <an id="instance3986_F_underwear"/>
+            <an id="instance3989_L_F_palm"/>
+            <an id="instance3992_F_asian_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale2_960">
+      <state id="notSelected">
+        <an id="notSelected_instance3995_avatarNotSelectedAnimFemale2">
+          <an id="instance3996_floorLight">
+            <an id="instance3997_floorLight_image"/>
+          </an>
+          <an id="instance4000_lightBack">
+            <an id="instance4001_lightBack_image"/>
+          </an>
+          <an id="instance4004_F_caucasian_anim">
+            <an id="instance4005_R_F_hand"/>
+            <an id="instance4008_Female_body_legs"/>
+            <an id="instance4011_F_caucasian_body"/>
+            <an id="instance4014_L_F_hand"/>
+            <an id="instance4017_F_caucasian_head"/>
+            <an id="instance4020_F_underwear"/>
+            <an id="instance4023_L_F_palm"/>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance4026_avatarIdleAnimFemale2">
+          <e id="itemBtn" tid="AvatarSelBtnFemale2"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance4098_avatarSelectedAnimFemale2_960">
+          <an id="instance4099_floorLight">
+            <an id="instance203526_floorLight_image"/>
+          </an>
+          <an id="instance4103_lightBack">
+            <an id="instance4104_lightBack_image"/>
+          </an>
+          <an id="instance4107_F_caucasian_anim">
+            <an id="instance4108_R_F_hand"/>
+            <an id="instance4111_Female_body_legs"/>
+            <an id="instance4114_F_caucasian_body"/>
+            <an id="instance4117_L_F_hand"/>
+            <an id="instance4120_F_caucasian_head"/>
+            <an id="instance4123_F_underwear"/>
+            <an id="instance4126_L_F_palm"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale3_960">
+      <state id="notSelected">
+        <an id="notSelected_instance4129_avatarNotSelectedAnimFemale3">
+          <an id="vvbbbbbg0_floorLight">
+            <an id="instance203595_floorLight_image"/>
+          </an>
+          <an id="instance4133_lightBack">
+            <an id="instance4134_lightBack_image"/>
+          </an>
+          <an id="instance4137_midEast_F_anim">
+            <an id="instance4138_backHair_latino"/>
+            <an id="instance4140_R_F_hand"/>
+            <an id="instance4143_Female_body_legs"/>
+            <an id="instance4146_F_caucasian_body"/>
+            <an id="instance4149_L_F_hand"/>
+            <an id="instance4152_F_underwear"/>
+            <an id="instance4155_L_F_palm"/>
+            <an id="instance4158_F_midEast_head"/>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance4161_avatarIdleAnimFemale3">
+          <e id="itemBtn" tid="AvatarSelBtnFemale3"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance4235_avatarSelectedAnimFemale3_960">
+          <an id="instance4236_floorLight">
+            <an id="instance210350_floorLight_image"/>
+          </an>
+          <an id="instance4240_lightBack">
+            <an id="instance4241_lightBack_image"/>
+          </an>
+          <an id="instance4244_midEast_F_anim">
+            <an id="instance4245_backHair_latino"/>
+            <an id="instance4247_R_F_hand"/>
+            <an id="instance4250_Female_body_legs"/>
+            <an id="instance4253_F_caucasian_body"/>
+            <an id="instance4256_L_F_hand"/>
+            <an id="instance4259_F_underwear"/>
+            <an id="instance4262_L_F_palm"/>
+            <an id="instance4265_F_midEast_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale4_960">
+      <state id="notSelected">
+        <an id="notSelected_instance4268_avatarNotSelectedAnimFemale4">
+          <an id="mmmmmffdw0_floorLight">
+            <an id="instance210423_floorLight_image"/>
+          </an>
+          <an id="instance4272_lightBack">
+            <an id="instance4273_lightBack_image"/>
+          </an>
+          <an id="instance4276_F_latino_anim">
+            <an id="instance4277_backHair_latino"/>
+            <an id="instance4279_R_F_hand"/>
+            <an id="instance4282_Female_body_legs"/>
+            <an id="instance4285_F_caucasian_body"/>
+            <an id="instance4288_L_F_hand"/>
+            <an id="instance4291_F_underwear"/>
+            <an id="instance4294_L_F_palm"/>
+            <an id="instance4297_F_latino_head"/>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance4300_avatarIdleAnimFemale4">
+          <e id="itemBtn" tid="AvatarSelBtnFemale4"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance4374_avatarSelectedAnimFemale4_960">
+          <an id="instance4375_floorLight">
+            <an id="instance217178_floorLight_image"/>
+          </an>
+          <an id="instance4379_lightBack">
+            <an id="instance4380_lightBack_image"/>
+          </an>
+          <an id="instance4383_F_latino_anim">
+            <an id="instance4384_backHair_latino"/>
+            <an id="instance4386_R_F_hand"/>
+            <an id="instance4389_Female_body_legs"/>
+            <an id="instance4392_F_caucasian_body"/>
+            <an id="instance4395_L_F_hand"/>
+            <an id="instance4398_F_underwear"/>
+            <an id="instance4401_L_F_palm"/>
+            <an id="instance4404_F_latino_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale5_960">
+      <state id="notSelected">
+        <an id="notSelected_mhmgffgfdh0_floorLight">
+          <an id="instance217251_floorLight_image"/>
+        </an>
+        <an id="notSelected_instance4410_lightBack">
+          <an id="instance4411_lightBack_image"/>
+        </an>
+        <an id="notSelected_instance4414_F_african_anim">
+          <an id="instance4415_R_F_hand"/>
+          <an id="instance4418_Female_body_legs"/>
+          <an id="instance4421_F_caucasian_body"/>
+          <an id="instance4424_L_F_hand"/>
+          <an id="instance4427_F_underwear"/>
+          <an id="instance4430_L_F_palm"/>
+          <an id="instance4433_F_african_head"/>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance4436_avatarIdleAnimFemale5">
+          <e id="itemBtn" tid="AvatarSelBtnFemale5"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance4508_avatarSelectedAnimFemale5_960">
+          <an id="instance4509_floorLight">
+            <an id="instance223984_floorLight_image"/>
+          </an>
+          <an id="instance4513_lightBack">
+            <an id="instance4514_lightBack_image"/>
+          </an>
+          <an id="instance4517_F_african_anim">
+            <an id="instance4518_R_F_hand"/>
+            <an id="instance4521_Female_body_legs"/>
+            <an id="instance4524_F_caucasian_body"/>
+            <an id="instance4527_L_F_hand"/>
+            <an id="instance4530_F_underwear"/>
+            <an id="instance4533_L_F_palm"/>
+            <an id="instance4536_F_african_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntFemale6_960">
+      <state id="notSelected">
+        <an id="notSelected_instance4539_avatarNotSelectedAnimFemale6">
+          <an id="mmmhmhmhmhmh0_floorLight">
+            <an id="instance224053_floorLight_image"/>
+          </an>
+          <an id="instance4543_lightBack">
+            <an id="instance4544_lightBack_image"/>
+          </an>
+          <an id="instance224137_F_mixed_anim">
+            <an id="instance224162_R_F_hand"/>
+            <an id="instance224165_Female_body_legs"/>
+            <an id="instance224168_F_caucasian_body"/>
+            <an id="instance224171_L_F_hand"/>
+            <an id="instance224174_F_underwear"/>
+            <an id="instance224177_L_F_palm"/>
+            <an id="instance224180_F_mixed_head"/>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance4569_avatarIdleAnimFemale6">
+          <e id="itemBtn" tid="AvatarSelBtnFemale6"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance4641_avatarSelectedAnimFemale6_960">
+          <an id="hfdhdhfnvb0_floorLight">
+            <an id="instance231017_floorLight_image"/>
+          </an>
+          <an id="instance4645_lightBack">
+            <an id="instance4646_lightBack_image"/>
+          </an>
+          <an id="instance231101_F_mixed_anim">
+            <an id="instance231126_R_F_hand"/>
+            <an id="instance231129_Female_body_legs"/>
+            <an id="instance231132_F_caucasian_body"/>
+            <an id="instance231135_L_F_hand"/>
+            <an id="instance231138_F_underwear"/>
+            <an id="instance231141_L_F_palm"/>
+            <an id="instance231144_F_mixed_head"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntMale1_960">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance4672_AvatarSelectorIdleAnimMale1">
+          <e id="itemBtn" tid="BtnMale1"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance4741_AvatarSelSelectedAnimMale1_960">
+          <an id="instance4742_floorLight">
+            <an id="instance4743_floorLight_image"/>
+          </an>
+          <an id="instance4746_lightBack">
+            <an id="instance4747_lightBack_image"/>
+          </an>
+          <an id="instance4750_asian_male_anim">
+            <an id="instance4751_MaleBody"/>
+            <an id="instance4754_BathingSuit"/>
+            <an id="instance4757_MaleL_hand"/>
+            <an id="instance4760_MaleR_hand"/>
+            <an id="instance4763_M_AsianHead"/>
+          </an>
+        </an>
+      </state>
+      <state id="notSelected">
+        <an id="notSelected_instance4766_AvatarSelNotSelectedAnimMale1">
+          <an id="instance4767_floorLight">
+            <an id="instance4768_floorLight_image"/>
+          </an>
+          <an id="instance4771_lightBack">
+            <an id="instance4772_lightBack_image"/>
+          </an>
+          <an id="instance4775_asian_male_anim">
+            <an id="instance4776_MaleBody"/>
+            <an id="instance4779_BathingSuit"/>
+            <an id="instance4782_MaleL_hand"/>
+            <an id="instance4785_MaleR_hand"/>
+            <an id="instance4788_M_AsianHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntMale2_960">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance4791_AvatarSelectorIdleAnimMale2">
+          <e id="itemBtn" tid="BtnMale2"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance4858_AvatarSelSelectedAnimMale2_960">
+          <an id="instance4859_floorLight">
+            <an id="instance4860_floorLight_image"/>
+          </an>
+          <an id="instance4863_lightBack">
+            <an id="instance4864_lightBack_image"/>
+          </an>
+          <an id="instance4867_african_male_anim">
+            <an id="instance4868_MaleBody"/>
+            <an id="instance4871_BathingSuit"/>
+            <an id="instance4874_MaleL_hand"/>
+            <an id="instance4877_MaleR_hand"/>
+            <an id="instance4880_M_AfricanHead"/>
+          </an>
+        </an>
+      </state>
+      <state id="notSelected">
+        <an id="notSelected_instance4883_AvatarSelNotSelectedAnimMale2">
+          <an id="instance4884_floorLight">
+            <an id="instance4885_floorLight_image"/>
+          </an>
+          <an id="instance4888_lightBack">
+            <an id="instance4889_lightBack_image"/>
+          </an>
+          <an id="instance4892_african_male_anim">
+            <an id="instance4893_MaleBody"/>
+            <an id="instance4896_BathingSuit"/>
+            <an id="instance4899_MaleL_hand"/>
+            <an id="instance4902_MaleR_hand"/>
+            <an id="instance4905_M_AfricanHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntMale3_960">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance4908_AvatarSelectorIdleAnimMale3">
+          <e id="itemBtn" tid="BtnMale3"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance4977_AvatarSelSelectedAnimMale3_960">
+          <an id="instance4978_floorLight">
+            <an id="instance4979_floorLight_image"/>
+          </an>
+          <an id="instance4982_lightBack">
+            <an id="instance4983_lightBack_image"/>
+          </an>
+          <an id="instance4986_latino_male_anim">
+            <an id="instance4987_MaleBody"/>
+            <an id="instance4990_BathingSuit"/>
+            <an id="instance4993_MaleL_hand"/>
+            <an id="instance4996_MaleR_hand"/>
+            <an id="instance4999_M_LatinHead"/>
+          </an>
+        </an>
+      </state>
+      <state id="notSelected">
+        <an id="notSelected_instance5002_AvatarSelNotSelectedAnimMale3">
+          <an id="instance5003_floorLight">
+            <an id="instance5004_floorLight_image"/>
+          </an>
+          <an id="uuiiyy0_lightBack">
+            <an id="instance5007_lightBack_image"/>
+          </an>
+          <an id="instance5010_latino_male_anim">
+            <an id="instance5011_MaleBody"/>
+            <an id="instance5014_BathingSuit"/>
+            <an id="instance5017_MaleL_hand"/>
+            <an id="instance5020_MaleR_hand"/>
+            <an id="instance5023_M_LatinHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="EntMale4_960">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance5026_AvatarSelectorIdleAnimMale4">
+          <e id="itemBtn" tid="BtnMale4"/>
+        </an>
+      </state>
+      <state id="selected">
+        <an id="selected_instance5095_AvatarSelSelectedAnimMale4_960">
+          <an id="instance5096_floorLight">
+            <an id="instance5097_floorLight_image"/>
+          </an>
+          <an id="instance5100_lightBack">
+            <an id="instance5101_lightBack_image"/>
+          </an>
+          <an id="instance5104_Caucasian_male_anim">
+            <an id="instance5105_MaleBody"/>
+            <an id="instance5108_BathingSuit"/>
+            <an id="instance5111_MaleL_hand"/>
+            <an id="instance5114_MaleR_hand"/>
+            <an id="instance5117_M_CaucasianHead"/>
+          </an>
+        </an>
+      </state>
+      <state id="notSelected">
+        <an id="notSelected_instance5120_AvatarSelNotSelectedAnimMale4">
+          <an id="jfdjjjgjgjgj0_floorLight">
+            <an id="instance5121_floorLight_image"/>
+          </an>
+          <an id="instance5124_lightBack">
+            <an id="instance5125_lightBack_image"/>
+          </an>
+          <an id="instance5128_Caucasian_male_anim">
+            <an id="instance5129_MaleBody"/>
+            <an id="instance5132_BathingSuit"/>
+            <an id="instance5135_MaleL_hand"/>
+            <an id="instance5138_MaleR_hand"/>
+            <an id="instance5141_M_CaucasianHead"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="ChosenAvatarTemplate_1024_768">
+      <state id="female">
+        <an id="female_instance5145_floorLight">
+          <an id="instance5146_floorLight_image"/>
+        </an>
+        <an id="female_instance5149_lightBack">
+          <an id="instance5150_lightBack_image"/>
+        </an>
+        <e id="chosenAvatar" tid="ChosenAvatarFemaleEnt">
+          <x>503.2</x>
+          <y>406.8</y>
+          <sx>1.07</sx>
+          <sy>1.07</sy>
+        </e>
+      </state>
+      <state id="male">
+        <an id="male_instance5474_floorLight">
+          <an id="instance5475_floorLight_image"/>
+        </an>
+        <an id="male_instance5478_lightBack">
+          <an id="instance5479_lightBack_image"/>
+        </an>
+        <e id="chosenAvatar" tid="ChosenAvatarMaleEnt">
+          <x>499.85</x>
+          <y>409.2</y>
+          <sx>1.1</sx>
+          <sy>1.1</sy>
+        </e>
+      </state>
+    </et>
+    <et id="ChosenAvatarFemaleEnt">
+      <state id="item_1">
+        <e id="avatar" tid="ChosenFemaleEnt"/>
+      </state>
+      <state id="item_2">
+        <e id="avatar" tid="ChosenFemaleEnt5"/>
+      </state>
+      <state id="item_3">
+        <e id="avatar" tid="ChosenFemaleEnt4"/>
+      </state>
+      <state id="item_4">
+        <e id="avatar" tid="ChosenFemaleEnt2"/>
+      </state>
+      <state id="item_5">
+        <e id="avatar" tid="ChosenFemaleEnt3"/>
+      </state>
+      <state id="item_6">
+        <e id="avatar" tid="ChosenFemaleEnt6"/>
+      </state>
+    </et>
+    <et id="ChosenFemaleEnt">
+      <state id="dressed">
+        <an id="dressed_instance5153_asian_F_dressed2">
+          <an id="instance5154_backHair_asian"/>
+          <an id="instance5156_R_F_hand"/>
+          <an id="instance5159_F_caucasian_body"/>
+          <an id="instance5162_Female_anim_dress">
+            <an id="instance5163_Female_derss_legRImage"/>
+            <an id="instance5166_Female_dress_legLImage"/>
+            <an id="instance5169_Female_dress_pantsImage"/>
+            <an id="instance5172_Female_dress_topImage"/>
+          </an>
+          <an id="instance5175_L_F_hand"/>
+          <an id="instance5178_L_F_palm"/>
+          <an id="instance5181_F_asian_head"/>
+        </an>
+      </state>
+      <state id="naked">
+        <an id="naked_instance5184_F_asian_anim2">
+          <an id="instance5185_R_F_hand"/>
+          <an id="instance5188_Female_body_legs"/>
+          <an id="instance5191_backHair_asian"/>
+          <an id="instance5193_F_caucasian_body"/>
+          <an id="instance5196_L_F_hand"/>
+          <an id="instance5199_F_underwear"/>
+          <an id="instance5202_L_F_palm"/>
+          <an id="instance5205_F_asian_head"/>
+        </an>
+      </state>
+    </et>
+    <et id="ChosenFemaleEnt5">
+      <state id="dressed">
+        <an id="dressed_instance5208_F_african_anim_dressed">
+          <an id="instance5209_F_african_head"/>
+          <an id="instance5212_R_F_hand"/>
+          <an id="instance5215_F_caucasian_body"/>
+          <an id="instance5218_Female_anim_dress">
+            <an id="instance5219_Female_derss_legRImage"/>
+            <an id="instance5222_Female_dress_legLImage"/>
+            <an id="instance5225_Female_dress_pantsImage"/>
+            <an id="instance5228_Female_dress_topImage"/>
+          </an>
+          <an id="instance5231_L_F_hand"/>
+          <an id="instance5234_L_F_palm"/>
+          <an id="instance5237_F_african_head"/>
+        </an>
+      </state>
+      <state id="naked">
+        <an id="naked_instance5240_F_african_anim">
+          <an id="instance5241_R_F_hand"/>
+          <an id="instance5244_Female_body_legs"/>
+          <an id="instance5247_F_caucasian_body"/>
+          <an id="instance5250_L_F_hand"/>
+          <an id="instance5253_F_underwear"/>
+          <an id="instance5256_L_F_palm"/>
+          <an id="instance5259_F_african_head"/>
+        </an>
+      </state>
+    </et>
+    <et id="ChosenFemaleEnt4">
+      <state id="dressed">
+        <an id="dressed_instance5262_F_latino_anim_dressed">
+          <an id="instance5263_backHair_latino"/>
+          <an id="instance5265_R_F_hand"/>
+          <an id="instance5268_F_caucasian_body"/>
+          <an id="instance5271_Female_anim_dress">
+            <an id="instance5272_Female_derss_legRImage"/>
+            <an id="instance5275_Female_dress_legLImage"/>
+            <an id="instance5278_Female_dress_pantsImage"/>
+            <an id="instance5281_Female_dress_topImage"/>
+          </an>
+          <an id="instance5284_L_F_hand"/>
+          <an id="instance5287_L_F_palm"/>
+          <an id="instance5290_F_latino_head"/>
+        </an>
+      </state>
+      <state id="naked">
+        <an id="naked_instance5293_F_latino_anim">
+          <an id="instance5294_backHair_latino"/>
+          <an id="instance5296_R_F_hand"/>
+          <an id="instance5299_Female_body_legs"/>
+          <an id="instance5302_F_caucasian_body"/>
+          <an id="instance5305_L_F_hand"/>
+          <an id="instance5308_F_underwear"/>
+          <an id="instance5311_L_F_palm"/>
+          <an id="instance5314_F_latino_head"/>
+        </an>
+      </state>
+    </et>
+    <et id="ChosenFemaleEnt2">
+      <state id="dressed">
+        <an id="dressed_instance5317_F_caucasian_anim_dressed">
+          <an id="instance5318_R_F_hand"/>
+          <an id="instance5321_F_caucasian_body"/>
+          <an id="instance5324_Female_anim_dress">
+            <an id="instance5325_Female_derss_legRImage"/>
+            <an id="instance5328_Female_dress_legLImage"/>
+            <an id="instance5331_Female_dress_pantsImage"/>
+            <an id="instance5334_Female_dress_topImage"/>
+          </an>
+          <an id="instance5337_L_F_hand"/>
+          <an id="instance5340_L_F_palm"/>
+          <an id="instance5343_F_caucasian_head"/>
+        </an>
+      </state>
+      <state id="naked">
+        <an id="naked_instance5346_F_caucasian_anim">
+          <an id="instance5347_R_F_hand"/>
+          <an id="instance5350_Female_body_legs"/>
+          <an id="instance5353_F_caucasian_body"/>
+          <an id="instance5356_L_F_hand"/>
+          <an id="instance5359_F_caucasian_head"/>
+          <an id="instance5362_F_underwear"/>
+          <an id="instance5365_L_F_palm"/>
+        </an>
+      </state>
+    </et>
+    <et id="ChosenFemaleEnt3">
+      <state id="dressed">
+        <an id="dressed_instance5368_midEast_F_anim_dressed">
+          <an id="instance5369_mideast_F_backhair"/>
+          <an id="instance5371_R_F_hand"/>
+          <an id="instance5374_F_caucasian_body"/>
+          <an id="instance5377_Female_anim_dress">
+            <an id="instance5378_Female_derss_legRImage"/>
+            <an id="instance5381_Female_dress_legLImage"/>
+            <an id="instance5384_Female_dress_pantsImage"/>
+            <an id="instance5387_Female_dress_topImage"/>
+          </an>
+          <an id="instance5390_L_F_hand"/>
+          <an id="instance5393_L_F_palm"/>
+          <an id="instance5396_F_midEast_head"/>
+        </an>
+      </state>
+      <state id="naked">
+        <an id="naked_instance5399_midEast_F_anim">
+          <an id="instance5400_backHair_latino"/>
+          <an id="instance5402_R_F_hand"/>
+          <an id="instance5405_Female_body_legs"/>
+          <an id="instance5408_F_caucasian_body"/>
+          <an id="instance5411_L_F_hand"/>
+          <an id="instance5414_F_underwear"/>
+          <an id="instance5417_L_F_palm"/>
+          <an id="instance5420_F_midEast_head"/>
+        </an>
+      </state>
+    </et>
+    <et id="ChosenFemaleEnt6">
+      <state id="dressed">
+        <an id="dressed_instance5423_F_mixed_anim_dressed">
+          <an id="instance5424_R_F_hand"/>
+          <an id="instance5427_F_caucasian_body"/>
+          <an id="instance5430_Female_anim_dress">
+            <an id="instance5431_Female_derss_legRImage"/>
+            <an id="instance5434_Female_dress_legLImage"/>
+            <an id="instance5437_Female_dress_pantsImage"/>
+            <an id="instance5440_Female_dress_topImage"/>
+          </an>
+          <an id="instance5443_L_F_hand"/>
+          <an id="instance5446_L_F_palm"/>
+          <an id="instance5449_F_mixed_head"/>
+        </an>
+      </state>
+      <state id="naked">
+        <an id="naked_instance5452_F_mixed_anim">
+          <an id="instance5453_R_F_hand"/>
+          <an id="instance5456_Female_body_legs"/>
+          <an id="instance5459_F_caucasian_body"/>
+          <an id="instance5462_L_F_hand"/>
+          <an id="instance5465_F_underwear"/>
+          <an id="instance5468_L_F_palm"/>
+          <an id="instance5471_F_mixed_head"/>
+        </an>
+      </state>
+    </et>
+    <et id="ChosenAvatarMaleEnt">
+      <state id="item_1">
+        <e id="avatar" tid="ChosenMaleEnt"/>
+      </state>
+      <state id="item_2">
+        <e id="avatar" tid="ChosenMale2Ent"/>
+      </state>
+      <state id="item_3">
+        <e id="avatar" tid="ChosenMale3Ent"/>
+      </state>
+      <state id="item_4">
+        <e id="avatar" tid="ChosenMale4Ent"/>
+      </state>
+    </et>
+    <et id="ChosenMaleEnt">
+      <state id="dressed">
+        <an id="dressed_instance5482_asian_male_anim_dressed">
+          <an id="instance5483_MaleBody"/>
+          <an id="instance5486_Cloth_Male"/>
+          <an id="instance5489_MaleL_hand"/>
+          <an id="instance5492_MaleR_hand"/>
+          <an id="instance5495_NewClothMale1"/>
+          <an id="instance5498_NewClothMale2"/>
+          <an id="instance5501_M_AsianHead"/>
+        </an>
+      </state>
+      <state id="naked">
+        <an id="naked_instance5504_asian_male_anim">
+          <an id="instance5505_MaleBody"/>
+          <an id="instance5508_BathingSuit"/>
+          <an id="instance5511_MaleL_hand"/>
+          <an id="instance5514_MaleR_hand"/>
+          <an id="instance5517_M_AsianHead"/>
+        </an>
+      </state>
+    </et>
+    <et id="ChosenMale2Ent">
+      <state id="dressed">
+        <an id="dressed_instance5520_african_male_anim_dressed">
+          <an id="instance5521_MaleBody"/>
+          <an id="instance5524_Cloth_Male"/>
+          <an id="instance5527_MaleL_hand"/>
+          <an id="instance5530_MaleR_hand"/>
+          <an id="instance5533_NewClothMale1"/>
+          <an id="instance5536_NewClothMale2"/>
+          <an id="instance5539_M_AfricanHead"/>
+        </an>
+      </state>
+      <state id="naked">
+        <an id="naked_instance5542_african_male_anim">
+          <an id="instance5543_MaleBody"/>
+          <an id="instance5546_BathingSuit"/>
+          <an id="instance5549_MaleL_hand"/>
+          <an id="instance5552_MaleR_hand"/>
+          <an id="instance5555_M_AfricanHead"/>
+        </an>
+      </state>
+    </et>
+    <et id="ChosenMale3Ent">
+      <state id="dressed">
+        <an id="dressed_instance5558_latino_male_anim_dressed">
+          <an id="instance5559_MaleBody"/>
+          <an id="instance5562_Cloth_Male"/>
+          <an id="instance5565_MaleL_hand"/>
+          <an id="instance5568_MaleR_hand"/>
+          <an id="instance5571_NewClothMale1"/>
+          <an id="instance5574_NewClothMale2"/>
+          <an id="instance5577_M_LatinHead"/>
+        </an>
+      </state>
+      <state id="naked">
+        <an id="naked_instance5580_latino_male_anim">
+          <an id="instance5581_MaleBody"/>
+          <an id="instance5584_BathingSuit"/>
+          <an id="instance5587_MaleL_hand"/>
+          <an id="instance5590_MaleR_hand"/>
+          <an id="instance5593_M_LatinHead"/>
+        </an>
+      </state>
+    </et>
+    <et id="ChosenMale4Ent">
+      <state id="dressed">
+        <an id="dressed_instance5596_Caucasian_male_anim_dressed">
+          <an id="instance5597_MaleBody"/>
+          <an id="instance5600_Cloth_Male"/>
+          <an id="instance5603_MaleL_hand"/>
+          <an id="instance5606_MaleR_hand"/>
+          <an id="instance5609_NewClothMale1"/>
+          <an id="instance5612_NewClothMale2"/>
+          <an id="instance5615_M_CaucasianHead"/>
+        </an>
+      </state>
+      <state id="naked">
+        <an id="naked_instance5618_Caucasian_male_anim">
+          <an id="instance5619_MaleBody"/>
+          <an id="instance5622_BathingSuit"/>
+          <an id="instance5625_MaleL_hand"/>
+          <an id="instance5628_MaleR_hand"/>
+          <an id="instance5631_M_CaucasianHead"/>
+        </an>
+      </state>
+    </et>
+    <et id="ChosenAvatarTemplate_1136_640">
+      <state id="female">
+        <an id="female_instance5635_floorLight">
+          <an id="instance5636_floorLight_image"/>
+        </an>
+        <an id="female_instance5639_lightBack">
+          <an id="instance5640_lightBack_image"/>
+        </an>
+        <e id="chosenAvatar" tid="ChosenAvatarFemaleEnt">
+          <x>551.75</x>
+          <y>307.5</y>
+        </e>
+      </state>
+      <state id="male">
+        <an id="male_instance5964_floorLight">
+          <an id="instance5965_floorLight_image"/>
+        </an>
+        <an id="male_instance5968_lightBack">
+          <an id="instance5969_lightBack_image"/>
+        </an>
+        <e id="chosenAvatar" tid="ChosenAvatarMaleEnt">
+          <x>541.45</x>
+          <y>318</y>
+        </e>
+      </state>
+    </et>
+    <et id="ChosenAvatarTemplate_960_640">
+      <state id="female">
+        <an id="female_instance6125_floorLight">
+          <an id="instance6126_floorLight_image"/>
+        </an>
+        <an id="female_instance6129_lightBack">
+          <an id="instance6130_lightBack_image"/>
+        </an>
+        <e id="chosenAvatar" tid="ChosenAvatarFemaleEnt">
+          <x>471.75</x>
+          <y>307.5</y>
+        </e>
+      </state>
+      <state id="male">
+        <an id="male_instance6454_floorLight">
+          <an id="instance6455_floorLight_image"/>
+        </an>
+        <an id="male_instance6458_lightBack">
+          <an id="instance6459_lightBack_image"/>
+        </an>
+        <e id="chosenAvatar" tid="ChosenAvatarMaleEnt">
+          <x>462.45</x>
+          <y>318</y>
+        </e>
+      </state>
+    </et>
+    <et id="HideAvatarAnimationTemplate_1024_768">
+      <an id="instance661577_StarRevealAnim_1024_768">
+        <an id="instance6616_emptyItem"/>
+        <an id="instance6617_ChangeEffectAnimcopy2">
+          <an id="instance6618_emptyItem"/>
+        </an>
+      </an>
+    </et>
+    <et id="HideAvatarAnimationTemplate_1136_640">
+      <an id="instance662078_StarRevealAnim_1136_640">
+        <an id="instance6621_emptyItem"/>
+        <an id="instance6622_ChangeEffectAnimcopy2">
+          <an id="instance6623_emptyItem"/>
+        </an>
+      </an>
+    </et>
+    <et id="HideAvatarAnimationTemplate_960_640">
+      <an id="instance662579_StarRevealAnim_960_640">
+        <an id="instance6626_emptyItem"/>
+        <an id="instance6627_ChangeEffectAnimcopy2">
+          <an id="instance6628_emptyItem"/>
+        </an>
+      </an>
+    </et>
+    <et id="PlayTemplate_960_640">
+      <state id="exit">
+        <an id="exit_instance6630_ExitOfPlayAnim">
+          <an id="instance6631_ring"/>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <e id="playBtn" tid="playBtn">
+          <x>808</x>
+          <y>492</y>
+        </e>
+      </state>
+    </et>
+    <et id="playBtn" type="Button">
+      <state id="up" w="250" h="250">
+        <bd>
+          <bvr h="250" y="-125" w="250" x="-125"/>
+        </bd>
+        <an id="instance25806480_PlayUpAnim">
+          <an id="instance258065_StarsCycle">
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="boboback4_emptyItem" onComplete="loop"/>
+            <an id="instance258855_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance259115_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance259375_BlueStarAnim1" onComplete="loop"/>
+            <an id="instance259635_BlueStarAnim2" onComplete="loop"/>
+            <an id="instance259895_BlueStarAnim3" onComplete="loop"/>
+            <an id="instance260155_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback3_BlueStarAnim2" onComplete="loop"/>
+            <an id="boboback2_BlueStarAnim3" onComplete="loop"/>
+            <an id="boboback1_BlueStarAnim1" onComplete="loop"/>
+            <an id="boboback0_BlueStarAnim" onComplete="loop"/>
+          </an>
+          <an id="yuyuyuy3_ring"/>
+          <an id="instance258094_StarsCycleUpper">
+            <an id="instance258095_emptyItem" onComplete="loop"/>
+            <an id="instance261693_emptyItem" onComplete="loop"/>
+            <an id="instance261886_emptyItem" onComplete="loop"/>
+            <an id="instance262079_emptyItem" onComplete="loop"/>
+            <an id="instance262272_emptyItem" onComplete="loop"/>
+            <an id="instance262465_emptyItem" onComplete="loop"/>
+            <an id="instance262658_emptyItem" onComplete="loop"/>
+            <an id="instance262851_emptyItem" onComplete="loop"/>
+            <an id="instance263044_emptyItem" onComplete="loop"/>
+            <an id="instance263237_emptyItem" onComplete="loop"/>
+            <an id="instance263430_emptyItem" onComplete="loop"/>
+            <an id="instance263623_emptyItem" onComplete="loop"/>
+            <an id="instance263816_emptyItem" onComplete="loop"/>
+            <an id="instance264009_emptyItem" onComplete="loop"/>
+            <an id="instance264202_emptyItem" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="PlayTemplate_1136_640">
+      <state id="exit">
+        <an id="exit_instance6681_ExitOfPlayAnim">
+          <an id="instance6682_ring"/>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance6685_PlayBtnAnim">
+          <e id="playBtn" tid="playBtn">
+            <x>980.05</x>
+            <y>495.5</y>
+          </e>
+        </an>
+      </state>
+    </et>
+    <et id="PlayTemplate_1024_768">
+      <state id="exit">
+        <an id="exit_instance6733_ExitOfPlayAnim">
+          <an id="instance6734_ring"/>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance6737_PlayBtnAnim1024">
+          <e id="playBtn" tid="playBtn">
+            <x>875</x>
+            <y>590</y>
+          </e>
+        </an>
+      </state>
+    </et>
+    <et id="BackBtnTemplate">
+      <e id="backBtn" tid="BackBtn">
+        <x>13</x>
+        <y>4.5</y>
+      </e>
+    </et>
+    <et id="BackBtn" type="Button">
+      <state id="up" w="109.75" h="45">
+        <bd>
+          <bvr h="44.99" y="0" w="109.74" x="-6"/>
+        </bd>
+        <e id="upEntity" tid="UpBackEnt"/>
+      </state>
+      <state id="down" w="109.75" h="45">
+        <bd>
+          <bvr h="44.99" y="0" w="109.74" x="-6"/>
+        </bd>
+        <e id="instance277100" tid="BackDown"/>
+      </state>
+      <state id="disabled" w="109.75" h="45">
+        <bd>
+          <bvr h="44.99" y="0" w="109.74" x="-6"/>
+        </bd>
+        <an id="backdis_Back"/>
+      </state>
+    </et>
+    <et id="UpBackEnt">
+      <state id="animateState">
+        <an id="animateState_instance277028_BackUpAnim">
+          <an id="instance277029_BackButton"/>
+          <an id="instance277032_BackButton"/>
+          <an id="instance277035_ButtonHighlight"/>
+          <an id="instance277037_ButtonShadow"/>
+          <an id="instance277039_Back"/>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_backidle3_BackButton"/>
+        <an id="animateIdleState_backidle2_ButtonHighlight"/>
+        <an id="animateIdleState_backidle1_ButtonShadow"/>
+        <an id="animateIdleState_backidle0_Back"/>
+      </state>
+    </et>
+    <et id="BackDown">
+      <an id="instance277101_BackDownAnim">
+        <an id="backdown4_BackButton"/>
+        <an id="backdown3_BackButton"/>
+        <an id="backdown2_ButtonHighlight"/>
+        <an id="backdown1_ButtonShadow"/>
+        <an id="backdown0_Back"/>
+      </an>
+    </et>
+    <et id="PlaceHolder">
+      <an id="instance680683_emptyItem"/>
+    </et>
+    <et id="StarTemplate">
+      <state id="spinBtnStars">
+        <an id="spinBtnStars_instance6808_StarsCycleUpperNoCut_spinBtn">
+          <an id="instance6809_emptyItem" onComplete="loop"/>
+          <an id="instance277353_emptyItem" onComplete="loop"/>
+          <an id="instance277555_emptyItem" onComplete="loop"/>
+          <an id="instance277757_emptyItem" onComplete="loop"/>
+          <an id="instance277959_emptyItem" onComplete="loop"/>
+          <an id="instance278161_emptyItem" onComplete="loop"/>
+          <an id="instance278363_emptyItem" onComplete="loop"/>
+          <an id="instance278565_emptyItem" onComplete="loop"/>
+          <an id="instance278767_emptyItem" onComplete="loop"/>
+          <an id="instance278969_emptyItem" onComplete="loop"/>
+          <an id="instance279171_emptyItem" onComplete="loop"/>
+          <an id="instance279373_emptyItem" onComplete="loop"/>
+          <an id="instance279575_emptyItem" onComplete="loop"/>
+          <an id="instance279777_emptyItem" onComplete="loop"/>
+          <an id="instance279979_emptyItem" onComplete="loop"/>
+        </an>
+      </state>
+      <state id="gamesMenuStars">
+        <an id="gamesMenuStars_instance6824_StarsCycleUpperNoCut_gamesMenu">
+          <an id="instance6825_emptyItem" onComplete="loop"/>
+          <an id="instance280353_emptyItem" onComplete="loop"/>
+          <an id="instance280555_emptyItem" onComplete="loop"/>
+          <an id="instance280757_emptyItem" onComplete="loop"/>
+          <an id="instance280959_emptyItem" onComplete="loop"/>
+          <an id="instance281161_emptyItem" onComplete="loop"/>
+          <an id="instance281363_emptyItem" onComplete="loop"/>
+          <an id="instance281565_emptyItem" onComplete="loop"/>
+          <an id="instance281767_emptyItem" onComplete="loop"/>
+          <an id="instance281969_emptyItem" onComplete="loop"/>
+          <an id="instance282171_emptyItem" onComplete="loop"/>
+          <an id="instance282373_emptyItem" onComplete="loop"/>
+          <an id="instance282575_emptyItem" onComplete="loop"/>
+          <an id="instance282777_emptyItem" onComplete="loop"/>
+          <an id="instance282979_emptyItem" onComplete="loop"/>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance6840_StarsCycleUpperNoCut">
+          <an id="instance6841_emptyItem" onComplete="loop"/>
+          <an id="instance283353_emptyItem" onComplete="loop"/>
+          <an id="instance283555_emptyItem" onComplete="loop"/>
+          <an id="instance283757_emptyItem" onComplete="loop"/>
+          <an id="instance283959_emptyItem" onComplete="loop"/>
+          <an id="instance284161_emptyItem" onComplete="loop"/>
+          <an id="instance284363_emptyItem" onComplete="loop"/>
+          <an id="instance284565_emptyItem" onComplete="loop"/>
+          <an id="instance284767_emptyItem" onComplete="loop"/>
+          <an id="instance284969_emptyItem" onComplete="loop"/>
+          <an id="instance285171_emptyItem" onComplete="loop"/>
+          <an id="instance285373_emptyItem" onComplete="loop"/>
+          <an id="instance285575_emptyItem" onComplete="loop"/>
+          <an id="instance285777_emptyItem" onComplete="loop"/>
+          <an id="instance285979_emptyItem" onComplete="loop"/>
+        </an>
+      </state>
+    </et>
+    <et id="AvatarEffectTemplate">
+      <an id="instance685784_BallsAnim">
+        <an id="instance6858_straight"/>
+      </an>
+    </et>
+    <et id="BlockerTemplate_1024_768">
+      <bd>
+        <bvr h="768" y="0" w="1024" x="0"/>
+      </bd>
+    </et>
+    <et id="BlockerTemplate_1136_640">
+      <bd>
+        <bvr h="639.99" y="0" w="1136" x="0"/>
+      </bd>
+    </et>
+    <et id="BlockerTemplate_960_640">
+      <bd>
+        <bvr h="639.99" y="0" w="960" x="0"/>
+      </bd>
+    </et>
+  </defs>
+  <entities/>
+  <sounds>
+    <snd id="innerGuideUIClick" loop="false">
+      <s f="innerGuideUIClick.ogg"/>
+    </snd>
+    <snd id="outerGuideThoughtBubble" loop="false">
+      <s f="outerGuideThoughtBubble.ogg"/>
+    </snd>
+    <snd id="outerGuideBgMusic" loop="true">
+      <s f="outerGuideBgMusic.ogg"/>
+    </snd>
+    <snd id="outerGuideTransformation" loop="false">
+      <s f="outerGuideTransformation.ogg"/>
+    </snd>
+    <snd id="outerGuideUIClick" loop="false">
+      <s f="outerGuideUIClick.ogg"/>
+    </snd>
+    <snd id="sparkleLoop" loop="true">
+      <s f="sparkleLoop.ogg"/>
+    </snd>
+    <snd id="outerGuideStartPlayingClick" loop="false">
+      <s f="outerGuideStartPlayingClick.ogg"/>
+    </snd>
+  </sounds>
+  <textures>
+    <tex file="Star02.png" preMultipliedAlpha="true"/>
+    <tex file="Guide1.webp"/>
+  </textures>
+</scene>

@@ -17,7 +17,7 @@
     <string name="abc_activity_chooser_view_see_all">Прикажи све</string>
     <string name="abc_shareactionprovider_share_with_application">Дели са апликацијом %s</string>
     <string name="abc_shareactionprovider_share_with">Дели са</string>
-    <string name="status_bar_notification_info_overflow">&gt;999</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="abc_capital_on">УКЉУЧИ</string>
     <string name="abc_capital_off">ИСКЉУЧИ</string>
     <string name="common_google_play_services_notification_ticker">Грешка Google Play услуга</string>

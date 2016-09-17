@@ -1,0 +1,2396 @@
+<scene id="GameFrame" binAnims="true">
+  <defs>
+    <et id="GameFrame_1136_640">
+      <e tid="GamesButton" id="gamesBtn">
+        <x>969.95</x>
+        <y>81.25</y>
+      </e>
+      <e tid="GameFrameEntityItem_1136_640" id="gameFrameEnt"/>
+    </et>
+    <et id="GamesButton" type="Button">
+      <state id="up" w="147.6" h="123.8">
+        <bd>
+          <bvr h="123.8" y="0.2" w="147.61" x="3"/>
+        </bd>
+        <an id="instance73351_GamesButtonUpImage"/>
+      </state>
+      <state id="down" w="147.6" h="123.8">
+        <bd>
+          <bvr h="123.8" y="0.2" w="147.61" x="3"/>
+        </bd>
+        <an id="instance73372_GamesButtonDownImage"/>
+      </state>
+    </et>
+    <et id="GameFrameEntityItem_1136_640">
+      <state id="exit">
+        <an id="exit_instance10_GFExitAnim_1136_640">
+          <an id="instance11_ANIMgf">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>297</x>
+              <y>72.25</y>
+            </e>
+            <e tid="GameFrameBGEntity" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance43_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance44_ANIMxp">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>926.3</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance105_ANIMbalance">
+            <e tid="BalanceEntity" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance143_ANIMloyalty1136">
+            <e tid="LoyaltyEntity_1136_640" id="loyaltyEnt" allStates="true">
+              <x>256.7</x>
+              <y>5.75</y>
+            </e>
+          </an>
+          <an id="instance191_ANIMgreen1136X640">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>516.7</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance264_ANIMsetting">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>169</x>
+              <y>13</y>
+            </e>
+          </an>
+          <an id="instance270_ANIMback">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance290_CollectEntityAnim_1136_640">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>936</x>
+              <y>560</y>
+            </e>
+          </an>
+          <an id="instance317_BottomFramePromoAnim_1136_640">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>531</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>582</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="exitBonus">
+        <an id="exitBonus_instance358_GFExitBonusAnim_1136_640">
+          <an id="instance359_ANIMgf">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>297</x>
+              <y>72.25</y>
+            </e>
+            <e tid="GameFrameBGEntity" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance391_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance392_ANIMxp">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>926.3</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance453_ANIMbalance">
+            <e tid="BalanceEntity" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance491_ANIMloyalty1136">
+            <e tid="LoyaltyEntity_1136_640" id="loyaltyEnt" allStates="true">
+              <x>256.7</x>
+              <y>5.75</y>
+            </e>
+          </an>
+          <an id="instance539_ANIMgreen1136X640">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>516.7</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance612_ANIMsetting">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>169</x>
+              <y>13</y>
+            </e>
+          </an>
+          <an id="instance618_CasinosExitButtonAnim">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance638_CollectEntityAnim_1136_640">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>936</x>
+              <y>560</y>
+            </e>
+          </an>
+          <an id="instance665_BottomFramePromoAnim_1136_640">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>531</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>582</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="enter">
+        <an id="enter_instance706_GFEnterAnim_1136_640">
+          <an id="instance707_ANIMgf">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>297</x>
+              <y>72.25</y>
+            </e>
+            <e tid="GameFrameBGEntity" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance739_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance740_ANIMxp">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>926.3</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance801_ANIMbalance">
+            <e tid="BalanceEntity" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance839_ANIMloyalty1136">
+            <e tid="LoyaltyEntity_1136_640" id="loyaltyEnt" allStates="true">
+              <x>256.7</x>
+              <y>5.75</y>
+            </e>
+          </an>
+          <an id="instance887_ANIMgreen1136X640">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>516.7</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance960_ANIMsetting">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>169</x>
+              <y>13</y>
+            </e>
+          </an>
+          <an id="instance23626_ANIMBonusBack">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance986_CollectEntityAnim_1136_640">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>936</x>
+              <y>560</y>
+            </e>
+          </an>
+          <an id="instance1013_BottomFramePromoAnim_1136_640">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>531</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>582</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="enterBonus">
+        <an id="enterBonus_instance1054_GFEnterBonusAnim_1136_640">
+          <an id="instance1055_ANIMgf">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>297</x>
+              <y>72.25</y>
+            </e>
+            <e tid="GameFrameBGEntity" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance1087_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance1088_ANIMxp">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>926.3</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance1149_ANIMbalance">
+            <e tid="BalanceEntity" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance1187_ANIMloyalty1136">
+            <e tid="LoyaltyEntity_1136_640" id="loyaltyEnt" allStates="true">
+              <x>256.7</x>
+              <y>5.75</y>
+            </e>
+          </an>
+          <an id="instance1235_ANIMgreen1136X640">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>516.7</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance1308_ANIMsetting">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>169</x>
+              <y>13</y>
+            </e>
+          </an>
+          <an id="instance1314_ANIMBonusBack">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance1334_CollectEntityAnim_1136_640">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>936</x>
+              <y>560</y>
+            </e>
+          </an>
+          <an id="instance1361_BottomFramePromoAnim_1136_640">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>531</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>582</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="exitLobby">
+        <an id="exitLobby_instance1402_GFExitLobbyAnim_1136_640">
+          <an id="instance1403_ANIMgf">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>297</x>
+              <y>72.25</y>
+            </e>
+            <e tid="GameFrameBGEntity" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance1435_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance1436_ANIMxp">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>926.3</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance1497_ANIMbalance">
+            <e tid="BalanceEntity" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance1535_ANIMloyalty1136">
+            <e tid="LoyaltyEntity_1136_640" id="loyaltyEnt" allStates="true">
+              <x>256.7</x>
+              <y>5.75</y>
+            </e>
+          </an>
+          <an id="instance1583_ANIMgreen1136X640">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>516.7</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance1656_ANIMsetting">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>169</x>
+              <y>13</y>
+            </e>
+          </an>
+          <an id="instance1662_ANIMback">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance1682_CollectEntityAnim_1136_640">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>936</x>
+              <y>560</y>
+            </e>
+          </an>
+          <an id="instance1709_BottomFramePromoAnim_1136_640">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>531</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>582</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="enterLobby">
+        <an id="enterLobby_instance1750_GFEnterLobbyAnim_1136_640">
+          <an id="instance1751_ANIMgf">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>297</x>
+              <y>72.25</y>
+            </e>
+            <e tid="GameFrameBGEntity" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance1783_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance1784_ANIMxp">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>926.3</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance1845_ANIMbalance">
+            <e tid="BalanceEntity" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance1883_ANIMloyalty1136">
+            <e tid="LoyaltyEntity_1136_640" id="loyaltyEnt" allStates="true">
+              <x>256.7</x>
+              <y>5.75</y>
+            </e>
+          </an>
+          <an id="instance1931_ANIMgreen1136X640">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>516.7</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance2004_ANIMsetting">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>169</x>
+              <y>13</y>
+            </e>
+          </an>
+          <an id="instance40390_ANIMBonusBack">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance2030_CollectEntityAnim_1136_640">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>936</x>
+              <y>560</y>
+            </e>
+          </an>
+          <an id="instance2057_BottomFramePromoAnim_1136_640">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>531</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>582</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <e tid="GameFrameBGButton" id="instance2098">
+          <y>0.25</y>
+        </e>
+        <an id="animateIdleState_instance2100_ANIMplaceHolder">
+          <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+        </an>
+        <e tid="GameFrameBGEntity" id="gameFrameBGEnt" allStates="true"/>
+        <e tid="BalanceEntity" id="balanceEnt" allStates="true">
+          <x>591.55</x>
+          <y>14.35</y>
+        </e>
+        <e tid="LoyaltyEntity_1136_640" id="loyaltyEnt" allStates="true">
+          <x>256.7</x>
+          <y>6.95</y>
+        </e>
+        <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+          <x>297</x>
+          <y>72.25</y>
+        </e>
+        <e tid="GreenButton" id="buyEnt" allStates="true">
+          <x>516.7</x>
+          <y>-4.25</y>
+        </e>
+        <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+          <y>3</y>
+        </e>
+        <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+          <x>926.3</x>
+          <y>6.05</y>
+        </e>
+        <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+          <x>169.5</x>
+          <y>12.95</y>
+        </e>
+        <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+          <x>26.4</x>
+          <y>13.25</y>
+        </e>
+        <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+          <x>936</x>
+          <y>715.1</y>
+        </e>
+        <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+          <y>658.95</y>
+        </e>
+        <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+          <x>104</x>
+          <y>710</y>
+        </e>
+      </state>
+    </et>
+    <et h="54" id="PurchaseEntity" type="AllStates" w="220">
+      <an id="instance7341_PurchaseAnim">
+        <an id="instance7342_BG" onComplete="loop"/>
+        <an id="square_1_Square" onComplete="loop"/>
+        <an id="instance7490_emptyItem" onComplete="loop"/>
+        <an id="instance7560_emptyItem" onComplete="loop"/>
+        <an id="instance7630_emptyItem" onComplete="loop"/>
+        <an id="instance7700_emptyItem" onComplete="loop"/>
+        <an id="instance7770_emptyItem" onComplete="loop"/>
+        <an id="instance7840_emptyItem" onComplete="loop"/>
+        <an id="instance7910_emptyItem" onComplete="loop"/>
+        <an id="instance7980_emptyItem" onComplete="loop"/>
+        <an id="instance8050_emptyItem" onComplete="loop"/>
+        <an id="square_11_Square" onComplete="loop"/>
+        <an id="square_12_Square" onComplete="loop"/>
+        <an id="square_13_Square" onComplete="loop"/>
+        <an id="square_14_Square" onComplete="loop"/>
+        <an id="square_15_Square" onComplete="loop"/>
+        <an id="square_16_Square" onComplete="loop"/>
+        <an id="square_17_Square" onComplete="loop"/>
+        <an id="square_18_Square" onComplete="loop"/>
+        <an id="square_19_Square" onComplete="loop"/>
+      </an>
+    </et>
+    <et h="77.65" id="GameFrameBGEntity" type="AllStates" w="1136">
+      <an id="gf11363_GameFrameBGImage"/>
+      <an id="gf11362_LineSeperation"/>
+      <an id="gf11361_LineSeperation"/>
+      <an id="gf11360_LineSeperation"/>
+    </et>
+    <et id="BannerContainer" type="AllStates"/>
+    <et id="XPProgressEnt" type="AllStates">
+      <e tid="XPButtonEntity" id="xpButton">
+        <x>1013</x>
+        <y>37</y>
+      </e>
+      <e tid="markerItem" id="xpLocator">
+        <x>956.1</x>
+        <y>33.6</y>
+        <w>2</w>
+        <h>2</h>
+      </e>
+    </et>
+    <et id="XPButtonEntity" type="Button">
+      <state id="up" w="203.55" h="74.5">
+        <bd>
+          <bvr h="74.5" y="-37.25" w="203.55" x="-101.75"/>
+        </bd>
+        <e tid="BtnAnim" id="instance9486">
+          <x>-101.75</x>
+          <y>-37.25</y>
+        </e>
+      </state>
+    </et>
+    <et id="BtnAnim">
+      <an id="instance9487_XPproBGimageANIM">
+        <an id="xpidle3_XPProgressBGImage"/>
+      </an>
+      <an id="instance9490_pobarAnim">
+        <e tid="ProgressBarEnt" id="progressBar"/>
+      </an>
+      <an id="instance9495_FrameOnlyEntANIM2">
+        <e tid="FrameOnlyEnt" id="xpidle8"/>
+      </an>
+      <an id="instance9499_LevelpieceANIM">
+        <e tid="LevelStarEntity" id="xpidle1">
+          <x>14</x>
+          <y>3.25</y>
+        </e>
+      </an>
+      <an id="y8656887_LevelTextItemANIM">
+        <e tid="LevelTextItem" id="level">
+          <x>-24.6</x>
+          <y>-20.75</y>
+          <w>49.2</w>
+          <h>41.5</h>
+        </e>
+      </an>
+      <e tid="XPTextItem" id="xp">
+        <x>100.05</x>
+        <y>18.75</y>
+        <w>56.8</w>
+        <h>29</h>
+      </e>
+    </et>
+    <et id="ProgressBarEnt" w="163.2" h="30.8">
+      <an id="instance9493_ProgressBarImage"/>
+    </et>
+    <et id="FrameOnlyEnt">
+      <an id="instance9496_FrameOnly"/>
+    </et>
+    <et id="LevelStarEntity">
+      <an id="instance9500_LevelStarImageItem"/>
+    </et>
+    <et id="LevelTextItem" type="TextHolder" color="16777214" align="center"/>
+    <et id="XPTextItem" type="TextHolder" color="16777214" align="center"/>
+    <et id="markerItem" type="Marker"/>
+    <et id="XPBarEntity" type="AllStates">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance65_emptyItem"/>
+      </state>
+      <state id="xpIncreaseDouble">
+        <an id="xpIncreaseDouble_instance66_XPDoubleAnimation">
+          <an id="instance67_XPtextAnimation">
+            <e tid="XPTextItem" id="xp">
+              <x>-28.4</x>
+              <y>-14.5</y>
+              <w>56.8</w>
+              <h>29</h>
+            </e>
+          </an>
+          <an id="instance69_MeterGlowAnim">
+            <an id="instance70_MeterGlow"/>
+          </an>
+          <an id="instance9576_LevelStarEntityANIM">
+            <e tid="LevelStarEntity" id="xpanim1">
+              <x>14</x>
+              <y>3.25</y>
+            </e>
+          </an>
+          <an id="instance9599_LevelTextItemANIM">
+            <e tid="LevelTextItem" id="level">
+              <x>-24.6</x>
+              <y>-20.75</y>
+              <w>49.2</w>
+              <h>41.5</h>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="xpIncrease">
+        <an id="xpIncrease_instance79_XPanimation2anim">
+          <an id="instance80_XPtextAnimation">
+            <e tid="XPTextItem" id="xp">
+              <x>-28.4</x>
+              <y>-14.5</y>
+              <w>56.8</w>
+              <h>29</h>
+            </e>
+          </an>
+          <an id="instance82_MeterGlowAnim">
+            <an id="instance83_MeterGlow"/>
+          </an>
+          <an id="instance86_LevelStarEntityANIM">
+            <e tid="LevelStarEntity" id="xpanim1">
+              <x>14</x>
+              <y>3.25</y>
+            </e>
+          </an>
+          <an id="instance90_LevelTextItemANIM">
+            <e tid="LevelTextItem" id="level">
+              <x>-24.6</x>
+              <y>-20.75</y>
+              <w>49.2</w>
+              <h>41.5</h>
+            </e>
+          </an>
+          <an id="instance92_XpCoinAnim">
+            <an id="instance93_XpCoin1" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+      <state id="levelUp">
+        <an id="levelUp_instance95_XPanimation1anim">
+          <an id="xpanim1anim16_xzxzxz"/>
+          <an id="xpanim1anim1423_LevelStarEntityANIM">
+            <e tid="LevelStarEntity" id="xpanim1">
+              <x>14</x>
+              <y>3.25</y>
+            </e>
+          </an>
+          <an id="xpanim1anim15_ShinyStar"/>
+          <an id="bo5555bberss_XPstarsAnim">
+            <an id="instance102_emptyItem"/>
+          </an>
+          <an id="xpanim1anim13_LevelTextItemANIM">
+            <e tid="LevelTextItem" id="level">
+              <x>-24.6</x>
+              <y>-20.75</y>
+              <w>49.2</w>
+              <h>41.5</h>
+            </e>
+          </an>
+          <an id="xpanim1anim0_XPtextAnimation">
+            <e tid="XPTextItem" id="xp">
+              <x>-28.4</x>
+              <y>-14.5</y>
+              <w>56.8</w>
+              <h>29</h>
+            </e>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="BalanceEntity" type="AllStates">
+      <state id="balanceOut">
+        <an id="balanceOut_instance106_BalanceAnimationANIM">
+          <an id="instance107_FrameBar"/>
+          <e tid="BalanceTextItem" id="balance">
+            <x>55</x>
+            <y>8.5</y>
+            <w>145.05</w>
+            <h>29</h>
+          </e>
+          <an id="instance111_CoinGreen"/>
+        </an>
+      </state>
+      <state id="balanceIn">
+        <an id="balanceIn_instance114_BalanceAnimationANIMout">
+          <an id="instance115_FrameBar"/>
+          <e tid="BalanceTextItem" id="balance">
+            <x>55</x>
+            <y>8.5</y>
+            <w>145.05</w>
+            <h>29</h>
+          </e>
+          <an id="instance119_CoinGreen"/>
+          <an id="instance122_CoinSpinsANIM">
+            <an id="instance123_Coin1"/>
+            <an id="instance10333_Coin1"/>
+          </an>
+          <an id="instance127_MeterGlowGreenAnim">
+            <an id="instance128_MeterGreenGlow"/>
+          </an>
+          <an id="instance131_ChipMeterStarsANIM">
+            <an id="instance132_ChipMeterStars"/>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance135_FrameBar"/>
+        <e tid="BalanceTextItem" id="balance">
+          <x>55</x>
+          <y>8.5</y>
+          <w>145.05</w>
+          <h>29</h>
+        </e>
+        <an id="animateIdleState_instance139_CoinGreen"/>
+        <e tid="markerItem" id="coinLocator">
+          <x>254.15</x>
+          <y>27.6</y>
+          <w>2</w>
+          <h>2</h>
+        </e>
+      </state>
+    </et>
+    <et id="BalanceTextItem" type="TextHolder" color="16777214" align="center"/>
+    <et id="LoyaltyEntity_1136_640" type="AllStates">
+      <e tid="markerItem" id="loyaltyLocator">
+        <x>26.5</x>
+        <y>30.5</y>
+        <w>2</w>
+        <h>2</h>
+      </e>
+      <e tid="LoyaltyUp2" id="loyaltyEntInner">
+        <x>-3.65</x>
+        <y>-0.95</y>
+      </e>
+      <e tid="LoyaltyButton2" id="loyaltyBtn"/>
+      <e tid="SyncEnt" id="lpSyncEnt">
+        <x>-22.75</x>
+        <y>-11.75</y>
+      </e>
+    </et>
+    <et id="LoyaltyUp2">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance145_FrameBar2"/>
+        <an id="animateIdleState_instance150_CoinGold"/>
+        <e tid="LoyaltyBtnInnerEnt" id="lpEntHolder" allStates="true"/>
+      </state>
+      <state id="lpIn">
+        <an id="lpIn_instance154_LYanim">
+          <an id="instance155_FrameBar2"/>
+          <e tid="LoyaltyBtnInnerEnt" id="lpEntHolder" allStates="true"/>
+          <an id="instance161_CoinGold"/>
+          <an id="instance164_LpCoinAnim">
+            <an id="instance165_LpCoin1" onComplete="loop"/>
+          </an>
+          <an id="instance167_loyaltyDobbersE"/>
+        </an>
+      </state>
+      <state id="comingSoon">
+        <an id="comingSoon_instance170_ComingSoonanim">
+          <an id="instance171_FrameBar2"/>
+          <an id="instance176_ComingSoon"/>
+          <an id="instance178_loyaltyDobbersE"/>
+          <an id="instance181_CoinGold"/>
+        </an>
+        <an id="comingSoon_instance184_LPInnerCommingSoonAnim">
+          <e tid="LoyaltyBtnInnerEnt" id="lpEntHolder" allStates="true">
+            <x>-84.65</x>
+            <y>-15.5</y>
+          </e>
+        </an>
+      </state>
+    </et>
+    <et id="LoyaltyBtnInnerEnt" type="AllStates">
+      <e tid="BalanceTextItem" id="lp">
+        <x>84.65</x>
+        <y>15.5</y>
+        <w>145.05</w>
+        <h>29</h>
+      </e>
+    </et>
+    <et id="LoyaltyButton2" type="Button">
+      <state id="up" w="244.55" h="50.7">
+        <bd>
+          <bvr h="50.7" y="-2.35" w="244.57" x="-2.35"/>
+        </bd>
+        <bd>
+          <bvr h="50.7" y="-2.35" w="244.57" x="-2.35"/>
+        </bd>
+      </state>
+      <state id="down" w="244.55" h="50.7">
+        <bd>
+          <bvr h="50.7" y="-2.35" w="244.57" x="-2.35"/>
+        </bd>
+        <bd>
+          <bvr h="50.7" y="-2.35" w="244.57" x="-2.35"/>
+        </bd>
+      </state>
+    </et>
+    <et id="SyncEnt">
+      <an id="instance188_PreloaderImage_2" onComplete="loop"/>
+    </et>
+    <et id="GreenButton" type="AllStates">
+      <state id="saleState">
+        <e tid="SaleButtonEntity" id="saleButtonEnt" allStates="true">
+          <x>-10</x>
+          <y>-10</y>
+        </e>
+        <e tid="SellButton" id="buyBtn"/>
+      </state>
+      <state id="buyState">
+        <e tid="SaleButtonEntity" id="saleButtonEnt" allStates="true">
+          <x>-10</x>
+          <y>-10</y>
+        </e>
+        <e tid="BuyButton" id="buyBtn"/>
+      </state>
+    </et>
+    <et id="SaleButtonEntity" type="AllStates">
+      <an id="instance192_SaleButtonBGImage"/>
+      <e tid="SaleButton" id="saleButton">
+        <x>202.5</x>
+        <y>92.2</y>
+      </e>
+      <e tid="SaleButtonTextItem" id="expirationText">
+        <x>187.5</x>
+        <y>67.2</y>
+        <w>98.7</w>
+        <h>44.15</h>
+      </e>
+    </et>
+    <et id="SaleButton" type="Button">
+      <state id="up" w="231.95" h="97">
+        <bd>
+          <bvr h="96.98" y="-48.45" w="231.94" x="-99.95"/>
+        </bd>
+        <an id="instance113105_SaleButtonUpImage"/>
+      </state>
+    </et>
+    <et id="SaleButtonTextItem" type="TextHolder" color="16777214" align="center"/>
+    <et id="SellButton" type="Button">
+      <state id="up" w="100" h="100">
+        <bd>
+          <bvr h="100.02" y="0" w="100" x="0"/>
+        </bd>
+        <e tid="SellUpEntity" id="upEntity"/>
+      </state>
+      <state id="down" w="100" h="100">
+        <bd>
+          <bvr h="100.02" y="0" w="100" x="0"/>
+        </bd>
+        <e tid="SellDownEntity" id="instance11376"/>
+      </state>
+    </et>
+    <et id="SellUpEntity">
+      <state id="animateState">
+        <an id="animateState_instance11350_SellAnimateAnim">
+          <an id="instance11351_BuyRing"/>
+          <an id="instance11354_GreenButtonRound"/>
+          <an id="instance11357_Sale"/>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance11361_SellAnimateAnim2">
+          <an id="instance11362_BuyRing"/>
+          <an id="instance11365_GreenButtonRoundSale"/>
+          <an id="instance11368_Sale"/>
+          <an id="instance11372_starsIdle"/>
+        </an>
+      </state>
+    </et>
+    <et id="SellDownEntity">
+      <an id="instance11377_SellDownAnim">
+        <an id="instance11378_BuyRing"/>
+        <an id="instance11381_GreenButtonRound"/>
+        <an id="instance11384_Sale"/>
+      </an>
+    </et>
+    <et id="BuyButton" type="Button">
+      <state id="up" w="100" h="100">
+        <bd>
+          <bvr h="99.99" y="0" w="100" x="0"/>
+        </bd>
+        <e tid="BuyUpEntity" id="upEntity"/>
+      </state>
+      <state id="down" w="100" h="100">
+        <bd>
+          <bvr h="99.99" y="0" w="100" x="0"/>
+        </bd>
+        <e tid="BuyEntity" id="instance11473"/>
+      </state>
+    </et>
+    <et id="BuyUpEntity">
+      <state id="animateState">
+        <an id="animateState_instance11411_BuyAnimateAnim">
+          <an id="instance11412_GreenButtonRound"/>
+          <an id="instance11415_GreenButtonRound"/>
+          <an id="instance11418_Buy"/>
+          <an id="instance11421_BuyRing"/>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance11424_BuyIdleAnim">
+          <an id="instance11425_GreenButtonRound"/>
+          <an id="instance11428_Buy"/>
+          <an id="instance11431_IdleEffect"/>
+          <an id="instance11434_BuyRing"/>
+        </an>
+      </state>
+    </et>
+    <et id="BuyEntity">
+      <an id="instance11474_BuyDownAnim">
+        <an id="instance11475_GreenButtonRound"/>
+        <an id="instance11478_GreenButtonRound"/>
+        <an id="instance11481_Buy"/>
+        <an id="instance11484_BuyRing"/>
+      </an>
+    </et>
+    <et id="SettingsButtonAllStatesEnt" type="AllStates">
+      <e tid="SettingsButton" id="settingsBtn">
+        <x>-4.1</x>
+        <y>-4.5</y>
+      </e>
+    </et>
+    <et id="SettingsButton" type="Button">
+      <state id="up" w="100" h="100">
+        <bd>
+          <bvr h="100" y="-13.6" w="100" x="-28.25"/>
+        </bd>
+        <e tid="SettingUp" id="upEntity"/>
+      </state>
+      <state id="down" w="100" h="100">
+        <bd>
+          <bvr h="100" y="-13.6" w="100" x="-28.25"/>
+        </bd>
+        <e tid="SettingDown" id="instance11914"/>
+      </state>
+    </et>
+    <et id="SettingUp">
+      <state id="animateState">
+        <an id="animateState_instance11909_SettingUpAnimateAnim">
+          <an id="swanim_SettingsWheel"/>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <an id="animateIdleState_swidle_SettingsWheel"/>
+      </state>
+    </et>
+    <et id="SettingDown">
+      <an id="instance11915_SettingDownAnim">
+        <an id="swdown_SettingsWheel"/>
+      </an>
+    </et>
+    <et id="CasinoButtonEntity" type="AllStates">
+      <state id="backBtn">
+        <e tid="CasinosBackButton" id="casinosBtn">
+          <x>48.5</x>
+          <y>21.5</y>
+        </e>
+      </state>
+      <state id="lobbyBtn">
+        <e tid="CasinosLobbyButton" id="casinosBtn">
+          <x>48.5</x>
+          <y>21.5</y>
+        </e>
+      </state>
+      <state id="casinoBtn">
+        <e tid="CasinosCasinoButton" id="casinosBtn">
+          <x>48.5</x>
+          <y>21.5</y>
+        </e>
+      </state>
+    </et>
+    <et id="CasinosBackButton" type="Button">
+      <state id="up" w="153.6" h="102.6">
+        <bd>
+          <bvr h="102.6" y="-51.3" w="153.59" x="-76.8"/>
+        </bd>
+        <an id="instance122987_BackUpImage"/>
+      </state>
+      <state id="disabled" w="153.6" h="102.6">
+        <bd>
+          <bvr h="102.6" y="-51.3" w="153.59" x="-76.8"/>
+        </bd>
+        <an id="instance123088_BackUpImage"/>
+      </state>
+    </et>
+    <et id="CasinosLobbyButton" type="Button">
+      <state id="up" w="153.6" h="102.6">
+        <bd>
+          <bvr h="102.6" y="-51.3" w="153.59" x="-76.8"/>
+        </bd>
+        <an id="instance123189_LobbyUpImage"/>
+      </state>
+      <state id="disabled" w="153.6" h="102.6">
+        <bd>
+          <bvr h="102.6" y="-51.3" w="153.59" x="-76.8"/>
+        </bd>
+        <an id="instance1232810_LobbyUpImage"/>
+      </state>
+    </et>
+    <et id="CasinosCasinoButton" type="Button">
+      <state id="up" w="153.6" h="102.6">
+        <bd>
+          <bvr h="102.6" y="-51.3" w="153.59" x="-76.8"/>
+        </bd>
+        <an id="instance1233811_CasinoUpImage"/>
+      </state>
+      <state id="disabled" w="153.6" h="102.6">
+        <bd>
+          <bvr h="102.6" y="-51.3" w="153.59" x="-76.8"/>
+        </bd>
+        <an id="instance1234312_CasinoUpImage"/>
+      </state>
+    </et>
+    <et id="CollectEntity_960_640" type="AllStates">
+      <state id="readyState">
+        <an id="readyState_instance291_GlowBonusAnim">
+          <an id="instance292_GlowBonus" onComplete="loop"/>
+          <an id="instance295_GlowBonus" onComplete="loop"/>
+        </an>
+        <an id="readyState_instance298_CollectBGImage"/>
+        <an id="readyState_instance300_CoinTower"/>
+        <e tid="CollectButton" id="collectBtn">
+          <x>33.6</x>
+          <y>52.05</y>
+        </e>
+        <an id="readyState_instance306_Bonus"/>
+      </state>
+      <state id="timerState">
+        <an id="timerState_instance308_CollectBGImage"/>
+        <an id="timerState_instance310_CoinTower"/>
+        <an id="timerState_instance313_Bonus"/>
+        <e tid="SaleButtonTextItem" id="collectTimer">
+          <x>-17</x>
+          <y>30.6</y>
+          <w>98.7</w>
+          <h>44.15</h>
+        </e>
+      </state>
+    </et>
+    <et id="CollectButton" type="Button">
+      <state id="up" w="259" h="140.95">
+        <bd>
+          <bvr h="140.95" y="-92" w="258.98" x="-108.95"/>
+        </bd>
+        <an id="instance1273213_CollectButtonImage"/>
+      </state>
+      <state id="disabled" w="259" h="140.95">
+        <bd>
+          <bvr h="140.95" y="-92" w="258.98" x="-108.95"/>
+        </bd>
+        <an id="instance1273714_CollectButtonImage"/>
+      </state>
+    </et>
+    <et id="BottomFramePromoEnt" type="AllStates">
+      <state id="facebook">
+        <an id="facebook_instance318_CollectBGImage"/>
+        <an id="facebook_instance320_BottomFrameBGImage2"/>
+        <an id="facebook_instance322_User"/>
+        <e tid="ProfilePicEnt" id="pic1">
+          <x>42.9</x>
+          <y>61.15</y>
+          <sx>0.64</sx>
+          <sy>0.64</sy>
+        </e>
+        <an id="facebook_instance332_NameAnim">
+          <e tid="Name" id="m_name">
+            <w>146.1</w>
+            <h>34.05</h>
+          </e>
+        </an>
+      </state>
+      <state id="guest">
+        <an id="guest_instance335_BottomFramePromoAnim">
+          <an id="instance336_CollectBGImage"/>
+          <an id="instance338_BottomFrameBGImage2"/>
+          <an id="instance340_User"/>
+          <an id="instance343_FBbtnANIM">
+            <e tid="ProfilePicEnt" id="pic1">
+              <x>41.9</x>
+              <y>61.15</y>
+              <sx>0.64</sx>
+              <sy>0.64</sy>
+            </e>
+            <e tid="Fconnet" id="connectBTN">
+              <x>42.5</x>
+              <y>59</y>
+            </e>
+          </an>
+          <an id="instance354_PayAtt2"/>
+        </an>
+      </state>
+    </et>
+    <et id="ProfilePicEnt">
+      <an id="instance325_ANIMprofile1">
+        <e tid="PicHolder" id="m_pic">
+          <x>-36.95</x>
+          <y>-41.9</y>
+          <w>71.98</w>
+          <h>71.98</h>
+          <sx>1.04</sx>
+          <sy>1.04</sy>
+        </e>
+      </an>
+      <an id="instance328_FrameIMGanim1">
+        <an id="instance329_GreenImageCir1"/>
+      </an>
+    </et>
+    <et id="PicHolder" type="PlaceHolder">
+      <an id="instance326_picHolderInner1"/>
+    </et>
+    <et id="Name" type="TextHolder" align="center"/>
+    <et id="Fconnet" type="Button">
+      <state id="up" w="86.9" h="84.9">
+        <bd>
+          <bvr h="84.91" y="-42.45" w="86.91" x="-44"/>
+        </bd>
+        <an id="instance1319015_FconnectBtn"/>
+      </state>
+    </et>
+    <et id="RewardsBtnHolder" type="AllStates">
+      <e tid="RewardBtn" id="rewardBTN">
+        <x>72</x>
+        <y>25</y>
+      </e>
+    </et>
+    <et id="RewardBtn" type="Button">
+      <state id="up" w="143.8" h="52.9">
+        <bd>
+          <bvr h="52.9" y="-26.45" w="143.8" x="-71.9"/>
+        </bd>
+        <an id="instance1319516_RewardBtnImage"/>
+      </state>
+    </et>
+    <et id="GameFrameBGButton" type="Button">
+      <state id="up" w="1136" h="70">
+        <bd>
+          <bvr h="70" y="0" w="1136" x="0"/>
+        </bd>
+        <an id="instance4130987_emptyItem"/>
+      </state>
+      <state id="down" w="1136" h="70">
+        <bd>
+          <bvr h="70" y="0" w="1136" x="0"/>
+        </bd>
+        <an id="instance4130988_emptyItem"/>
+      </state>
+    </et>
+    <et id="GameFrame_960_640">
+      <e tid="GamesButton" id="gamesBtn">
+        <x>794.15</x>
+        <y>81.35</y>
+      </e>
+      <e tid="GameFrameEntityItem_960_640" id="gameFrameEnt"/>
+    </et>
+    <et id="GameFrameEntityItem_960_640">
+      <state id="exit">
+        <an id="exit_instance2441_GFExitAnim_960_640">
+          <an id="instance2442_ANIMgf4">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>245</x>
+              <y>71.85</y>
+            </e>
+            <e tid="GameFrameBGEntity4" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance2474_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance2475_ANIMxp960X640">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <x>-172</x>
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>755.15</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance2536_ANIMbalance4">
+            <e tid="BalanceEntity4" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance2567_ANIMloyalty">
+            <e tid="LoyaltyEntity_1024_768" id="loyaltyEnt" allStates="true">
+              <x>230.7</x>
+              <y>5.95</y>
+            </e>
+          </an>
+          <an id="instance2615_ANIMgreen960X640">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>431.9</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance2688_ANIMsetting960X640">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>152.7</x>
+              <y>14.55</y>
+            </e>
+          </an>
+          <an id="instance2694_ANIMback">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance2714_CollectEntityAnim_960_640">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>760</x>
+              <y>560</y>
+            </e>
+          </an>
+          <an id="instance2741_BottomFramePromoAnim_960_640">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>528</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>579</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="enter">
+        <an id="enter_instance2782_GFEnterAnim_960_640">
+          <an id="instance2783_ANIMgf4">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>245</x>
+              <y>71.85</y>
+            </e>
+            <e tid="GameFrameBGEntity4" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance2815_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance2816_ANIMxp960X640">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <x>-172</x>
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>755.15</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance2877_ANIMbalance4">
+            <e tid="BalanceEntity4" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance2908_ANIMloyalty">
+            <e tid="LoyaltyEntity_1024_768" id="loyaltyEnt" allStates="true">
+              <x>230.7</x>
+              <y>5.95</y>
+            </e>
+          </an>
+          <an id="instance2956_ANIMgreen960X640">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>431.9</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance3029_ANIMsetting960X640">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>152.7</x>
+              <y>14.55</y>
+            </e>
+          </an>
+          <an id="instance3035_ANIMback">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance3055_CollectEntityAnim_960_640">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>760</x>
+              <y>560</y>
+            </e>
+          </an>
+          <an id="instance3082_BottomFramePromoAnim_960_640">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>528</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>579</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="exitBonus">
+        <an id="exitBonus_instance3123_GFExitBonusAnim_960_640">
+          <an id="instance3124_ANIMgf4">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>245</x>
+              <y>71.85</y>
+            </e>
+            <e tid="GameFrameBGEntity4" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance3156_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance3157_ANIMxp960X640">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <x>-172</x>
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>755.15</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance3218_ANIMbalance4">
+            <e tid="BalanceEntity4" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance3249_ANIMloyalty">
+            <e tid="LoyaltyEntity_1024_768" id="loyaltyEnt" allStates="true">
+              <x>230.7</x>
+              <y>5.95</y>
+            </e>
+          </an>
+          <an id="instance3297_ANIMgreen960X640">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>431.9</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance3370_ANIMsetting960X640">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>152.7</x>
+              <y>14.55</y>
+            </e>
+          </an>
+          <an id="instance3376_CasinosExitButtonAnim">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance3396_CollectEntityAnim_960_640">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>760</x>
+              <y>560</y>
+            </e>
+          </an>
+          <an id="instance3423_BottomFramePromoAnim_960_640">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>528</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>579</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="enterBonus">
+        <an id="enterBonus_instance3464_GFEnterBonusAnim_960_640">
+          <an id="instance3465_ANIMgf4">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>245</x>
+              <y>71.85</y>
+            </e>
+            <e tid="GameFrameBGEntity4" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance3497_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance3498_ANIMxp960X640">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <x>-172</x>
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>755.15</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance3559_ANIMbalance4">
+            <e tid="BalanceEntity4" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance3590_ANIMloyalty">
+            <e tid="LoyaltyEntity_1024_768" id="loyaltyEnt" allStates="true">
+              <x>230.7</x>
+              <y>5.95</y>
+            </e>
+          </an>
+          <an id="instance3638_ANIMgreen960X640">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>431.9</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance3711_ANIMsetting960X640">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>152.7</x>
+              <y>14.55</y>
+            </e>
+          </an>
+          <an id="instance3717_ANIMBonusBack">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance3737_CollectEntityAnim_960_640">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>760</x>
+              <y>560</y>
+            </e>
+          </an>
+          <an id="instance3764_BottomFramePromoAnim_960_640">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>528</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>579</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="exitLobby">
+        <an id="exitLobby_instance3805_GFExitLobbyAnim_960_640">
+          <an id="instance3806_ANIMgf4">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>245</x>
+              <y>71.85</y>
+            </e>
+            <e tid="GameFrameBGEntity4" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance3838_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance3839_ANIMxp960X640">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <x>-172</x>
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>755.15</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance3900_ANIMbalance4">
+            <e tid="BalanceEntity4" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance3931_ANIMloyalty">
+            <e tid="LoyaltyEntity_1024_768" id="loyaltyEnt" allStates="true">
+              <x>230.7</x>
+              <y>5.95</y>
+            </e>
+          </an>
+          <an id="instance3979_ANIMgreen960X640">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>431.9</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance4052_ANIMsetting960X640">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>152.7</x>
+              <y>14.55</y>
+            </e>
+          </an>
+          <an id="instance4058_ANIMback">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance4078_CollectEntityAnim_960_640">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>760</x>
+              <y>560</y>
+            </e>
+          </an>
+          <an id="instance4105_BottomFramePromoAnim_960_640">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>528</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>579</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="enterLobby">
+        <an id="enterLobby_instance4146_GFEnterLobbyAnim_960_640">
+          <an id="instance4147_ANIMgf4">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>245</x>
+              <y>71.85</y>
+            </e>
+            <e tid="GameFrameBGEntity4" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance4179_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance4180_ANIMxp960X640">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <x>-172</x>
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>755.15</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance4241_ANIMbalance4">
+            <e tid="BalanceEntity4" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance4272_ANIMloyalty">
+            <e tid="LoyaltyEntity_1024_768" id="loyaltyEnt" allStates="true">
+              <x>230.7</x>
+              <y>5.95</y>
+            </e>
+          </an>
+          <an id="instance4320_ANIMgreen960X640">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>431.9</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance4393_ANIMsetting960X640">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>152.7</x>
+              <y>14.55</y>
+            </e>
+          </an>
+          <an id="instance4399_ANIMback">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance4419_CollectEntityAnim_960_640">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>760</x>
+              <y>560</y>
+            </e>
+          </an>
+          <an id="instance4446_BottomFramePromoAnim_960_640">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>528</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>579</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <e tid="GameFrameBGButton" id="instance4487">
+          <y>0.25</y>
+        </e>
+        <an id="animateIdleState_instance4489_ANIMplaceHolder">
+          <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+        </an>
+        <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+          <x>245</x>
+          <y>71.85</y>
+        </e>
+        <e tid="GameFrameBGEntity4" id="gameFrameBGEnt" allStates="true"/>
+        <e tid="BalanceEntity4" id="balanceEnt" allStates="true">
+          <x>440.65</x>
+          <y>14.35</y>
+        </e>
+        <e tid="LoyaltyEntity_1024_768" id="loyaltyEnt" allStates="true">
+          <x>196.7</x>
+          <y>8.95</y>
+        </e>
+        <e tid="GreenButton" id="buyEnt" allStates="true">
+          <x>431.35</x>
+          <y>-4.25</y>
+        </e>
+        <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+          <x>760</x>
+          <y>719</y>
+        </e>
+        <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+          <y>693</y>
+        </e>
+        <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+          <x>104</x>
+          <y>744</y>
+        </e>
+        <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+          <x>-171.3</x>
+          <y>3</y>
+        </e>
+        <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+          <x>755.15</x>
+          <y>6.05</y>
+        </e>
+        <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+          <x>149.7</x>
+          <y>12.95</y>
+        </e>
+        <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+          <x>16.5</x>
+          <y>13.25</y>
+        </e>
+      </state>
+    </et>
+    <et h="77.65" id="GameFrameBGEntity4" type="AllStates" w="960">
+      <an id="gf9603_GameFrameBGImage"/>
+      <an id="gf9602_LineSeperation"/>
+      <an id="gf9601_LineSeperation"/>
+      <an id="gf9600_LineSeperation"/>
+    </et>
+    <et id="BalanceEntity4" type="AllStates">
+      <state id="animateIdleState">
+        <an id="animateIdleState_blcidle2_FrameBar"/>
+        <e tid="BalanceTextItem" id="balance">
+          <x>82</x>
+          <y>8.5</y>
+          <w>145.05</w>
+          <h>29</h>
+        </e>
+        <an id="animateIdleState_blcidle0_CoinGreen"/>
+        <e tid="markerItem" id="coinLocator">
+          <x>254.15</x>
+          <y>27.6</y>
+          <w>2</w>
+          <h>2</h>
+        </e>
+      </state>
+      <state id="balanceOut">
+        <an id="balanceOut_instance2543_BalanceAnimationANIM4">
+          <an id="blcin34_FrameBar"/>
+          <an id="blcin33_BalanceTextAnimation">
+            <e tid="BalanceTextItem" id="balance">
+              <x>-108.8</x>
+              <y>-14.5</y>
+              <w>145.05</w>
+              <h>29</h>
+            </e>
+          </an>
+          <an id="blcin31_CoinGreen"/>
+        </an>
+      </state>
+      <state id="balanceIn">
+        <an id="balanceIn_instance2549_BalanceAnimationANIMout4">
+          <an id="blnce4anim34_FrameBar"/>
+          <e tid="BalanceTextItem" id="balance">
+            <x>82</x>
+            <y>8.5</y>
+            <w>145.05</w>
+            <h>29</h>
+          </e>
+          <an id="hi124h_MeterGlowGreenAnim">
+            <an id="instance2553_MeterGreenGlow"/>
+          </an>
+          <an id="hi234gg5_ChipMeterStarsANIM">
+            <an id="instance2556_ChipMeterStars"/>
+          </an>
+          <an id="instance2559_CoinGreen"/>
+          <an id="instance2562_CoinSpinsANIM">
+            <an id="instance2563_Coin1"/>
+            <an id="instance46586_Coin1"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="LoyaltyEntity_1024_768" type="AllStates">
+      <e tid="markerItem" id="loyaltyLocator">
+        <x>49</x>
+        <y>24</y>
+        <w>2</w>
+        <h>2</h>
+      </e>
+      <e tid="LoyaltyUp" id="loyaltyEntInner">
+        <x>-3.65</x>
+        <y>-0.95</y>
+      </e>
+      <e tid="LoyaltyButton2" id="loyaltyBtn">
+        <x>20</x>
+        <y>4</y>
+      </e>
+      <e tid="SyncEnt" id="lpSyncEnt">
+        <x>-46.75</x>
+        <y>-14.25</y>
+      </e>
+    </et>
+    <et id="LoyaltyUp">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance2569_FrameBar2"/>
+        <an id="animateIdleState_instance2574_CoinGold"/>
+        <e tid="LoyaltyBtnInnerEnt" id="lpEntHolder" allStates="true">
+          <y>-2.25</y>
+        </e>
+      </state>
+      <state id="comingSoon">
+        <an id="comingSoon_instance2578_ComingSoonanim2">
+          <an id="instance2579_FrameBar2"/>
+          <an id="instance2584_ComingSoon"/>
+          <an id="instance2586_loyaltyDobbersE"/>
+          <an id="instance2589_CoinGold"/>
+        </an>
+        <an id="comingSoon_instance2592_LPInnerCommingSoonAnim">
+          <e tid="LoyaltyBtnInnerEnt" id="lpEntHolder" allStates="true">
+            <x>-84.65</x>
+            <y>-15.5</y>
+          </e>
+        </an>
+      </state>
+      <state id="lpIn">
+        <an id="lpIn_instance2594_LYanim2">
+          <an id="instance2595_FrameBar2"/>
+          <e tid="LoyaltyBtnInnerEnt" id="lpEntHolder" allStates="true">
+            <y>-2.25</y>
+          </e>
+          <an id="instance2601_CoinGold"/>
+          <an id="instance2604_loyaltyDobbersE"/>
+          <an id="instance2607_LpCoinAnim">
+            <an id="instance2608_LpCoin1" onComplete="loop"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="GameFrame_1024_768">
+      <e tid="GamesButton" id="gamesBtn">
+        <x>858.95</x>
+        <y>81.25</y>
+      </e>
+      <e tid="GameFrameEntityItem1024" id="gameFrameEnt"/>
+    </et>
+    <et id="GameFrameEntityItem1024">
+      <state id="exit">
+        <an id="exit_instance4823_GFExitAnim_1024_768">
+          <an id="instance4824_ANIMgf1">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>275</x>
+              <y>71.85</y>
+            </e>
+            <e tid="GameFrameBGEntity1" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance4856_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance4857_ANIMxp1024X768">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <x>-102</x>
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>826.25</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance4918_ANIMbalance1">
+            <e tid="BalanceEntity11" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance4955_ANIMloyalty">
+            <e tid="LoyaltyEntity_1024_768" id="loyaltyEnt" allStates="true">
+              <x>230.7</x>
+              <y>5.95</y>
+            </e>
+          </an>
+          <an id="instance5003_ANIMgreen1024X768">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>461.4</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance5076_ANIMsetting">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>169</x>
+              <y>13</y>
+            </e>
+          </an>
+          <an id="instance5082_ANIMback">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance5102_CollectEntityAnim_1024_768">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>824</x>
+              <y>688</y>
+            </e>
+          </an>
+          <an id="instance5129_BottomFramePromoAnim_1024_768">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>661</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>712</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="enter">
+        <an id="enter_instance5170_GFEnterAnim_1024_768">
+          <an id="instance5171_ANIMgf1">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>275</x>
+              <y>71.85</y>
+            </e>
+            <e tid="GameFrameBGEntity1" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance5203_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance5204_ANIMxp1024X768">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <x>-102</x>
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>826.25</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance5265_ANIMbalance1">
+            <e tid="BalanceEntity11" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance5302_ANIMloyalty">
+            <e tid="LoyaltyEntity_1024_768" id="loyaltyEnt" allStates="true">
+              <x>230.7</x>
+              <y>5.95</y>
+            </e>
+          </an>
+          <an id="instance5350_ANIMgreen1024X768">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>461.4</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance5423_ANIMsetting">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>169</x>
+              <y>13</y>
+            </e>
+          </an>
+          <an id="instance5429_ANIMback">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance5449_CollectEntityAnim_1024_768">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>824</x>
+              <y>688</y>
+            </e>
+          </an>
+          <an id="instance5476_BottomFramePromoAnim_1024_768">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>661</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>712</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="exitBonus">
+        <an id="exitBonus_instance5517_GFExitBonusAnim_1024_768">
+          <an id="exit10246sdfsd_ANIMgf1">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>275</x>
+              <y>71.85</y>
+            </e>
+            <e tid="GameFrameBGEntity1" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance5549_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance5550_ANIMxp1024X768">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <x>-102</x>
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>826.25</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="exit10244b_ANIMbalance1">
+            <e tid="BalanceEntity11" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance5647_ANIMloyalty">
+            <e tid="LoyaltyEntity_1024_768" id="loyaltyEnt" allStates="true">
+              <x>230.7</x>
+              <y>5.95</y>
+            </e>
+          </an>
+          <an id="instance5695_ANIMgreen1024X768">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>461.4</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance5768_ANIMsetting">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>169</x>
+              <y>13</y>
+            </e>
+          </an>
+          <an id="instance5774_CasinosExitButtonAnim">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance5794_CollectEntityAnim_1024_768">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>824</x>
+              <y>688</y>
+            </e>
+          </an>
+          <an id="instance5821_BottomFramePromoAnim_1024_768">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>661</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>712</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="enterBonus">
+        <an id="enterBonus_instance5862_GFEnterBonusAnim_1024_768">
+          <an id="instance5863_ANIMgf1">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>275</x>
+              <y>71.85</y>
+            </e>
+            <e tid="GameFrameBGEntity1" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance5895_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance5896_ANIMxp1024X768">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <x>-102</x>
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>826.25</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance5957_ANIMbalance1">
+            <e tid="BalanceEntity11" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance5994_ANIMloyalty">
+            <e tid="LoyaltyEntity_1024_768" id="loyaltyEnt" allStates="true">
+              <x>230.7</x>
+              <y>5.95</y>
+            </e>
+          </an>
+          <an id="instance6042_ANIMgreen1024X768">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>461.4</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance6115_ANIMsetting">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>169</x>
+              <y>13</y>
+            </e>
+          </an>
+          <an id="instance6121_CasinosExitButtonAnim">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance6141_CollectEntityAnim_1024_768">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>824</x>
+              <y>688</y>
+            </e>
+          </an>
+          <an id="instance6168_BottomFramePromoAnim_1024_768">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>661</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>712</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="enterLobby">
+        <an id="enterLobby_instance6209_GFEnterLobbyAnim_1024_768">
+          <an id="instance6210_ANIMgf1">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>275</x>
+              <y>71.85</y>
+            </e>
+            <e tid="GameFrameBGEntity1" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance6242_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance6243_ANIMxp1024X768">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <x>-102</x>
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>826.25</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance6304_ANIMbalance1">
+            <e tid="BalanceEntity11" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance6341_ANIMloyalty">
+            <e tid="LoyaltyEntity_1024_768" id="loyaltyEnt" allStates="true">
+              <x>230.7</x>
+              <y>5.95</y>
+            </e>
+          </an>
+          <an id="instance6389_ANIMgreen1024X768">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>461.4</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance6462_ANIMsetting">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>169</x>
+              <y>13</y>
+            </e>
+          </an>
+          <an id="instance6468_ANIMback">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance6488_CollectEntityAnim_1024_768">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>824</x>
+              <y>688</y>
+            </e>
+          </an>
+          <an id="instance6515_BottomFramePromoAnim_1024_768">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>661</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>712</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="exitLobby">
+        <an id="exitLobby_instance6556_GFExitLobbyAnim_1024_768">
+          <an id="instance6557_ANIMgf1">
+            <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+              <x>275</x>
+              <y>71.85</y>
+            </e>
+            <e tid="GameFrameBGEntity1" id="gameFrameBGEnt" allStates="true"/>
+          </an>
+          <an id="instance6589_ANIMplaceHolder">
+            <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+          </an>
+          <an id="instance6590_ANIMxp1024X768">
+            <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+              <x>-102</x>
+              <y>3</y>
+            </e>
+            <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+              <x>826.25</x>
+              <y>6.05</y>
+            </e>
+          </an>
+          <an id="instance6651_ANIMbalance1">
+            <e tid="BalanceEntity11" id="balanceEnt" allStates="true">
+              <y>7.4</y>
+            </e>
+          </an>
+          <an id="instance6688_ANIMloyalty">
+            <e tid="LoyaltyEntity_1024_768" id="loyaltyEnt" allStates="true">
+              <x>230.7</x>
+              <y>5.95</y>
+            </e>
+          </an>
+          <an id="instance6736_ANIMgreen1024X768">
+            <e tid="GreenButton" id="buyEnt" allStates="true">
+              <x>461.4</x>
+              <y>-4.25</y>
+            </e>
+          </an>
+          <an id="instance6809_ANIMsetting">
+            <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+              <x>169</x>
+              <y>13</y>
+            </e>
+          </an>
+          <an id="instance6815_ANIMback">
+            <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+              <x>8.5</x>
+              <y>3</y>
+            </e>
+          </an>
+          <an id="instance6835_CollectEntityAnim_1024_768">
+            <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+              <x>824</x>
+              <y>688</y>
+            </e>
+          </an>
+          <an id="instance6862_BottomFramePromoAnim_1024_768">
+            <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+              <y>661</y>
+            </e>
+            <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+              <x>104</x>
+              <y>712</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="animateIdleState">
+        <e tid="GameFrameBGButton" id="instance6903">
+          <y>0.25</y>
+        </e>
+        <an id="animateIdleState_instance6905_ANIMplaceHolder">
+          <e tid="BannerContainer" id="bannerContainer" allStates="true"/>
+        </an>
+        <e tid="PurchaseEntity" id="purchaseInProgress" allStates="true">
+          <x>275</x>
+          <y>71.85</y>
+        </e>
+        <e tid="GameFrameBGEntity1" id="gameFrameBGEnt" allStates="true"/>
+        <e tid="BalanceEntity11" id="balanceEnt" allStates="true">
+          <x>490.65</x>
+          <y>14.35</y>
+        </e>
+        <e tid="LoyaltyEntity_1024_768" id="loyaltyEnt" allStates="true">
+          <x>227.75</x>
+          <y>9.6</y>
+        </e>
+        <e tid="GreenButton" id="buyEnt" allStates="true">
+          <x>461.4</x>
+          <y>-4.25</y>
+        </e>
+        <e tid="XPProgressEnt" id="xpProgressEnt" allStates="true">
+          <x>-100.2</x>
+          <y>3.1</y>
+        </e>
+        <e tid="XPBarEntity" id="xpAnimEnt" allStates="true">
+          <x>826.25</x>
+          <y>6.05</y>
+        </e>
+        <e tid="SettingsButtonAllStatesEnt" id="settingsBtnAllStates" allStates="true">
+          <x>169</x>
+          <y>13</y>
+        </e>
+        <e tid="CasinoButtonEntity" id="backEnt" allStates="true">
+          <x>26.4</x>
+          <y>13.25</y>
+        </e>
+        <e tid="CollectEntity_960_640" id="collectEnt" allStates="true">
+          <x>824</x>
+          <y>844.8</y>
+        </e>
+        <e tid="BottomFramePromoEnt" id="bottomFramePromoEnt" allStates="true">
+          <y>782.75</y>
+        </e>
+        <e tid="RewardsBtnHolder" id="rewardsBtnHolder" allStates="true">
+          <x>104</x>
+          <y>833.75</y>
+        </e>
+      </state>
+    </et>
+    <et h="77.65" id="GameFrameBGEntity1" type="AllStates" w="1024">
+      <an id="gf10243_GameFrameBGImage"/>
+      <an id="gf10242_LineSeperation"/>
+      <an id="gf10241_LineSeperation"/>
+      <an id="gf10240_LineSeperation"/>
+    </et>
+    <et id="BalanceEntity11" type="AllStates">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance4919_FrameBar"/>
+        <e tid="BalanceTextItem" id="balance">
+          <x>76</x>
+          <y>8.5</y>
+          <w>145.05</w>
+          <h>29</h>
+        </e>
+        <an id="animateIdleState_instance4923_CoinGreen"/>
+        <e tid="markerItem" id="coinLocator">
+          <x>254.15</x>
+          <y>27.6</y>
+          <w>2</w>
+          <h>2</h>
+        </e>
+      </state>
+      <state id="balanceOut">
+        <an id="balanceOut_kkffdsaqwrty_BalanceAnimationANIM11">
+          <an id="instance4927_FrameBar"/>
+          <e tid="BalanceTextItem" id="balance">
+            <x>76</x>
+            <y>8.5</y>
+            <w>145.05</w>
+            <h>29</h>
+          </e>
+          <an id="instance4931_CoinGreen"/>
+        </an>
+      </state>
+      <state id="balanceIn">
+        <an id="balanceIn_instance4934_BalanceAnimationANIMout11">
+          <an id="instance4935_FrameBar"/>
+          <e tid="BalanceTextItem" id="balance">
+            <x>76</x>
+            <y>8.5</y>
+            <w>145.05</w>
+            <h>29</h>
+          </e>
+          <an id="instance4939_MeterGlowGreenAnim">
+            <an id="instance4940_MeterGreenGlow"/>
+          </an>
+          <an id="instance4943_CoinGreen"/>
+          <an id="instance4946_CoinSpinsANIM">
+            <an id="instance4947_Coin1"/>
+            <an id="instance81934_Coin1"/>
+          </an>
+          <an id="instance4951_ChipMeterStarsANIM">
+            <an id="instance4952_ChipMeterStars"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="DobbersTemplate">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance7243_CoinAnim">
+          <an id="instance7244_Coin1" onComplete="loop"/>
+        </an>
+      </state>
+      <state id="impact">
+        <an id="impact_instance7246_ImpactANIM">
+          <an id="instance7247_DobbersAnim">
+            <an id="instance7248_dobbers"/>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="SparkleTemplate">
+      <state id="sparkle">
+        <an id="sparkle_instance7252_SparkleAnim">
+          <an id="instance7253_StarAnim2">
+            <an id="instance7254_Star"/>
+          </an>
+          <an id="instance7257_StarAnim2">
+            <an id="instance7258_Star"/>
+          </an>
+          <an id="instance7261_StarAnim2">
+            <an id="instance7262_Star"/>
+          </an>
+          <an id="instance7265_StarAnim2">
+            <an id="instance7266_Star"/>
+          </an>
+          <an id="instance7269_StarAnim2">
+            <an id="instance7270_Star"/>
+          </an>
+          <an id="instance7273_StarAnim2">
+            <an id="instance7274_Star"/>
+          </an>
+          <an id="instance7277_StarAnim2">
+            <an id="instance7278_Star"/>
+          </an>
+          <an id="instance7281_StarAnim2">
+            <an id="instance7282_Star"/>
+          </an>
+          <an id="instance7285_StarAnim2">
+            <an id="instance7286_Star"/>
+          </an>
+          <an id="instance7289_StarAnim2">
+            <an id="instance7290_Star"/>
+          </an>
+          <an id="instance7293_Ring"/>
+        </an>
+      </state>
+    </et>
+    <et id="LPDobbersTemplate">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance7297_LpCoinAnim">
+          <an id="instance7298_LpCoin1" onComplete="loop"/>
+        </an>
+      </state>
+      <state id="impact">
+        <an id="impact_instance7300_LpImpactANIM">
+          <an id="instance7301_dobbers"/>
+        </an>
+      </state>
+    </et>
+    <et id="XPDobbersTemplate">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance7305_XpCoinAnim">
+          <an id="instance7306_XpCoin1" onComplete="loop"/>
+        </an>
+      </state>
+      <state id="impact">
+        <an id="impact_instance7308_XpImpactANIM">
+          <an id="instance7309_dobbers"/>
+        </an>
+      </state>
+    </et>
+    <et id="CollectBonusTemplate">
+      <an id="instance7313307_CollectBonusAnim">
+        <an id="instance7314_emptyItem"/>
+        <an id="instance115097_emptyItem"/>
+        <an id="instance115118_emptyItem"/>
+        <an id="instance7317_CalloutAnim">
+          <e tid="CollectText2" id="timeBonus">
+            <x>-335.1</x>
+            <y>-75.85</y>
+            <w>642.2</w>
+            <h>151.7</h>
+          </e>
+        </an>
+        <e tid="PlayerMarker" id="rewardStart">
+          <x>-195.85</x>
+          <y>425.8</y>
+        </e>
+        <e tid="PlayerMarker" id="rewardMid1">
+          <x>-433.8</x>
+          <y>321.3</y>
+        </e>
+        <e tid="PlayerMarker" id="rewardMid2">
+          <x>329.65</x>
+          <y>-280</y>
+        </e>
+        <an id="instance7322_CoinsFlowAnim">
+          <an id="instance7323_chips_big"/>
+        </an>
+      </an>
+    </et>
+    <et id="CollectText2" type="TextHolder" color="16676463" align="center"/>
+    <et id="PlayerMarker">
+      <an id="instance7319_emptyItem"/>
+    </et>
+    <et id="AvatarEffectTemplate">
+      <an id="instance7327308_BallsAnim">
+        <an id="instance7328_straight"/>
+      </an>
+    </et>
+  </defs>
+  <entities/>
+  <sounds>
+    <snd id="timeRewardCallout" loop="false">
+      <s f="TimeRewardCallout.ogg"/>
+    </snd>
+    <snd id="click" loop="false">
+      <s f="click.ogg"/>
+    </snd>
+  </sounds>
+  <textures>
+    <tex file="Chip_Rotation.png" preMultipliedAlpha="true"/>
+    <tex file="meterFX.png" preMultipliedAlpha="true"/>
+    <tex file="meterh64.png" preMultipliedAlpha="true"/>
+    <tex file="Star02.png" preMultipliedAlpha="true"/>
+    <tex file="flare.png" preMultipliedAlpha="true"/>
+    <tex file="GameFrame1.png"/>
+    <tex file="free_spin_idle.png" preMultipliedAlpha="true"/>
+  </textures>
+</scene>

@@ -1,0 +1,368 @@
+<scene id="OnBoarding" binAnims="false">
+  <defs>
+    <et id="StepsTemplate_1024_768">
+      <state id="casinos">
+        <e id="instance8" tid="casinos_BGImageEntity"/>
+        <e id="instance18" tid="casinos_TextBubbleEntity">
+          <x>55</x>
+          <y>18</y>
+        </e>
+        <e id="arrowMarker" tid="casinos_markerItem">
+          <x>357</x>
+          <y>52</y>
+        </e>
+        <e id="instance24" tid="casinos_OnBoardingLadyEntity">
+          <x>6</x>
+          <y>130</y>
+        </e>
+        <e id="instance27" tid="casinos_CasinosEntity">
+          <x>183</x>
+          <y>180</y>
+        </e>
+      </state>
+      <state id="welcome">
+        <e id="instance34" tid="welcome_WelcomeGirlEntity">
+          <y>433</y>
+        </e>
+        <e id="instance36" tid="welcome_WelcomeSignEntity">
+          <x>310</x>
+          <y>586.5</y>
+        </e>
+        <e id="nextButton" tid="welcome_NextButton">
+          <x>550</x>
+          <y>674.5</y>
+        </e>
+      </state>
+      <state id="ready">
+        <e id="instance43" tid="ready_OnBoardingLadyEntity">
+          <x>506</x>
+          <y>110</y>
+        </e>
+        <e id="instance46" tid="ready_ReadySignEntity">
+          <x>680.7</x>
+          <y>223.6</y>
+        </e>
+        <e id="readyArrowMarker" tid="ready_markerItem">
+          <x>674.9</x>
+          <y>173</y>
+        </e>
+        <e id="gamesButton" tid="ready_RenoGamesButton">
+          <x>812</x>
+          <y>82</y>
+        </e>
+      </state>
+      <state id="selectMachine">
+        <e id="instance67" tid="selectMachine_WelcomeGirlEntity">
+          <y>433</y>
+        </e>
+      </state>
+      <state id="pickASeat">
+        <e id="instance69" tid="pickASeat_WelcomeGirlEntity">
+          <y>433</y>
+        </e>
+        <e id="pickASeatSign" tid="pickASeat_PickASeatSignEntity">
+          <x>311</x>
+          <y>644.25</y>
+        </e>
+      </state>
+    </et>
+    <et id="casinos_BGImageEntity">
+      <an id="Bg_1024_8_BGImageStrip"/>
+      <an id="Bg_1024_7_BGImageStripExtra"/>
+      <an id="Bg_1024_6_BGImageStrip"/>
+      <an id="Bg_1024_5_BGImageStripExtra"/>
+      <an id="Bg_1024_4_BGImageStrip"/>
+      <an id="Bg_1024_3_BGImageStripExtra"/>
+      <an id="Bg_1024_2_BGImageStrip"/>
+      <an id="Bg_1024_1_BGImageStripExtra"/>
+      <an id="Bg_1024_0_BGImageStrip"/>
+    </et>
+    <et id="casinos_TextBubbleEntity">
+      <an id="TextBubbleImage"/>
+    </et>
+    <et id="casinos_markerItem" type="Marker"/>
+    <et id="casinos_OnBoardingLadyEntity">
+      <an id="OnBoardingLadyImage"/>
+    </et>
+    <et id="casinos_CasinosEntity">
+      <an id="VegasImage"/>
+      <an id="CruiseImage"/>
+      <e id="casinoButton" tid="RenoButton"/>
+    </et>
+    <et id="RenoButton" type="Button">
+      <state id="up" w="394" h="415">
+        <bd>
+          <bvr x="0" y="0" w="394" h="415"/>
+        </bd>
+        <an id="RenoImage"/>
+      </state>
+      <state id="down" w="394" h="415">
+        <bd>
+          <bvr x="0" y="0" w="394" h="415"/>
+        </bd>
+        <an id="RenoImage"/>
+      </state>
+    </et>
+    <et id="welcome_WelcomeGirlEntity">
+      <an id="WelcomGirl_1024_WelcomeGirlImage"/>
+    </et>
+    <et id="welcome_WelcomeSignEntity">
+      <an id="WelcomeSignImage"/>
+    </et>
+    <et id="welcome_NextButton" type="Button">
+      <state id="up" w="241" h="91">
+        <bd>
+          <bvr x="0" y="0" w="241" h="91"/>
+        </bd>
+        <an id="NextButtonUpImage"/>
+      </state>
+      <state id="down" w="241" h="91">
+        <bd>
+          <bvr x="0" y="0" w="241" h="91"/>
+        </bd>
+        <an id="NextButtonDownImage"/>
+      </state>
+    </et>
+    <et id="ready_OnBoardingLadyEntity">
+      <an id="OnBoardingLadyImage"/>
+    </et>
+    <et id="ready_ReadySignEntity">
+      <an id="ReadySignImage"/>
+    </et>
+    <et id="ready_markerItem" type="Marker"/>
+    <et id="ready_RenoGamesButton" type="Button">
+      <state id="up">
+        <an id="up_RenoGamesUpImage"/>
+        <bd>
+          <bvr x="0" y="0" w="188" h="92"/>
+        </bd>
+      </state>
+      <state id="down">
+        <an id="down_RenoGamesDownImage"/>
+        <bd>
+          <bvr x="0" y="0" w="188" h="92"/>
+        </bd>
+      </state>
+    </et>
+    <et id="selectMachine_WelcomeGirlEntity">
+      <an id="WelcomGirl_1024_WelcomeGirlImage"/>
+    </et>
+    <et id="pickASeat_WelcomeGirlEntity">
+      <an id="WelcomGirl_1024_WelcomeGirlImage"/>
+    </et>
+    <et id="pickASeat_PickASeatSignEntity">
+      <state id="normal">
+        <an id="normal_PickASeatSignImage"/>
+      </state>
+      <state id="pickVacant">
+        <an id="pickVacant_PickAVacantSeatImage"/>
+      </state>
+    </et>
+    <et id="StepsTemplate_1136_640">
+      <state id="casinos">
+        <e id="instance82" tid="casinos_BGImageEntity_2"/>
+        <e id="instance95" tid="casinos_TextBubbleEntity">
+          <x>55</x>
+          <y>18</y>
+        </e>
+        <e id="arrowMarker" tid="casinos_markerItem">
+          <x>420</x>
+          <y>20</y>
+        </e>
+        <e id="instance101" tid="casinos_OnBoardingLadyEntity_2">
+          <x>45.65</x>
+          <y>143.4</y>
+        </e>
+        <e id="instance104" tid="casinos_CasinosEntity">
+          <x>277</x>
+          <y>135</y>
+        </e>
+      </state>
+      <state id="welcome">
+        <e id="instance111" tid="welcome_WelcomeGirlEntity_2">
+          <y>396</y>
+        </e>
+        <e id="instance114" tid="welcome_WelcomeSignEntity">
+          <x>251.5</x>
+          <y>460.4</y>
+        </e>
+        <e id="nextButton" tid="welcome_NextButton">
+          <x>485.95</x>
+          <y>548</y>
+        </e>
+      </state>
+      <state id="ready">
+        <e id="instance121" tid="ready_OnBoardingLadyEntity_2">
+          <x>628.3</x>
+          <y>120.25</y>
+          <sx>1.1</sx>
+          <sy>1.1</sy>
+        </e>
+        <e id="instance124" tid="ready_ReadySignEntity">
+          <x>776</x>
+          <y>220.6</y>
+        </e>
+        <e id="readyArrowMarker" tid="ready_markerItem">
+          <x>760</x>
+          <y>177</y>
+        </e>
+        <e id="gamesButton" tid="ready_RenoGamesButton">
+          <x>897.5</x>
+          <y>82</y>
+        </e>
+      </state>
+      <state id="selectMachine">
+        <e id="instance145" tid="selectMachine_WelcomeGirlEntity_2">
+          <y>396</y>
+        </e>
+      </state>
+      <state id="pickASeat">
+        <e id="instance148" tid="pickASeat_WelcomeGirlEntity_2">
+          <y>396</y>
+        </e>
+        <e id="pickASeatSign" tid="pickASeat_PickASeatSignEntity_2">
+          <x>247</x>
+          <y>514.2</y>
+        </e>
+      </state>
+    </et>
+    <et id="casinos_BGImageEntity_2">
+      <an id="Bg_1136_11_BGImageStrip"/>
+      <an id="Bg_1136_10_BGImageStripExtra"/>
+      <an id="Bg_1136_9_BGImageStrip"/>
+      <an id="Bg_1136_8_BGImageStripExtra"/>
+      <an id="Bg_1136_7_BGImageStrip"/>
+      <an id="Bg_1136_6_BGImageStripExtra"/>
+      <an id="Bg_1136_5_BGImageStrip"/>
+      <an id="Bg_1136_4_BGImageStrip"/>
+      <an id="Bg_1136_3_BGImageStripExtra"/>
+      <an id="Bg_1136_2_BGImageStrip"/>
+      <an id="Bg_1136_1_BGImageStripExtra"/>
+      <an id="Bg_1136_0_BGImageStrip"/>
+    </et>
+    <et id="casinos_OnBoardingLadyEntity_2">
+      <an id="OnBoardingLadyImage_2"/>
+    </et>
+    <et id="welcome_WelcomeGirlEntity_2">
+      <an id="WelcomeGirlImage"/>
+    </et>
+    <et id="ready_OnBoardingLadyEntity_2">
+      <an id="OnBoardingLadyImage_2"/>
+    </et>
+    <et id="selectMachine_WelcomeGirlEntity_2">
+      <an id="WelcomeGirlImage"/>
+    </et>
+    <et id="pickASeat_WelcomeGirlEntity_2">
+      <an id="WelcomeGirlImage"/>
+    </et>
+    <et id="pickASeat_PickASeatSignEntity_2">
+      <state id="normal">
+        <an id="normal_PickASeatSignImage"/>
+      </state>
+      <state id="pickVacant">
+        <an id="pickVacant_PickAVacantSeatImage"/>
+      </state>
+    </et>
+    <et id="StepsTemplate_960_640">
+      <state id="casinos">
+        <e id="instance162" tid="casinos_BGImageEntity_3"/>
+        <e id="instance173" tid="casinos_TextBubbleEntity">
+          <x>25.45</x>
+          <y>0.8</y>
+        </e>
+        <e id="arrowMarker" tid="casinos_markerItem">
+          <x>323</x>
+          <y>29</y>
+        </e>
+        <e id="instance179" tid="casinos_OnBoardingLadyEntity_3">
+          <x>10.8</x>
+          <y>120.75</y>
+        </e>
+        <e id="instance183" tid="casinos_CasinosEntity">
+          <x>171.5</x>
+          <y>148</y>
+        </e>
+      </state>
+      <state id="welcome">
+        <e id="instance190" tid="welcome_WelcomeGirlEntity_3">
+          <y>406</y>
+        </e>
+        <e id="instance193" tid="welcome_WelcomeSignEntity">
+          <x>219.75</x>
+          <y>454.25</y>
+        </e>
+        <e id="nextButton" tid="welcome_NextButton">
+          <x>449.35</x>
+          <y>531.6</y>
+          <sx>1.2</sx>
+          <sy>1.2</sy>
+        </e>
+      </state>
+      <state id="ready">
+        <e id="instance200" tid="ready_OnBoardingLadyEntity_3">
+          <x>493.9</x>
+          <y>115.95</y>
+        </e>
+        <e id="instance204" tid="ready_ReadySignEntity">
+          <x>633.2</x>
+          <y>230</y>
+        </e>
+        <e id="readyArrowMarker" tid="ready_markerItem">
+          <x>618</x>
+          <y>170</y>
+        </e>
+        <e id="gamesButton" tid="ready_RenoGamesButton">
+          <x>749</x>
+          <y>82</y>
+        </e>
+      </state>
+      <state id="selectMachine">
+        <e id="instance225" tid="selectMachine_WelcomeGirlEntity_3">
+          <y>406</y>
+        </e>
+      </state>
+      <state id="pickASeat">
+        <e id="instance228" tid="pickASeat_WelcomeGirlEntity_3">
+          <y>406</y>
+        </e>
+        <e id="pickASeatSign" tid="pickASeat_PickASeatSignEntity_2">
+          <x>218.55</x>
+          <y>513.2</y>
+        </e>
+      </state>
+    </et>
+    <et id="casinos_BGImageEntity_3">
+      <an id="Bg_960_9_BGImageStrip"/>
+      <an id="Bg_960_8_BGImageStripExtra"/>
+      <an id="Bg_960_7_BGImageStrip"/>
+      <an id="Bg_960_6_BGImageStripExtra"/>
+      <an id="Bg_960_5_BGImageStrip"/>
+      <an id="Bg_960_4_BGImageStripExtra"/>
+      <an id="Bg_960_3_BGImageStrip"/>
+      <an id="Bg_960_2_BGImageStripExtra"/>
+      <an id="Bg_960_1_BGImageStrip"/>
+      <an id="Bg_960_0_BGImageStrip"/>
+    </et>
+    <et id="casinos_OnBoardingLadyEntity_3">
+      <an id="OnBoardingLadyImage_3"/>
+    </et>
+    <et id="welcome_WelcomeGirlEntity_3">
+      <an id="WelcomeGirlImage"/>
+    </et>
+    <et id="ready_OnBoardingLadyEntity_3">
+      <an id="OnBoardingLadyImage_3"/>
+    </et>
+    <et id="selectMachine_WelcomeGirlEntity_3">
+      <an id="WelcomeGirlImage"/>
+    </et>
+    <et id="pickASeat_WelcomeGirlEntity_3">
+      <an id="WelcomeGirlImage"/>
+    </et>
+    <et id="ArrowTemplate" w="95" h="118">
+      <an id="ArrowAnimation">
+        <an onComplete="loop" id="YellowArrow"/>
+      </an>
+    </et>
+  </defs>
+  <entities/>
+</scene>

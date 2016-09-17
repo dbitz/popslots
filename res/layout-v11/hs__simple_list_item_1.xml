@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:id="0x1020014" android:background="?unknown_attr_ref: 101030e" style="?attr/hs__faqsListItemStyle" />
+<TextView android:id="@android:id/text1" android:background="?android:selectableItemBackground" style="?attr/hs__faqsListItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

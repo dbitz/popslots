@@ -1,0 +1,305 @@
+<scene binAnims="true" id="userProfile">
+  <sounds>
+    <snd loop="false" id="POP_UserProfileClose">
+      <s f="POP_UserProfileClose.ogg"/>
+    </snd>
+    <snd loop="false" id="POP_UserProfileOpen">
+      <s f="POP_UserProfileOpen.ogg"/>
+    </snd>
+  </sounds>
+  <defs>
+    <et id="BubbleTemplate">
+      <state id="medOpen">
+        <an id="medOpen_instance8_MedAnimOpenOuter">
+          <an id="instance9_MedBubbleAnim">
+            <an id="instance10_MedSizeItemContainerEnt_anim">
+              <e id="medSizeItemContainerEnt" tid="MedSizeItemContainerEnt"/>
+            </an>
+            <an id="instance13_MedBGMC"/>
+            <an id="instance241_NameTXTMC_anim">
+              <e tid="NameTXTMC" id="nameTXTMC">
+                <w>117</w>
+                <h>26.2</h>
+              </e>
+            </an>
+            <an id="instance17_PickerAnimation">
+              <e id="msgEnt" tid="MessageEnt" allStates="true"/>
+            </an>
+            <an id="instance395_FlagPicEntity_anim">
+              <e id="flagPicEntity" tid="FlagPicEntity" allStates="true"/>
+            </an>
+            <an id="instance436_InnerBubbleMC_anim">
+              <e id="innerBubbleMC" tid="InnerBubbleMC" allStates="true"/>
+            </an>
+          </an>
+        </an>
+      </state>
+      <state id="medClose">
+        <an id="medClose_instance35_MedBubbleAnim_close">
+          <an id="instance36_MedSizeItemContainerEnt_anim">
+            <e id="medSizeItemContainerEnt" tid="MedSizeItemContainerEnt"/>
+          </an>
+          <an id="instance39_MedBGMC"/>
+          <an id="instance41_NameTXTMC_anim">
+            <e tid="NameTXTMC" id="nameTXTMC">
+              <w>117</w>
+              <h>26.2</h>
+            </e>
+          </an>
+          <an id="instance43_FlagPicEntity_anim">
+            <e id="flagPicEntity" tid="FlagPicEntity" allStates="true"/>
+          </an>
+          <an id="instance46_PickerAnimation">
+            <e id="msgEnt" tid="MessageEnt" allStates="true"/>
+          </an>
+          <an id="instance52_InnerBubbleMC_anim">
+            <e id="innerBubbleMC" tid="InnerBubbleMC" allStates="true"/>
+          </an>
+        </an>
+      </state>
+      <state id="bigClose">
+        <an id="bigClose_close_BigCloseAnimOuter">
+          <an id="instance61_bigBoxAnim">
+            <an id="instance62_BigBg"/>
+            <an id="instance64_flagShadow"/>
+            <an id="instance66_divider"/>
+            <an id="instance68_divider"/>
+            <e tid="ZodiacsMainEntity" allStates="true" id="zodiacsMainEntity">
+              <x>28.25</x>
+              <y>104.3</y>
+            </e>
+            <an id="instance96_chips"/>
+            <e tid="CountryLabelTXT" id="countryLabelTXT">
+              <x>79.95</x>
+              <y>49.1</y>
+              <w>98.1</w>
+              <h>27.4</h>
+            </e>
+            <e tid="CountryTXT" id="countryTXTMC">
+              <x>80.5</x>
+              <y>71.75</y>
+              <w>93.2</w>
+              <h>29</h>
+            </e>
+            <e tid="CountryLabelTXT" id="zodiacLabelTXT">
+              <x>79.95</x>
+              <y>102.1</y>
+              <w>98.1</w>
+              <h>27.4</h>
+            </e>
+            <e tid="CountryTXT" id="zodiacTXTMC">
+              <x>80.5</x>
+              <y>124.05</y>
+              <w>93.2</w>
+              <h>29</h>
+            </e>
+            <e tid="CountryLabelTXT" id="recordLabelTXT">
+              <x>79.95</x>
+              <y>154.6</y>
+              <w>98.1</w>
+              <h>27.4</h>
+            </e>
+            <e tid="CountryTXT" id="recordTXTMC">
+              <x>80.5</x>
+              <y>176.75</y>
+              <w>93.2</w>
+              <h>29</h>
+            </e>
+            <an id="instance104_FlagPicEntity_anim">
+              <e id="flagPicEntity" tid="FlagPicEntity" allStates="true"/>
+            </an>
+            <e tid="BigPopUpTextCont" id="nameTXTMC">
+              <x>21.5</x>
+              <y>17.55</y>
+              <w>156.45</w>
+              <h>33.55</h>
+            </e>
+          </an>
+          <an id="instance108_InnerBubbleMC_anim">
+            <e id="innerBubbleMC" tid="InnerBubbleMC" allStates="true"/>
+          </an>
+          <an id="instance117_levelAnim">
+            <e tid="LevelEnt" allStates="true" id="instance118">
+              <x>32.85</x>
+              <y>3.85</y>
+              <r>0.23</r>
+              <sx>1.3</sx>
+              <sy>1.3</sy>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="bigOpen">
+        <an id="bigOpen_open_BigOpenAnimOuter">
+          <an id="instance123_bigBoxAnim">
+            <an id="instance124_BigBg"/>
+            <an id="instance126_flagShadow"/>
+            <an id="instance128_divider"/>
+            <an id="instance130_divider"/>
+            <e tid="ZodiacsMainEntity" allStates="true" id="zodiacsMainEntity">
+              <x>28.25</x>
+              <y>104.3</y>
+            </e>
+            <an id="instance158_chips"/>
+            <e tid="CountryLabelTXT" id="countryLabelTXT">
+              <x>79.95</x>
+              <y>49.1</y>
+              <w>98.1</w>
+              <h>27.4</h>
+            </e>
+            <e tid="CountryTXT" id="countryTXTMC">
+              <x>80.5</x>
+              <y>71.75</y>
+              <w>93.2</w>
+              <h>29</h>
+            </e>
+            <e tid="CountryLabelTXT" id="zodiacLabelTXT">
+              <x>79.95</x>
+              <y>102.1</y>
+              <w>98.1</w>
+              <h>27.4</h>
+            </e>
+            <e tid="CountryTXT" id="zodiacTXTMC">
+              <x>80.5</x>
+              <y>124.05</y>
+              <w>93.2</w>
+              <h>29</h>
+            </e>
+            <e tid="CountryLabelTXT" id="recordLabelTXT">
+              <x>79.95</x>
+              <y>154.6</y>
+              <w>98.1</w>
+              <h>27.4</h>
+            </e>
+            <e tid="CountryTXT" id="recordTXTMC">
+              <x>80.5</x>
+              <y>176.75</y>
+              <w>93.2</w>
+              <h>29</h>
+            </e>
+            <an id="instance166_FlagPicEntity_anim">
+              <e id="flagPicEntity" tid="FlagPicEntity" allStates="true"/>
+            </an>
+            <e tid="BigPopUpTextCont" id="nameTXTMC">
+              <x>21.5</x>
+              <y>17.55</y>
+              <w>156.45</w>
+              <h>33.55</h>
+            </e>
+          </an>
+          <an id="instance170_InnerBubbleMC_anim">
+            <e id="innerBubbleMC" tid="InnerBubbleMC" allStates="true"/>
+          </an>
+          <an id="instance179_levelAnim">
+            <e tid="LevelEnt" allStates="true" id="instance180">
+              <x>32.85</x>
+              <y>3.85</y>
+              <r>0.23</r>
+              <sx>1.3</sx>
+              <sy>1.3</sy>
+            </e>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="MedSizeItemContainerEnt" w="133.5" h="172.9"/>
+    <et type="TextHolder" color="15461897" align="center" id="NameTXTMC"/>
+    <et type="AllStates" id="MessageEnt">
+      <state id="animateIdleState">
+        <an id="animateIdleState_instance18_emptyItem"/>
+      </state>
+      <state id="picker">
+        <an id="picker_instance19_PickerANIM">
+          <an id="instance20_PickerImg"/>
+        </an>
+      </state>
+    </et>
+    <et type="AllStates" id="FlagPicEntity">
+      <e tid="PicHolder" id="flagPicHolder">
+        <w>72</w>
+        <h>72.02</h>
+        <sx>0.49</sx>
+        <sy>0.33</sy>
+      </e>
+    </et>
+    <et type="PlaceHolder" id="PicHolder"/>
+    <et type="AllStates" id="InnerBubbleMC">
+      <an id="instance450_genericPic"/>
+      <e tid="PicHolder" id="profilePicHolder">
+        <x>25.05</x>
+        <y>24.35</y>
+        <w>72</w>
+        <h>72.01</h>
+        <sx>1.48</sx>
+        <sy>1.48</sy>
+      </e>
+      <e id="innerPicEntity" tid="InnerPicEntity"/>
+    </et>
+    <et id="InnerPicEntity">
+      <state id="me">
+        <an id="me_instance454_InnerPicFrameMe"/>
+      </state>
+      <state id="other">
+        <an id="other_instance456_InnerPicFrameMC"/>
+      </state>
+    </et>
+    <et type="AllStates" id="ZodiacsMainEntity">
+      <state id="z0">
+        <an id="z0_instance70_SignUnAvailable"/>
+      </state>
+      <state id="z1">
+        <an id="z1_instance72_Capricorn"/>
+      </state>
+      <state id="z2">
+        <an id="z2_instance74_Aquarius"/>
+      </state>
+      <state id="z3">
+        <an id="z3_instance76_Pisces"/>
+      </state>
+      <state id="z4">
+        <an id="z4_instance78_Aries"/>
+      </state>
+      <state id="z5">
+        <an id="z5_instance80_Taurus"/>
+      </state>
+      <state id="z6">
+        <an id="z6_instance82_Gemini"/>
+      </state>
+      <state id="z7">
+        <an id="z7_instance84_Cancer"/>
+      </state>
+      <state id="z8">
+        <an id="z8_instance86_Leo"/>
+      </state>
+      <state id="z9">
+        <an id="z9_instance88_Virgo"/>
+      </state>
+      <state id="z10">
+        <an id="z10_instance90_Libra"/>
+      </state>
+      <state id="z11">
+        <an id="z11_instance92_Scorpio"/>
+      </state>
+      <state id="z12">
+        <an id="z12_instance94_Sagittarius"/>
+      </state>
+    </et>
+    <et type="TextHolder" color="52428" align="left" id="CountryLabelTXT"/>
+    <et type="TextHolder" color="16777215" align="left" id="CountryTXT"/>
+    <et type="TextHolder" color="15461897" align="center" id="BigPopUpTextCont"/>
+    <et type="AllStates" id="LevelEnt">
+      <an id="instance119_BlueBG"/>
+      <an id="instance121_TextContainerAnim">
+        <e tid="LevelTXTMC" id="levelNumberTXTMC">
+          <w>50.9</w>
+          <h>34.05</h>
+        </e>
+      </an>
+    </et>
+    <et type="TextHolder" color="16777215" align="center" id="LevelTXTMC"/>
+  </defs>
+  <entities/>
+  <textures>
+    <tex file="userProfile1.webp"/>
+  </textures>
+</scene>

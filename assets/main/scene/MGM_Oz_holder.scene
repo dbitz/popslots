@@ -1,0 +1,26 @@
+<scene id="MGM_Oz_holder" binAnims="true">
+  <defs>
+    <et id="MGM_Oz_holderContainer">
+      <e id="button" tid="MGM_Oz_holderEntity"/>
+    </et>
+    <et id="MGM_Oz_holderEntity" type="Button">
+      <state id="up" w="650" h="650">
+        <bd>
+          <bvr x="0" y="0" w="649.99" h="650.01"/>
+        </bd>
+        <an id="instance13_button_blue_image_item"/>
+      </state>
+      <state id="down" w="650" h="650">
+        <bd>
+          <bvr x="0" y="0" w="649.99" h="650.01"/>
+        </bd>
+        <an id="stam_button_blue_image_item"/>
+      </state>
+    </et>
+  </defs>
+  <entities>
+    <layer number="0">
+      <e id="instance7" tid="MGM_Oz_holderContainer"/>
+    </layer>
+  </entities>
+</scene>

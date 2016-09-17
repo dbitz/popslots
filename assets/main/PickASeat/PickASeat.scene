@@ -1,0 +1,190 @@
+<scene id="PickASeat" binAnims="true">
+  <entities/>
+  <defs>
+    <et id="PickASeatLady_1136_640" w="1136" h="640">
+      <e id="welcomeGirl" tid="WelcomeGirlEnt">
+        <x>-2.15</x>
+        <y>-129</y>
+      </e>
+      <e id="pickASeatMsg" tid="PickASeatMSG">
+        <x>196</x>
+        <y>512</y>
+      </e>
+    </et>
+    <et id="WelcomeGirlEnt">
+      <state id="enter">
+        <an id="enter_instance10_WelcomeGirlAnim">
+          <an id="instance11_WelcomeGirlImage"/>
+        </an>
+      </state>
+      <state id="exit">
+        <an id="exit_instance14_WelcomGirlExitAnim">
+          <an id="instance15_WelcomeGirlImage"/>
+        </an>
+      </state>
+    </et>
+    <et id="PickASeatMSG">
+      <state id="enter">
+        <an id="enter_instance18_PickASeatMSGEnterAnim">
+          <an id="instance19_PickASeatMSGInnerAnim">
+            <e id="pickASeatSign" tid="PickASeatSignEntity" allStates="true">
+              <y>-61</y>
+            </e>
+          </an>
+        </an>
+      </state>
+      <state id="exit">
+        <an id="exit_instance28_PickASeatMSGExitAnim">
+          <an id="instance29_PickASeatMSGInnerAnim">
+            <e id="pickASeatSign" tid="PickASeatSignEntity" allStates="true">
+              <y>-61</y>
+            </e>
+          </an>
+        </an>
+      </state>
+    </et>
+    <et id="PickASeatSignEntity" type="AllStates">
+      <state id="pickVacant">
+        <an id="pickVacant_instance20_PickAVacantSeatImage"/>
+      </state>
+      <state id="normal">
+        <an id="normal_instance24_PickASeatSignAnim"/>
+      </state>
+    </et>
+    <et id="PickASeatArrowYellow_1136_640" w="64" h="88">
+      <an id="instance413_MainRegularErrow">
+        <an id="instance42_RegularErrow" onComplete="loop"/>
+      </an>
+      <e id="arrowBtn" tid="ArrowBtn">
+        <y>-35.15</y>
+        <sx>0.64</sx>
+        <sy>0.5</sy>
+      </e>
+    </et>
+    <et id="ArrowBtn" type="Button">
+      <state id="up">
+        <bd>
+          <bvr h="146" y="0" w="100" x="0"/>
+        </bd>
+      </state>
+      <state id="down">
+        <bd>
+          <bvr h="146" y="0" w="100" x="0"/>
+        </bd>
+      </state>
+    </et>
+    <et id="PickASeatArrowBlue_1136_640" w="74.95" h="103.05">
+      <an id="instance535_MainCold">
+        <an id="instance54_ColdErrow" onComplete="loop"/>
+        <an id="instance56_ColdSign" onComplete="loop"/>
+      </an>
+      <e id="arrowBtn" tid="ArrowBtn">
+        <x>2.65</x>
+        <y>-45</y>
+        <sx>0.64</sx>
+        <sy>0.6</sy>
+      </e>
+    </et>
+    <et id="PickASeatArrowRed_1136_640" w="74.95" h="103.05">
+      <an id="instance677_MainHot">
+        <an id="instance68_HotErrow" onComplete="loop"/>
+        <an id="instance70_HotSign" onComplete="loop"/>
+      </an>
+      <e id="arrowBtn" tid="ArrowBtn">
+        <x>2.65</x>
+        <y>-45</y>
+        <sx>0.64</sx>
+        <sy>0.6</sy>
+      </e>
+    </et>
+    <et id="PickASeatArrowRed_1024_768" w="74.95" h="103.05">
+      <an id="instance819_MainHot">
+        <an id="instance82_HotErrow" onComplete="loop"/>
+        <an id="instance84_HotSign" onComplete="loop"/>
+      </an>
+      <e id="arrowBtn" tid="ArrowBtn">
+        <x>-6.35</x>
+        <y>-57.35</y>
+        <sx>0.82</sx>
+        <sy>0.77</sy>
+      </e>
+    </et>
+    <et id="PickASeatArrowBlue_1024_768" w="74.95" h="103.05">
+      <an id="instance9511_MainCold">
+        <an id="instance96_ColdErrow" onComplete="loop"/>
+        <an id="instance98_ColdSign" onComplete="loop"/>
+      </an>
+      <e id="arrowBtn" tid="ArrowBtn">
+        <x>-2.9</x>
+        <y>-51.95</y>
+        <sx>0.74</sx>
+        <sy>0.7</sy>
+      </e>
+    </et>
+    <et id="PickASeatLady_1024_768" w="1024" h="768">
+      <e id="welcomeGirl" tid="WelcomeGirlEnt"/>
+      <e id="pickASeatMsg" tid="PickASeatMSG">
+        <x>196</x>
+        <y>640</y>
+      </e>
+    </et>
+    <et id="PickASeatArrowYellow_1024_768" w="64" h="88">
+      <an id="instance14014_MainRegularErrow">
+        <an id="instance141_RegularErrow" onComplete="loop"/>
+      </an>
+      <e id="arrowBtn" tid="ArrowBtn">
+        <x>-6.95</x>
+        <y>-43.1</y>
+        <sx>0.78</sx>
+        <sy>0.61</sy>
+      </e>
+    </et>
+    <et id="PickASeatLady_960_640" w="960" h="640">
+      <e id="welcomeGirl" tid="WelcomeGirlEnt">
+        <x>-326.25</x>
+        <y>150.7</y>
+      </e>
+      <e id="pickASeatMsg" tid="PickASeatMSG">
+        <x>230</x>
+        <y>510</y>
+      </e>
+    </et>
+    <et id="PickASeatArrowBlue_960_640" w="74.95" h="103.05">
+      <an id="instance18317_MainCold">
+        <an id="instance184_ColdErrow" onComplete="loop"/>
+        <an id="instance186_ColdSign" onComplete="loop"/>
+      </an>
+      <e id="arrowBtn" tid="ArrowBtn">
+        <x>2.65</x>
+        <y>-45</y>
+        <sx>0.64</sx>
+        <sy>0.6</sy>
+      </e>
+    </et>
+    <et id="PickASeatArrowYellow_960_640" w="64" h="88">
+      <an id="instance19719_MainRegularErrow">
+        <an id="instance198_RegularErrow" onComplete="loop"/>
+      </an>
+      <e id="arrowBtn" tid="ArrowBtn">
+        <y>-35.15</y>
+        <sx>0.64</sx>
+        <sy>0.5</sy>
+      </e>
+    </et>
+    <et id="PickASeatArrowRed_960_640" w="74.95" h="103.05">
+      <an id="instance20921_MainHot">
+        <an id="instance210_HotErrow" onComplete="loop"/>
+        <an id="instance212_HotSign" onComplete="loop"/>
+      </an>
+      <e id="arrowBtn" tid="ArrowBtn">
+        <x>2.65</x>
+        <y>-45</y>
+        <sx>0.64</sx>
+        <sy>0.6</sy>
+      </e>
+    </et>
+  </defs>
+  <textures>
+    <tex file="PickASeat1.webp"/>
+  </textures>
+</scene>

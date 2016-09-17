@@ -1,0 +1,165 @@
+<tracks id="StepsTemplate_960_640">
+  <track fps="24" id="Bg_960_9_BGImageStrip">
+    <f>
+      <src x="1" y="1" w="128" h="768">WEBP_OnBoarding1</src>
+      <sx>0.84</sx>
+      <sy>0.84</sy>
+    </f>
+  </track>
+  <track fps="24" id="Bg_960_8_BGImageStripExtra">
+    <f>
+      <src x="132" y="1" w="100" h="768">WEBP_OnBoarding1</src>
+      <x>105.35</x>
+      <sx>0.84</sx>
+      <sy>0.84</sy>
+    </f>
+  </track>
+  <track fps="24" id="Bg_960_7_BGImageStrip">
+    <f>
+      <src x="1" y="1" w="128" h="768">WEBP_OnBoarding1</src>
+      <x>187.25</x>
+      <sx>0.84</sx>
+      <sy>0.84</sy>
+    </f>
+  </track>
+  <track fps="24" id="Bg_960_6_BGImageStripExtra">
+    <f>
+      <src x="132" y="1" w="100" h="768">WEBP_OnBoarding1</src>
+      <x>292.6</x>
+      <sx>0.84</sx>
+      <sy>0.84</sy>
+    </f>
+  </track>
+  <track fps="24" id="Bg_960_5_BGImageStrip">
+    <f>
+      <src x="1" y="1" w="128" h="768">WEBP_OnBoarding1</src>
+      <x>374.5</x>
+      <sx>0.84</sx>
+      <sy>0.84</sy>
+    </f>
+  </track>
+  <track fps="24" id="Bg_960_4_BGImageStripExtra">
+    <f>
+      <src x="132" y="1" w="100" h="768">WEBP_OnBoarding1</src>
+      <x>479.85</x>
+      <sx>0.84</sx>
+      <sy>0.84</sy>
+    </f>
+  </track>
+  <track fps="24" id="Bg_960_3_BGImageStrip">
+    <f>
+      <src x="1" y="1" w="128" h="768">WEBP_OnBoarding1</src>
+      <x>561.75</x>
+      <sx>0.84</sx>
+      <sy>0.84</sy>
+    </f>
+  </track>
+  <track fps="24" id="Bg_960_2_BGImageStripExtra">
+    <f>
+      <src x="132" y="1" w="100" h="768">WEBP_OnBoarding1</src>
+      <x>667.1</x>
+      <sx>0.84</sx>
+      <sy>0.84</sy>
+    </f>
+  </track>
+  <track fps="24" id="Bg_960_1_BGImageStrip">
+    <f>
+      <src x="1" y="1" w="128" h="768">WEBP_OnBoarding1</src>
+      <x>856</x>
+      <sx>0.84</sx>
+      <sy>0.84</sy>
+    </f>
+  </track>
+  <track fps="24" id="Bg_960_0_BGImageStrip">
+    <f>
+      <src x="1" y="1" w="128" h="768">WEBP_OnBoarding1</src>
+      <x>749</x>
+      <sx>0.84</sx>
+      <sy>0.84</sy>
+    </f>
+  </track>
+  <track fps="24" id="TextBubbleImage">
+    <f>
+      <src x="1" y="772" w="292" h="199">WEBP_OnBoarding1</src>
+    </f>
+  </track>
+  <track fps="24" id="OnBoardingLadyImage_3">
+    <f>
+      <src x="235" y="1" w="264" h="629">WEBP_OnBoarding1</src>
+      <x>-0.2</x>
+      <y>-0.55</y>
+      <sx>0.83</sx>
+      <sy>0.83</sy>
+    </f>
+  </track>
+  <track fps="24" id="VegasImage">
+    <f>
+      <src x="812" y="405" w="394" h="415">WEBP_OnBoarding1</src>
+      <x>360</x>
+    </f>
+  </track>
+  <track fps="24" id="CruiseImage">
+    <f>
+      <src x="1209" y="1" w="146" h="415">WEBP_OnBoarding1</src>
+      <x>718</x>
+    </f>
+  </track>
+  <track fps="24" id="RenoImage">
+    <f>
+      <src x="1525" y="107" w="394" h="415">WEBP_OnBoarding1</src>
+    </f>
+  </track>
+  <track fps="24" id="WelcomeGirlImage">
+    <f>
+      <src x="426" y="633" w="383" h="335">WEBP_OnBoarding1</src>
+      <x>0.95</x>
+      <y>0.85</y>
+      <sx>0.7</sx>
+      <sy>0.7</sy>
+    </f>
+  </track>
+  <track fps="24" id="WelcomeSignImage">
+    <f>
+      <src x="502" y="1" w="696" h="167">WEBP_OnBoarding1</src>
+    </f>
+  </track>
+  <track fps="24" id="NextButtonUpImage">
+    <f>
+      <src x="502" y="406" w="241" h="91">WEBP_OnBoarding1</src>
+    </f>
+  </track>
+  <track fps="24" id="NextButtonDownImage">
+    <f>
+      <src x="693" y="311" w="241" h="91">WEBP_OnBoarding1</src>
+    </f>
+  </track>
+  <track fps="24" id="ReadySignImage">
+    <f>
+      <src x="502" y="171" w="327" h="137">WEBP_OnBoarding1</src>
+    </f>
+  </track>
+  <track fps="24" id="up_RenoGamesUpImage">
+    <f>
+      <src x="235" y="633" w="188" h="92">WEBP_OnBoarding1</src>
+    </f>
+  </track>
+  <track fps="24" id="down_RenoGamesDownImage">
+    <f>
+      <src x="502" y="311" w="188" h="92">WEBP_OnBoarding1</src>
+    </f>
+  </track>
+  <track fps="24" id="normal_PickASeatSignImage">
+    <f>
+      <src x="812" y="823" w="710" h="128">WEBP_OnBoarding1</src>
+    </f>
+  </track>
+  <track fps="24" id="pickVacant_PickAVacantSeatImage">
+    <f>
+      <src x="1358" y="1" w="568" h="102.4" tx="-0.8" ty="-4">WEBP_OnBoarding1</src>
+      <x>-0.2</x>
+      <y>-1</y>
+      <sx>1.25</sx>
+      <sy>1.25</sy>
+    </f>
+  </track>
+</tracks>

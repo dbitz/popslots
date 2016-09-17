@@ -85,7 +85,7 @@
     <string name="hs__permission_denied_snackbar_action">Definições</string>
     <string name="hs__permission_not_granted">Aplicação não tem permissão para a aceder às suas fotos</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
-    <string name="hs__question_header"></string>
+    <string name="hs__question_header" />
     <string name="hs__question_helpful_message">Você achou isto útil.</string>
     <string name="hs__question_unhelpful_message">Você não achou isto útil.</string>
     <string name="hs__rate_button">Avaliar</string>

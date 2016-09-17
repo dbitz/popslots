@@ -275,4 +275,3 @@ r => 'y' only set if sprite is rotated
     <sprite n="ZM" x="864" y="215" w="46" h="32"/>
     <sprite n="ZW" x="960" y="215" w="46" h="32"/>
 </TextureAtlas>
-

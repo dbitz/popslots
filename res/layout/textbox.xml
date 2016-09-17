@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.scene53.utils.TextLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="0x102001e" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="match_parent" style="@*style/Theme.Holo.Light.NoActionBar">
-    <EditText android:id="0x1020003" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:ems="10" android:singleLine="true" android:layout_weight="1.0" android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious">
+<com.scene53.utils.TextLinearLayout android:orientation="horizontal" android:id="@android:id/inputArea" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@android:style/Theme.Holo.Light.NoActionBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@android:id/edit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:ems="10" android:singleLine="true" android:layout_weight="1.0" android:imeOptions="actionDone">
         <requestFocus />
     </EditText>
-    <Button android:id="0x1020019" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" style="?unknown_attr_ref: 101032f" />
+    <Button android:id="@android:id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" style="?android:attr/buttonBarButtonStyle" />
 </com.scene53.utils.TextLinearLayout>

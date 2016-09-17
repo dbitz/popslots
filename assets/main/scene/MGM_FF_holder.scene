@@ -1,0 +1,26 @@
+<scene id="MGM_FF_holder" binAnims="true">
+  <defs>
+    <et id="MGM_FF_holderContainer">
+      <e id="button" tid="MGM_FF_holderEntity"/>
+    </et>
+    <et id="MGM_FF_holderEntity" type="Button">
+      <state id="up" w="720" h="720">
+        <bd>
+          <bvr x="0" y="0" w="719.99" h="720.01"/>
+        </bd>
+        <an id="instance13_button_blue_image_item"/>
+      </state>
+      <state id="down" w="720" h="720">
+        <bd>
+          <bvr x="0" y="0" w="719.99" h="720.01"/>
+        </bd>
+        <an id="stam_button_blue_image_item"/>
+      </state>
+    </et>
+  </defs>
+  <entities>
+    <layer number="0">
+      <e id="instance7" tid="MGM_FF_holderContainer"/>
+    </layer>
+  </entities>
+</scene>

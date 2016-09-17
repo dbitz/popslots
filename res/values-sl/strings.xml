@@ -23,7 +23,7 @@
     <string name="hs__app_review_button">REVIEW</string>
     <string name="hs__attach_screenshot_btn">priložite Screenshot</string>
     <string name="hs__attach_screenshot_button">ATTACH</string>
-    <string name="hs__ca_msg">Mi&apos;srečni, da vam pomaga</string>
+    <string name="hs__ca_msg">"Mi'srečni, da vam pomaga"</string>
     <string name="hs__change_btn">Spremeni</string>
     <string name="hs__chat_hint">Vnesite sporočilo</string>
     <string name="hs__confirmation_footer_msg">Hvala za nas sporočil!</string>
@@ -39,7 +39,7 @@
     <string name="hs__csat_additonal_feedback_message">Katera koli druga povratna (neobvezno)</string>
     <string name="hs__csat_dislike_message">It sovražil!</string>
     <string name="hs__csat_like_message">Jo ljubil!</string>
-    <string name="hs__csat_message">Kaj&apos;s vaše povratne informacije o našem podporo strankam?</string>
+    <string name="hs__csat_message">"Kaj's vaše povratne informacije o našem podporo strankam?"</string>
     <string name="hs__csat_option_message">ali</string>
     <string name="hs__csat_ratingbar">Prosimo, da ocenite naše storitve.</string>
     <string name="hs__csat_submit_toast">Hvala za nas rating.</string>
@@ -79,15 +79,15 @@
     <string name="hs__new_conversation_btn">Začeti nov pogovo</string>
     <string name="hs__new_conversation_header">New Pogovor</string>
     <string name="hs__new_conversation_hint">Kako vam lahko pomagamo?</string>
-    <string name="hs__no_search_results_message">Whoops! We couldn&apos;t find anything for query</string>
+    <string name="hs__no_search_results_message">"Whoops! We couldn't find anything for query"</string>
     <string name="hs__notification_content_text">RE:</string>
     <string name="hs__permission_denied_message">Storage permission is required to access screenshots and download attachments</string>
     <string name="hs__permission_denied_snackbar_action">Settings</string>
     <string name="hs__permission_not_granted">Application does not have permission to access your photos</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
-    <string name="hs__question_header"></string>
+    <string name="hs__question_header" />
     <string name="hs__question_helpful_message">Ste našli to koristno.</string>
-    <string name="hs__question_unhelpful_message">Nistep&apos;t našli to koristno.</string>
+    <string name="hs__question_unhelpful_message">"Nistep't našli to koristno."</string>
     <string name="hs__rate_button">stopnja</string>
     <string name="hs__remove_screenshot_btn">Odstrani Screenshot</string>
     <string name="hs__retry_faq_fetching_button">RETRY</string>
@@ -102,7 +102,7 @@
     <string name="hs__screenshot_remove">odstrani</string>
     <string name="hs__screenshot_sent_msg">Screenshot poslano</string>
     <string name="hs__screenshot_upload_error_msg">Napaka pri prenosu screenshot</string>
-    <string name="hs__search_footer">Lahko&apos;t našli tisto kar ste iskali?</string>
+    <string name="hs__search_footer">"Lahko't našli tisto kar ste iskali?"</string>
     <string name="hs__search_hint">Opišite svojo težavo</string>
     <string name="hs__search_result_message">Vprašanja, ki morda že imajo svoj odgovor</string>
     <string name="hs__search_result_title">Predlogi</string>

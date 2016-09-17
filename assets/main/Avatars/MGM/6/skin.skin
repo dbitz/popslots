@@ -1,0 +1,169 @@
+<Skins>
+  <Skin id="Female" gender="F" v="2.0" source="multiskin.png">
+    <P id="torso">
+      <I id="Torso_FImage">
+        <O id="W" tu="150" tv="64" x="13" y="20.5" w="26" h="22"/>
+        <O id="SW" tu="119" tv="89" x="10" y="20.7" w="25" h="24"/>
+        <O id="S" tu="179" tv="75" x="10.5" y="22.5" w="26" h="26"/>
+        <O id="SE" tu="208" tv="75" x="11.5" y="25" w="22" h="25"/>
+        <O id="NW" tu="221" tv="138" x="12.5" y="19.5" w="22" h="21"/>
+      </I>
+    </P>
+    <P id="hip">
+      <I id="hip_FImage">
+        <O id="W" tu="1" tv="121" x="16.5" y="18.5" w="28" h="26"/>
+        <O id="SW" tu="147" tv="89" x="11.5" y="20.5" w="23" h="25"/>
+        <O id="S" tu="119" tv="64" x="11.5" y="17.5" w="28" h="22"/>
+        <O id="SE" tu="204" tv="26" x="14.5" y="20.5" w="32" h="20"/>
+        <O id="NW" tu="204" tv="49" x="15.5" y="17" w="32" h="23"/>
+      </I>
+    </P>
+    <P id="upperArm_R">
+      <I id="upperArm_R_FImage">
+        <O id="W" tu="59" tv="187" x="1.9" y="2" w="12" h="15"/>
+        <O id="SW" tu="90" tv="168" x="4.4" y="2.4" w="9" h="13"/>
+        <O id="S" tu="61" tv="205" x="8.65" y="3.05" w="11" h="14"/>
+        <O id="SE" tu="53" tv="148" x="8.8" y="3" w="11" h="16"/>
+      </I>
+      <I id="upperArm_R_FImage_NW">
+        <O id="NW" tu="16" tv="203" x="1.4" y="2.85" w="11" h="16"/>
+      </I>
+    </P>
+    <P id="upperArm_L">
+      <I id="upperArm_L_FImage">
+        <O id="W" tu="22" tv="183" x="7.95" y="2.6" w="11" h="17"/>
+        <O id="SW" tu="105" tv="123" x="4.2" y="2.7" w="9" h="17"/>
+        <O id="S" tu="1" tv="203" x="2.15" y="2.85" w="12" h="17"/>
+        <O id="SE" tu="1" tv="223" x="2" y="3.5" w="11" h="16"/>
+        <O id="NW" tu="15" tv="223" x="8.8" y="3.75" w="11" h="16"/>
+      </I>
+    </P>
+    <P id="lowerArm_L">
+      <I id="lowerArm_L_FImage">
+        <O id="W" tu="30" tv="203" x="10.2" y="2.2" w="12" h="15"/>
+        <O id="SW" tu="247" tv="82" x="3.5" y="1" w="7" h="16"/>
+        <O id="S" tu="45" tv="187" x="2" y="2" w="11" h="15"/>
+        <O id="NW" tu="65" tv="239" x="11.2" y="2" w="14" h="13"/>
+      </I>
+      <I id="lowerArm_L_F_Image">
+        <O id="SE" tu="48" tv="240" x="1.5" y="1.4" w="14" h="13"/>
+      </I>
+    </P>
+    <P id="palm_L">
+      <I id="palm_L_FImage">
+        <O id="W" tu="75" tv="203" x="9.5" y="-0.3" w="11" h="13"/>
+        <O id="NW" tu="89" tv="203" x="10.15" y="0.45" w="11" h="11"/>
+      </I>
+      <I id="palm_L_F_Image">
+        <O id="SW" tu="156" tv="144" x="5.5" y="0" w="10" h="15"/>
+        <O id="S" tu="48" tv="205" x="2.8" y="3.4" w="10" h="15"/>
+        <O id="SE" tu="15" tv="242" x="1.2" y="0.75" w="11" h="12"/>
+      </I>
+    </P>
+    <P id="lowerArm_R">
+      <I id="lowerArm_R_FImage">
+        <O id="W" tu="91" tv="184" x="2.6" y="2.2" w="11" h="10"/>
+        <O id="SW" tu="22" tv="150" x="2.8" y="1.6" w="7" h="8"/>
+        <O id="S" tu="77" tv="219" x="9.7" y="2.9" w="12" h="10"/>
+        <O id="SE" tu="74" tv="187" x="12.05" y="2.6" w="14" h="13"/>
+        <O id="NW" tu="60" tv="223" x="2.7" y="2.05" w="14" h="13"/>
+      </I>
+    </P>
+    <P id="foot_R">
+      <I id="foot_R_FImage">
+        <O id="W" tu="73" tv="170" x="9.15" y="2.35" w="14" h="14"/>
+      </I>
+      <I id="foor_R_FImage">
+        <O id="SW" tu="32" tv="149" x="11.75" y="2.5" w="18" h="15"/>
+        <O id="S" tu="42" tv="167" x="8.55" y="5.75" w="16" h="17"/>
+        <O id="SE" tu="123" tv="143" x="5.6" y="3" w="9" h="18"/>
+        <O id="NW" tu="61" tv="170" x="3.6" y="3" w="9" h="14"/>
+      </I>
+    </P>
+    <P id="foot_L">
+      <I id="foot_L_FImage">
+        <O id="W" tu="29" tv="239" x="9.45" y="2.95" w="16" h="14"/>
+        <O id="SW" tu="1" tv="166" x="11.65" y="1.6" w="18" h="15"/>
+        <O id="S" tu="88" tv="147" x="8.55" y="5.25" w="14" h="18"/>
+        <O id="SE" tu="245" tv="1" x="3.15" y="2.2" w="9" h="18"/>
+        <O id="NW" tu="48" tv="223" x="5.6" y="2.2" w="9" h="14"/>
+      </I>
+    </P>
+    <P id="palm_R">
+      <I id="palm_R_FImage">
+        <O id="W" tu="95" tv="245" x="0.25" y="0.75" w="10" h="9"/>
+        <O id="SW" tu="82" tv="245" x="5.5" y="0.4" w="10" h="9"/>
+        <O id="S" tu="82" tv="232" x="10.65" y="0.35" w="11" h="10"/>
+        <O id="SE" tu="1" tv="242" x="9.9" y="0.4" w="11" h="12"/>
+        <O id="NW" tu="102" tv="168" x="-0.1" y="0.45" w="11" h="11"/>
+      </I>
+    </P>
+    <P id="lowerLeg_R">
+      <I id="lowerLeg_R_FImage">
+        <O id="W" tu="239" tv="26" x="4.4" y="2.4" w="14" h="25"/>
+        <O id="SW" tu="169" tv="131" x="4.75" y="4.3" w="14" h="23"/>
+        <O id="S" tu="206" tv="131" x="5.2" y="3" w="12" h="23"/>
+        <O id="SE" tu="192" tv="104" x="6.8" y="3.6" w="11" h="24"/>
+        <O id="NW" tu="233" tv="82" x="4.8" y="2" w="11" h="25"/>
+      </I>
+    </P>
+    <P id="lowerLeg_L">
+      <I id="lowerLeg_L_FImage">
+        <O id="W" tu="222" tv="110" x="4.6" y="1.6" w="12" h="25"/>
+        <O id="SW" tu="239" tv="54" x="5.4" y="1.6" w="14" h="25"/>
+        <O id="S" tu="32" tv="121" x="4.8" y="2.4" w="14" h="25"/>
+        <O id="SE" tu="155" tv="117" x="5" y="2.8" w="11" h="24"/>
+        <O id="NW" tu="208" tv="103" x="7.4" y="1.6" w="11" h="25"/>
+      </I>
+    </P>
+    <P id="upperLeg_L">
+      <I id="upperLeg_L_FImage">
+        <O id="W" tu="49" tv="123" x="8.2" y="3.8" w="17" h="22"/>
+        <O id="SW" tu="69" tv="147" x="7.6" y="2.15" w="16" h="20"/>
+        <O id="S" tu="105" tv="143" x="7.2" y="3.4" w="15" h="20"/>
+        <O id="SE" tu="69" tv="123" x="7.6" y="4.6" w="15" h="21"/>
+        <O id="NW" tu="119" tv="116" x="7.8" y="4.2" w="15" h="24"/>
+      </I>
+    </P>
+    <P id="upperLeg_R">
+      <I id="upperLeg_R_FImage">
+        <O id="W" tu="237" tv="110" x="7" y="5" w="15" h="25"/>
+        <O id="SW" tu="173" tv="104" x="8.2" y="4.15" w="16" h="24"/>
+        <O id="S" tu="186" tv="131" x="7.8" y="5" w="17" h="23"/>
+        <O id="SE" tu="87" tv="123" x="7.4" y="5" w="15" h="21"/>
+        <O id="NW" tu="137" tv="117" x="7.8" y="4.6" w="15" h="24"/>
+      </I>
+    </P>
+    <P id="head">
+      <I id="head_FImage">
+        <O id="W" tu="143" tv="1" x="24" y="43" w="58" h="60"/>
+        <O id="SW" tu="1" tv="57" x="24" y="57.6" w="52" h="61"/>
+        <O id="S" tu="56" tv="63" x="23.9" y="62.7" w="60" h="57"/>
+        <O id="SE" tu="72" tv="1" x="29.5" y="63" w="68" h="59"/>
+        <O id="NW" tu="1" tv="1" x="29" y="41" w="68" h="53"/>
+      </I>
+    </P>
+    <P id="abdomen">
+      <I id="abdomen_FImage">
+        <O id="W" tu="22" tv="167" x="9.5" y="17.5" w="17" h="13"/>
+        <O id="SW" tu="29" tv="222" x="10" y="16.5" w="16" h="14"/>
+        <O id="S" tu="1" tv="184" x="9.5" y="15.5" w="17" h="16"/>
+        <O id="SE" tu="135" tv="144" x="11.5" y="15" w="18" h="15"/>
+      </I>
+      <I id="abdomenImage_F">
+        <O id="NW" tu="1" tv="150" x="11.5" y="15.5" w="18" h="13"/>
+      </I>
+    </P>
+    <P id="dress"/>
+    <P id="headBack"/>
+    <P id="shadow">
+      <I id="ShadowImag">
+        <O id="NW" tu="204" tv="1" x="0" y="0" w="38" h="22"/>
+        <O id="SE" tu="204" tv="1" x="0" y="0" w="38" h="22"/>
+        <O id="S" tu="204" tv="1" x="0" y="0" w="38" h="22"/>
+        <O id="W" tu="204" tv="1" x="0" y="0" w="38" h="22"/>
+        <O id="SW" tu="204" tv="1" x="0" y="0" w="38" h="22"/>
+      </I>
+    </P>
+  </Skin>
+</Skins>

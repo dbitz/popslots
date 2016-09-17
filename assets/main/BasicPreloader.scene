@@ -1,0 +1,23 @@
+<scene id="BasicPreloader" binAnims="true">
+  <defs>
+    <et id="BasicPreloaderTemplate_1024_768" w="1024" h="768">
+      <an id="instance8_PreloaderAnimation">
+        <an onComplete="loop" id="instance9_PreloaderImage"/>
+      </an>
+      <an id="instance12_LoadingImage_2"/>
+    </et>
+    <et id="BasicPreloaderTemplate_1136_640" w="1136" h="640">
+      <an id="instance21_PreloaderAnimation_2">
+        <an onComplete="loop" id="instance22_PreloaderImage_2"/>
+      </an>
+      <an id="instance25_LoadingImage_2"/>
+    </et>
+    <et id="BasicPreloaderTemplate_960_640" w="960" h="640">
+      <an id="instance32_PreloaderAnimation_3">
+        <an onComplete="loop" id="instance33_PreloaderImage_3"/>
+      </an>
+      <an id="instance36_LoadingImage_2"/>
+    </et>
+  </defs>
+  <entities/>
+</scene>

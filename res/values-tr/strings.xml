@@ -85,7 +85,7 @@
     <string name="hs__permission_denied_snackbar_action">Ayarlar</string>
     <string name="hs__permission_not_granted">Uygulamanın fotoğraflarınıza erişmek için izni bulunmuyor.</string>
     <string name="hs__permission_rationale_snackbar_action_label">TAMAM</string>
-    <string name="hs__question_header"></string>
+    <string name="hs__question_header" />
     <string name="hs__question_helpful_message">Bu bilgiyi faydalı buldunuz.</string>
     <string name="hs__question_unhelpful_message">Bu bilgiyi faydalı bulmadınız.</string>
     <string name="hs__rate_button">Puan Ver</string>
@@ -94,7 +94,7 @@
     <string name="hs__review_accepted_message">İnceleme isteğini kabul ettiniz.</string>
     <string name="hs__review_close_button">Kapat</string>
     <string name="hs__review_message">Uygulamamızı sevdiyseniz, lütfen oylamak için bir dakikanızı ayırın</string>
-    <string name="hs__review_request_message">Play Store&apos;da uygulamayı incelemek ister misiniz?</string>
+    <string name="hs__review_request_message">"Play Store'da uygulamayı incelemek ister misiniz?"</string>
     <string name="hs__review_title">Uygulamamıza puan verin</string>
     <string name="hs__screenshot_add">Ekle</string>
     <string name="hs__screenshot_cloud_attach_error">Ekran bağlama hatası.Cihazda mevcut yerel bir resim seçiniz.</string>
@@ -145,7 +145,7 @@
     <string name="common_google_play_services_restricted_profile_title">Kısıtlı Profil</string>
     <string name="common_google_play_services_restricted_profile_text">Kısıtlı bir profilden hesaplara erişim desteklenmiyor.</string>
     <string name="common_signin_button_text">Oturum aç</string>
-    <string name="common_signin_button_text_long">Google&apos;da oturum aç</string>
+    <string name="common_signin_button_text_long">"Google'da oturum aç"</string>
     <string name="common_google_play_services_unknown_issue">%1$s, Google Play hizmetleriyle ilgili sorun yaşıyor. Sorun devam ederse lütfen yardım için geliştiriciyle iletişim kurun.</string>
     <string name="place_autocomplete_search_hint">Ara</string>
     <string name="place_autocomplete_clear_button">Aramayı temizle</string>

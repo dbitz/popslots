@@ -85,7 +85,7 @@
     <string name="hs__permission_denied_snackbar_action">Asetukset</string>
     <string name="hs__permission_not_granted">Sovellukselle ei ole sallittu pääsyä valokuvakansioosi</string>
     <string name="hs__permission_rationale_snackbar_action_label">OK</string>
-    <string name="hs__question_header"></string>
+    <string name="hs__question_header" />
     <string name="hs__question_helpful_message">Mielestäsi tästä oli apua.</string>
     <string name="hs__question_unhelpful_message">Mielestäsi tästä ei ollut apua.</string>
     <string name="hs__rate_button">Pisteytä</string>

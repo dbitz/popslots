@@ -85,7 +85,7 @@
     <string name="hs__permission_denied_snackbar_action">Beállítások</string>
     <string name="hs__permission_not_granted">Az alkalmazás hozzáférése fényképeihez nem engedélyezett</string>
     <string name="hs__permission_rationale_snackbar_action_label">OKÉ</string>
-    <string name="hs__question_header"></string>
+    <string name="hs__question_header" />
     <string name="hs__question_helpful_message">Hasznosnak találta.</string>
     <string name="hs__question_unhelpful_message">Nem találta hasznosnak.</string>
     <string name="hs__rate_button">Értékel</string>
@@ -124,7 +124,7 @@
     <string name="common_google_play_services_install_text_tablet">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek hiányoznak a táblagépről.</string>
     <string name="common_google_play_services_install_button">A Google Play-szolgáltatások beszerzése</string>
     <string name="common_google_play_services_enable_title">Google Play-szolgáltatások engedélyezése</string>
-    <string name="common_google_play_services_enable_text">A(z) %1$s alkalmazás csak akkor működik, ha  engedélyezi a Google Play-szolgáltatásokat.</string>
+    <string name="common_google_play_services_enable_text">"A(z) %1$s alkalmazás csak akkor működik, ha  engedélyezi a Google Play-szolgáltatásokat."</string>
     <string name="common_google_play_services_enable_button">Google Play-szolgáltatások engedélyezése</string>
     <string name="common_google_play_services_update_title">A Google Play-szolgáltatások frissítése</string>
     <string name="common_google_play_services_update_text">A(z) %1$s alkalmazás csak akkor fog működni, ha frissíti a Google Play-szolgáltatásokat.</string>

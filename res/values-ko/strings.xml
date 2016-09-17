@@ -85,7 +85,7 @@
     <string name="hs__permission_denied_snackbar_action">설정</string>
     <string name="hs__permission_not_granted">어플리케이션이 귀하의 사진에 접근하기 위한 권한이 없습니다</string>
     <string name="hs__permission_rationale_snackbar_action_label">네</string>
-    <string name="hs__question_header"></string>
+    <string name="hs__question_header" />
     <string name="hs__question_helpful_message">이 내용은 유용했습니다.</string>
     <string name="hs__question_unhelpful_message">이 내용은 유용하지 않았습니다.</string>
     <string name="hs__rate_button">평가</string>

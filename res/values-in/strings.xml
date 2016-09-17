@@ -85,7 +85,7 @@
     <string name="hs__permission_denied_snackbar_action">Pengaturan</string>
     <string name="hs__permission_not_granted">Aplikasi tidak memiliki izin untuk mengakses foto Anda</string>
     <string name="hs__permission_rationale_snackbar_action_label">Oke</string>
-    <string name="hs__question_header"></string>
+    <string name="hs__question_header" />
     <string name="hs__question_helpful_message">Ini membantu Anda.</string>
     <string name="hs__question_unhelpful_message">Ini tidak membantu Anda.</string>
     <string name="hs__rate_button">Peringkat</string>

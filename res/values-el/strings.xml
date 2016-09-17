@@ -85,7 +85,7 @@
     <string name="hs__permission_denied_snackbar_action">Ρυθμίσεις</string>
     <string name="hs__permission_not_granted">Η εφαρμογή δε έχει άδεια για πρόσβαση στις φωτογραφίες σας</string>
     <string name="hs__permission_rationale_snackbar_action_label">ΕΝΤΑΞΕΙ</string>
-    <string name="hs__question_header"></string>
+    <string name="hs__question_header" />
     <string name="hs__question_helpful_message">Το βρήκατε χρήσιμο.</string>
     <string name="hs__question_unhelpful_message">Δεν το βρήκατε χρήσιμο</string>
     <string name="hs__rate_button">Βαθμολογία</string>

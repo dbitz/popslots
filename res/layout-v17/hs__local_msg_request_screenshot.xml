@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="0x102000b" android:paddingTop="@dimen/activity_horizontal_margin_medium" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="4.0"
+        <LinearLayout android:orientation="vertical" android:id="@+id/user_message" android:background="?attr/hs__chatBubbleUserBackground" android:paddingLeft="2dp" android:paddingTop="2dp" android:paddingRight="2dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="0x1020010" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xa001" android:scaleType="centerCrop" />
+                <TextView android:textSize="@dimen/hs__textSizeSmall" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/errorText" android:padding="@dimen/activity_horizontal_margin_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hs__image_not_available" android:drawableLeft="@drawable/hs__attachment_icon" android:drawablePadding="@dimen/activity_horizontal_margin_small" android:alpha="0.5" android:drawableStart="@drawable/hs__attachment_icon" />
+            </FrameLayout>
+            <ProgressBar android:id="0x102000d" style="@style/Helpshift_Style_QuestionLoadProgress" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/hs__textSizeSmall" android:textColor="?attr/hs__validationErrorColor" android:id="@+id/text_retry" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin_medium" android:layout_marginTop="2dp" android:text="@string/hs__sending_fail_msg" android:layout_marginStart="@dimen/activity_horizontal_margin_medium" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/hs__textSizeSmall" android:textColor="?unknown_attr_ref: 101009a" android:id="0x1020015" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin_medium" android:layout_marginTop="2dp" android:layout_marginStart="@dimen/activity_horizontal_margin_medium" />
+</LinearLayout>

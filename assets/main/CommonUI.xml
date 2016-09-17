@@ -1,0 +1,91 @@
+<root>
+  <UILayout y="0" height="400" x="0" width="605.65">
+    <UIElement type="window" y="155.95" height="112" id="xpFloaterUIWindow" x="292" width="250">
+      <UIElement type="overlay" y="0" id="m_underUIOverlay" x="80.75" source="CommonUI_overlays.png">
+        <TextureAtlas height="512" width="512">
+          <SubTexture y="161" height="53" x="369" width="96"/>
+        </TextureAtlas>
+      </UIElement>
+      <UIElement type="textfield" height="45" fontColor="0xFFFFFFFF" id="m_xpText" x="3.75" y="28.95" fontId="GibsonXPFloater" width="250"/>
+      <UIElement type="overlay" y="0" id="m_overUIOverlay" x="43.4" source="CommonUI_overlays.png">
+        <TextureAtlas height="512" width="512">
+          <SubTexture y="116" height="77" x="198" width="170"/>
+        </TextureAtlas>
+      </UIElement>
+      <UIElement type="overlay" y="67" id="m_doubledUIOverlay" x="3.75" source="CommonUI_overlays.png">
+        <TextureAtlas height="512" width="512">
+          <SubTexture y="0" height="45" x="260" width="250"/>
+        </TextureAtlas>
+      </UIElement>
+    </UIElement>
+    <UIElement type="window" y="0" height="96.95" id="chipsFloaterUIWindow" x="254.4" width="360">
+      <UIElement type="overlay" y="10.55" id="m_underUIOverlay" x="105.05" source="CommonUI_overlays.png">
+        <TextureAtlas height="512" width="512">
+          <SubTexture y="148" height="61" x="0" width="149"/>
+        </TextureAtlas>
+      </UIElement>
+      <UIElement type="textfield" height="45" fontColor="0xFFFFFFFF" id="m_chipsText" x="0" y="51.95" fontId="GibsonChipsFloater" width="360"/>
+      <UIElement type="overlay" y="0" id="m_overUIOverlay" x="81.15" source="CommonUI_overlays.png">
+        <TextureAtlas height="512" width="512">
+          <SubTexture y="66" height="81" x="0" width="197"/>
+        </TextureAtlas>
+      </UIElement>
+    </UIElement>
+    <UIElement type="window" y="106.95" height="31" id="UIWindow_coin" x="499.75" width="33">
+      <UIElement type="overlay" y="0" id="UIOverlay" x="0" source="CommonUI_overlays.png">
+        <TextureAtlas height="512" width="512">
+          <SubTexture y="66" height="31" x="198" width="33"/>
+        </TextureAtlas>
+      </UIElement>
+    </UIElement>
+    <UIElement type="window" y="295.05" height="104.95" id="timeRewardCalloutUIWindow" x="239.75" width="360">
+      <UIElement type="overlay" y="0" id="m_underUIOverlay" x="143.45" source="CommonUI_overlays.png">
+        <TextureAtlas height="512" width="512">
+          <SubTexture y="194" height="74" x="294" width="71"/>
+        </TextureAtlas>
+      </UIElement>
+      <UIElement type="textfield" height="45" fontColor="0xFFFFFFFF" id="m_chipsText" x="0" y="59.95" fontId="GibsonChipsFloater" width="360"/>
+    </UIElement>
+    <UIElement type="window" y="155.95" height="36.25" id="UIWindow_winAmount" x="95.9" width="133">
+      <UIElement type="overlay" y="1.5" id="UIOverlay_chip" x="107.35" source="CommonUI_overlays.png">
+        <TextureAtlas height="512" width="512">
+          <SubTexture y="46" height="26" x="483" width="25"/>
+        </TextureAtlas>
+      </UIElement>
+      <UIElement type="textfield" height="32" fontColor="0xFFE042" id="m_chips" x="14.15" y="0" fontId="GibsonWinSumCallout" width="96.6"/>
+      <UIElement type="overlay" y="6.55" id="UIOverlay_plus" x="0" source="CommonUI_overlays.png">
+        <TextureAtlas height="512" width="512">
+          <SubTexture y="73" height="20" x="483" width="19"/>
+        </TextureAtlas>
+      </UIElement>
+    </UIElement>
+    <UIElement type="window" y="68.95" height="69" id="UIWindow_BigWin" x="42.7" width="222">
+      <UIElement type="overlay" y="0" id="UIOverlay" x="0" source="CommonUI_overlays.png">
+        <TextureAtlas height="512" width="512">
+          <SubTexture y="46" height="69" x="260" width="222"/>
+        </TextureAtlas>
+      </UIElement>
+    </UIElement>
+    <UIElement type="window" y="222.05" height="65" id="UIWindow_MegaWin" x="8.75" width="259">
+      <UIElement type="overlay" y="0" id="UIOverlay_MegaWin" x="0" source="CommonUI_overlays.png">
+        <TextureAtlas height="512" width="512">
+          <SubTexture y="0" height="65" x="0" width="259"/>
+        </TextureAtlas>
+      </UIElement>
+    </UIElement>
+    <UIElement type="window" y="325" height="75" id="UIWindow_SharedBalloons" x="65.75" width="143">
+      <UIElement type="overlay" y="0" id="UIOverlay_SharedBalloons" x="0" source="CommonUI_overlays.png">
+        <TextureAtlas height="512" width="512">
+          <SubTexture y="194" height="75" x="150" width="143"/>
+        </TextureAtlas>
+      </UIElement>
+    </UIElement>
+    <UIElement type="window" y="14" height="44" id="UIWindow_Joined" x="83.5" width="121">
+      <UIElement type="overlay" y="0" id="UIOverlay_joined" x="0" source="CommonUI_overlays.png">
+        <TextureAtlas height="512" width="512">
+          <SubTexture y="116" height="44" x="369" width="121"/>
+        </TextureAtlas>
+      </UIElement>
+    </UIElement>
+  </UILayout>
+</root>

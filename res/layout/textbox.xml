@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scene53.utils.TextLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="0x102001e" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="match_parent" style="@*style/Theme.Holo.Light.NoActionBar">
+    <EditText android:id="0x1020003" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:ems="10" android:singleLine="true" android:layout_weight="1.0" android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious">
+        <requestFocus />
+    </EditText>
+    <Button android:id="0x1020019" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" style="?unknown_attr_ref: 101032f" />
+</com.scene53.utils.TextLinearLayout>

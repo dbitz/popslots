@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/activity_horizontal_margin_medium" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginRight="@dimen/activity_horizontal_margin_medium" android:layout_weight="4.0" android:layout_marginEnd="@dimen/activity_horizontal_margin_medium"
+        <LinearLayout android:orientation="vertical" android:id="@+id/user_message" android:background="?attr/hs__chatBubbleUserBackground" android:paddingLeft="2dp" android:paddingTop="2dp" android:paddingRight="2dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="0x1020010" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xa001" android:scaleType="centerCrop" />
+            <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="0x102000d" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget_AppCompat_ProgressBar" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/hs__textSizeSmall" android:textColor="?unknown_attr_ref: 101009a" android:id="0x1020015" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin_medium" android:layout_marginTop="2dp" android:layout_marginStart="@dimen/activity_horizontal_margin_medium" />
+    </LinearLayout>
+</LinearLayout>

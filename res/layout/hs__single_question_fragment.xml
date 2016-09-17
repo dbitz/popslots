@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?unknown_attr_ref: 1010054" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <com.helpshift.support.webkit.CustomWebView android:id="@+id/web_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ProgressBar android:id="@+id/progress_bar" android:visibility="gone" style="@style/Helpshift_Style_QuestionLoadProgress" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/question_footer" android:background="?unknown_attr_ref: 1010054" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="?attr/hs__separatorColor" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/activity_horizontal_margin_medium" android:paddingTop="3dp" android:paddingRight="@dimen/activity_horizontal_margin_medium" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp">
+            <TextView android:textSize="@dimen/hs__textSizeMedium" android:textColor="?unknown_attr_ref: 1010038" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/question_footer_message" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/hs__mark_yes_no_question" android:layout_weight="1.0" />
+            <Button android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/unhelpful_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hs__mark_no" style="@style/Helpshift_Style_BorderlessButton" />
+            <Button android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/helpful_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hs__mark_yes" style="@style/Helpshift_Style_BorderlessButton" />
+            <Button android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/contact_us_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hs__contact_us_btn" style="@style/Helpshift_Style_BorderlessButton" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
